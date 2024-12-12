@@ -15,21 +15,20 @@ public class A8_ArrayExpander { // contains attributes
         */
         if (numbers == null) {
             numbers = new int[1];
+            value = numbers[0]; // tully: made an array big enough for 1 element but didnt put it in the array
         }
         else {
-            int iterFinal= 0;
             int[] temp = new int[numbers.length + 1];
             for (int iter = 0; iter < numbers.length; iter++) {
                 temp[iter] = numbers[iter];
-                iterFinal = iter;
+
             }
-            temp[iterFinal] = value;
+            temp[temp.length-1] = value;
             numbers = temp;
         }
     }
     public void add(int index, int value) {
         int temp[];
-        int iterFinal= 0;
         if (numbers == null && index == 0) {
             temp = new int[1];
             numbers = temp;
@@ -42,10 +41,9 @@ public class A8_ArrayExpander { // contains attributes
         // method 2, steps 2+
         for (int iter = 0; iter < index; iter++, remain--) { // s2
             temp[iter] = numbers[iter];
-            iterFinal = iter;
         }
         temp[index] = value; // s3
-        for (int iter = iterFinal; iter < numbers.length; iter++) { // s4
+        for (int iter = index; iter < numbers.length; iter++) { // s4
             temp[iter] = numbers[iter];
         }
         numbers = temp;
@@ -57,24 +55,22 @@ public class A8_ArrayExpander { // contains attributes
     }
     public int remove(int index) {
         int old = numbers[index];
-        int iterFinal = 0;
         int temp[];
-        int remain = numbers.length;
         if (numbers.length == 1) { // s2
             numbers = null;
             return old;
         }
-        else { //s2
+        else { // s2
+            int remain = numbers.length;
             temp = new int[numbers.length - 1];
+            for (int iter = 0; iter < index; iter++) { // s3
+                temp[iter] = numbers[iter];
+            }
+            for (int iter = index + 1; iter < numbers.length; iter++) { // s4
+                temp[iter - 1] = numbers[iter];
+            }
+            numbers = temp;
         }
-        for (int iter = 0; iter < index; iter++, remain--) { // s3
-            temp[iter] = numbers[iter];
-            iterFinal = iter;
-        }
-        for (int iter = iterFinal; iter < numbers.length; iter++) { // s4
-            temp[iter-1] = numbers[iter];
-        }
-        numbers = temp;
         return old;
     }
     public int get(int index) {

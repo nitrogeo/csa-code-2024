@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="delete erroneuous ch4 file">
-      <change afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="update git username (on this pc)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/CG1/A8_CH2 - Copy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/CG1/A8_CH4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/CG1/A8_CH5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/CG1/A8_CH6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.A8_ExpanderMain.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.DistanceBetweenTwoPoints.executor": "Run",
     "Application.Dog.executor": "Run",
@@ -162,7 +157,20 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A8_ExpanderMain">
+    <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A8.LabsG2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IceCreamLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A7.Labs.L2Dessert.IceCreamLab" />
       <module name="code" />
@@ -186,21 +194,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="A5.CG1" />
       <option name="MAIN_CLASS_NAME" value="A5.CG1.AgeTest_Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Formulas_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A4.CG1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A4.CG1" />
-      <option name="MAIN_CLASS_NAME" value="A4.CG1.Formulas_Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A8_ExpanderMain" />
         <item itemvalue="Application.IceCreamLab" />
         <item itemvalue="JUnit.AgeTest_Tests" />
         <item itemvalue="JUnit.HelloUser_Tests.test1" />
         <item itemvalue="JUnit.HelloUser_Tests" />
-        <item itemvalue="JUnit.Formulas_Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -264,12 +257,32 @@
       <option name="project" value="LOCAL" />
       <updated>1734028604258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update git username (on this pc)">
+      <option name="closed" value="true" />
+      <created>1734036977737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734036977737</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete erroneuous ch4 file" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete erroneuous ch4 file" />
+    <MESSAGE value="update git username (on this pc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update git username (on this pc)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
