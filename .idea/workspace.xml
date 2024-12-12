@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="update git username (on this pc)">
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="backup in csa tutorials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +159,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A8_ExpanderMain">
+  <component name="RunManager">
     <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
       <module name="code" />
@@ -265,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734036977737</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="backup in csa tutorials">
+      <option name="closed" value="true" />
+      <created>1734038024921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734038024921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +292,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete erroneuous ch4 file" />
     <MESSAGE value="update git username (on this pc)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update git username (on this pc)" />
+    <MESSAGE value="backup in csa tutorials" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup in csa tutorials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

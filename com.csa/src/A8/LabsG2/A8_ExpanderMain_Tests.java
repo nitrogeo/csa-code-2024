@@ -46,7 +46,7 @@ public class A8_ExpanderMain_Tests
                 "4\n" +
                 "3\n" +
                 "5\n" +
-                "1\n" +
+                "1\n" + // = the list has 4 elements.
                 "2\n" +
                 "4\n" +
                 "28\n" +

@@ -15,7 +15,7 @@ public class A8_ArrayExpander { // contains attributes
         */
         if (numbers == null) {
             numbers = new int[1];
-            value = numbers[0]; // tully: made an array big enough for 1 element but didnt put it in the array
+            numbers[0] = value; // tully: made an array big enough for 1 element but didnt put it in the array
         }
         else {
             int[] temp = new int[numbers.length + 1];
@@ -27,24 +27,24 @@ public class A8_ArrayExpander { // contains attributes
             numbers = temp;
         }
     }
-    public void add(int index, int value) {
+    public void add(int index, int value) { // insert in main
         int temp[];
         if (numbers == null && index == 0) {
             temp = new int[1];
+            temp[0] = value;
             numbers = temp;
-            int remain = numbers.length;
+            return;
         }
         else {
             temp = new int[numbers.length + 1];
         }
-        int remain = numbers.length;
         // method 2, steps 2+
-        for (int iter = 0; iter < index; iter++, remain--) { // s2
+        for (int iter = 0; iter < index; iter++) { // s2
             temp[iter] = numbers[iter];
         }
         temp[index] = value; // s3
         for (int iter = index; iter < numbers.length; iter++) { // s4
-            temp[iter] = numbers[iter];
+            temp[iter + 1] = numbers[iter];
         }
         numbers = temp;
     }
@@ -66,7 +66,7 @@ public class A8_ArrayExpander { // contains attributes
             for (int iter = 0; iter < index; iter++) { // s3
                 temp[iter] = numbers[iter];
             }
-            for (int iter = index + 1; iter < numbers.length; iter++) { // s4
+            for (int iter = index; iter < numbers.length; iter++) { // s4
                 temp[iter - 1] = numbers[iter];
             }
             numbers = temp;
