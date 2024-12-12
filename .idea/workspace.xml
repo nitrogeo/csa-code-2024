@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kt1Stgf8OfMSGwu8vVEp54ksLb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Circle.executor": "Run",
+    "Application.DistanceBetweenTwoPoints.executor": "Run",
+    "Application.Dog.executor": "Run",
+    "Application.Fish.executor": "Run",
+    "Application.GuessingGame.executor": "Run",
+    "Application.HelloUser.executor": "Run",
+    "Application.House.executor": "Run",
+    "Application.IceCreamLab.executor": "Run",
+    "Application.Investment.executor": "Run",
+    "Application.Jones.executor": "Run",
+    "Application.LineLab.executor": "Run",
+    "Application.LunchIsServed.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MixedNumber.executor": "Run",
+    "Application.OnlyPrint.executor": "Run",
+    "Application.PrintingCode.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "Application.Rocket.executor": "Run",
+    "Application.Smile.executor": "Run",
+    "Application.Truck.executor": "Run",
+    "Application.code.executor": "Run",
+    "Application.visual_novel.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.A8_ArrayExpander_Tests.executor": "Run",
+    "JUnit.A8_CH1_Tests.executor": "Run",
+    "JUnit.A8_CH2_Tests.executor": "Run",
+    "JUnit.A8_CH3_Tests.executor": "Run",
+    "JUnit.A8_CH4_Tests.executor": "Run",
+    "JUnit.A8_CH5_Tests.executor": "Run",
+    "JUnit.A8_CH6_Tests.executor": "Run",
+    "JUnit.A8_ExpanderMain_Tests.executor": "Run",
+    "JUnit.A8_GradeAverageV2_Tests.executor": "Run",
+    "JUnit.A8_TreasureHunt_Tests.executor": "Run",
+    "JUnit.Adjustments_Tests.executor": "Run",
+    "JUnit.AgeTest_Tests.executor": "Run",
+    "JUnit.Alpha_Tests.executor": "Run",
+    "JUnit.Calculations_Tests.executor": "Run",
+    "JUnit.Circle_Tests.executor": "Run",
+    "JUnit.Construction_Tests.executor": "Run",
+    "JUnit.Cylinder_Tests.executor": "Run",
+    "JUnit.Dessert_Tests.executor": "Run",
+    "JUnit.DistanceBetweenTwoPoints_Tests.executor": "Run",
+    "JUnit.Factors_Tests.executor": "Run",
+    "JUnit.FinalCalculator_Tests.executor": "Run",
+    "JUnit.Formulas_Tests.executor": "Run",
+    "JUnit.GradeAverage_Tests.executor": "Run",
+    "JUnit.HelloUser_Tests.executor": "Run",
+    "JUnit.HelloUser_Tests.test1.executor": "Run",
+    "JUnit.IceCreamLab_Tests.executor": "Run",
+    "JUnit.IceCreamShop_Tests.executor": "Run",
+    "JUnit.Investment_Tests.executor": "Run",
+    "JUnit.LineLab_Tests.executor": "Run",
+    "JUnit.MathMenu_Tests.executor": "Run",
+    "JUnit.MathSum_Tests.executor": "Run",
+    "JUnit.Merge_Tests.executor": "Run",
+    "JUnit.MiddleValue_Tests.executor": "Run",
+    "JUnit.MixedNumberV2_Tests.executor": "Run",
+    "JUnit.MixedNumber_Tests.executor": "Run",
+    "JUnit.Multiples_Tests.executor": "Run",
+    "JUnit.MyLine_Tests.executor": "Run",
+    "JUnit.MyPoint_Tests.executor": "Run",
+    "JUnit.OddFun_Tests.executor": "Run",
+    "JUnit.Pizza_Tests.executor": "Run",
+    "JUnit.Planner_Tests.executor": "Run",
+    "JUnit.Player_Tests.executor": "Run",
+    "JUnit.PrimeOrNot_Tests.executor": "Run",
+    "JUnit.Range_Tests.executor": "Run",
+    "JUnit.Rectangle_Tests.executor": "Run",
+    "JUnit.RectangularPrism_Tests.executor": "Run",
+    "JUnit.RockPaperScissors_Tests.executor": "Run",
+    "JUnit.School_Tests.executor": "Run",
+    "JUnit.SignCounter_Tests.executor": "Run",
+    "JUnit.Sphere_Tests.executor": "Run",
+    "JUnit.StudentID_Tests.executor": "Run",
+    "JUnit.Temperature_Tests.executor": "Run",
+    "JUnit.Time_Tests.executor": "Run",
+    "JUnit.Triangle_Tests.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/My Drive/10th Grade/5. CSA/code",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My Drive\10th Grade\5. CSA\code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\My Drive\10th Grade\5. CS\code\com.elijah\src" />
+      <recent name="G:\My Drive\10th Grade\offline\cs\code\com.elijah\src\A2_Labs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="A2_CH1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A6.Labs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="IceCreamLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A7.Labs.L2Dessert.IceCreamLab" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A7.Labs.L2Dessert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgeTest_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A5.CG1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A5.CG1" />
+      <option name="MAIN_CLASS_NAME" value="A5.CG1.AgeTest_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Formulas_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A4.CG1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A4.CG1" />
+      <option name="MAIN_CLASS_NAME" value="A4.CG1.Formulas_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloUser_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A3_Files" />
+      <option name="MAIN_CLASS_NAME" value="A3_Files.HelloUser_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloUser_Tests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3_Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A3_Files" />
+      <option name="MAIN_CLASS_NAME" value="A3_Files.HelloUser_Tests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IceCreamLab" />
+        <item itemvalue="JUnit.AgeTest_Tests" />
+        <item itemvalue="JUnit.HelloUser_Tests.test1" />
+        <item itemvalue="JUnit.HelloUser_Tests" />
+        <item itemvalue="JUnit.Formulas_Tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="" />
+      <created>1724088061056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724088061056</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.csa/src/A5/CG2/MiddleValue.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.csa/src/A5/Labs/MixedNumberV2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
+          <line>22</line>
+          <properties class="A7.Labs.L2Dessert.Dessert" method="getItemName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
+          <line>50</line>
+          <properties class="A7.Labs.L2Dessert.Dessert" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
