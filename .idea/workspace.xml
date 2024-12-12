@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -111,6 +114,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "G:/My Drive/10th Grade/5. CSA/code",
     "project.structure.last.edited": "Modules",
@@ -135,7 +139,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IceCreamLab">
     <configuration name="IceCreamLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A7.Labs.L2Dessert.IceCreamLab" />
       <module name="code" />
