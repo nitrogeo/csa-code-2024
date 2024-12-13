@@ -26,7 +26,7 @@ public class A8_ArrayExpander { // contains attributes
             numbers = temp;
         }
     }
-    public void add(int index, int value) { // ADD w/ 2 VARS
+    public void add(int index, int value) { // this method is INSERT in MAIN,,, ADD w/ 2 VARS
         int temp[];
         if (numbers == null && index == 0) { // s1
             temp = new int[1];
