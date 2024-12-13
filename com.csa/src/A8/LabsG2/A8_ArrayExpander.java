@@ -16,7 +16,7 @@ public class A8_ArrayExpander { // contains attributes
         */
         if (numbers == null) {
             numbers = new int[1];
-            numbers[0] = value;
+            numbers[0] = value; // tully: made an array big enough for 1 element but didnt put it in the array
         }
         else {
             int[] temp = new int[numbers.length + 1];
