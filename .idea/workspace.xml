@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="carried over good fixes from csa tuts today into better code from r2d2 on monday night / tues 12am">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="gn chat">
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734063078216</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="gn chat">
+      <option name="closed" value="true" />
+      <created>1734063934038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734063934038</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +307,8 @@
     <MESSAGE value="update git username (on this pc)" />
     <MESSAGE value="backup in csa tutorials" />
     <MESSAGE value="carried over good fixes from csa tuts today into better code from r2d2 on monday night / tues 12am" />
-    <option name="LAST_COMMIT_MESSAGE" value="carried over good fixes from csa tuts today into better code from r2d2 on monday night / tues 12am" />
+    <MESSAGE value="gn chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="gn chat" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
