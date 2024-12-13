@@ -30,6 +30,8 @@ public class A8_ArrayExpander { // contains attributes
         int temp[];
         if (numbers == null && index == 0) { // s1
             temp = new int[1];
+            temp[0] = value; // tully: again didnt put value in the actual array
+            return; // tully: need to return code and close out this method if numbers is null
         }
         else { // s1
             temp = new int[numbers.length + 1];
@@ -40,17 +42,16 @@ public class A8_ArrayExpander { // contains attributes
         "all elements at positions that are less than index from numbers into temp, without changing their indexes."
          AND saves the last iter to iterFinal
         */
-            for (int iter = 0; iter < index; iter++) { // s2
-                temp[iter] = numbers[iter];
-                // iterFinal = iter;
+            for (int iter = 0; iter < index; iter++) { // s2, for1
+                temp[iter + 1] = numbers[iter];
             }
 
             temp[index] = value; // s3: Place value at index in temp.
 
             /* "Copy the remaining elements from numbers into temp, but place each element at the position one higher than where it was in numbers."
              */
-            for (int iter = index; iter < numbers.length; iter++) { // s4
-                temp[iter - 1] = numbers[iter];
+            for (int iter = index; iter < numbers.length; iter++) { // s4, for2
+                temp[iter + 1] = numbers[iter];
             }
         }
         numbers = temp;
@@ -71,12 +72,11 @@ public class A8_ArrayExpander { // contains attributes
             int temp[] = new int[numbers.length - 1];
 
             // s3: "Copy all elements at positions that are less than index from numbers into temp, without changing their indices."...:
-            for (int iter = 0; iter < index; iter++) {
+            for (int iter = 0; iter < index; iter++) { // for1
                 temp[iter] = numbers[iter];
-                // iterFinal = iter;
             }
 
-            for (int iter = index + 1; iter < numbers.length; iter++) { // s4: "Copy the elements ... after index ... from numbers, into positions in temp that are one less than where they were in numbers."...:
+            for (int iter = index + 1; iter < numbers.length; iter++) { // s4, for2: "Copy the elements ... after index ... from numbers, into positions in temp that are one less than where they were in numbers."...:
                 temp[iter - 1] = numbers[iter];
             }
 

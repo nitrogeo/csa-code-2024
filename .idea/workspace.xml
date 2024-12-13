@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="tully 12.13 tuts - first commit after merger; code is worse than yesterday after school tuts wth">
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="tully 12.13 tuts #2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734106238766</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tully 12.13 tuts #2">
+      <option name="closed" value="true" />
+      <created>1734106457684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734106457684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +326,8 @@
     <MESSAGE value="carried over good fixes from csa tuts today into better code from r2d2 on monday night / tues 12am" />
     <MESSAGE value="gn chat" />
     <MESSAGE value="tully 12.13 tuts - first commit after merger; code is worse than yesterday after school tuts wth" />
-    <option name="LAST_COMMIT_MESSAGE" value="tully 12.13 tuts - first commit after merger; code is worse than yesterday after school tuts wth" />
+    <MESSAGE value="tully 12.13 tuts #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tully 12.13 tuts #2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
