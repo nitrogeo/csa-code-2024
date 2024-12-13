@@ -38,34 +38,35 @@ public class A8_ExpanderMain_Tests
 
     @Test(timeout = 250)
     public void testIO1() throws Exception{
-        String input =  "1\n" +
-                "2\n" +
-                "3\n" +
-                "3\n" +
-                "3\n" +
+        String input =  "1\n" + // = [] Enter selection:
+                "2\n" + // = The list has 0 elements. Enter selection:
+                "3\n" + // = Enter a value to add:
+                "3\n" + // (3 is added) Enter selection:
+                "3\n" + // = Enter a value to add:
+                "4\n" + // (4 is added) Enter selection:
+                "3\n" + // Enter a value to add:
+                "5\n" + // (5 is added) Enter selection:
+                "1\n" + // = [3, 4, 5]
+                "2\n" + // = The list has 3 elements.
                 "4\n" +
-                "3\n" +
-                "5\n" +
-                "1\n" + // = the list has 4 elements.
+                "28\n" + // = Enter a value to add:
                 "2\n" +
-                "4\n" +
-                "28\n" +
-                "2\n" +
-                "1\n" +
-                "2\n" +
-                "5\n" +
+                "1\n" + // = [3, 4, 28, 5]
+                "2\n" + // = The list has 4 elements.
+                "5\n" + // = Enter the new value: =
                 "78\n" +
-                "3\n" +
-                "1\n" +
-                "2\n" +
+                /* Enter an index: = */ "3\n" + // = 5 was replaced.
+                "1\n" + // = [3, 4, 28, 78]
+                "2\n" + // = The list has 4 elements. Enter selection: =
                 "6\n" +
-                "0\n" +
-                "1\n" +
-                "2\n" +
-                "7\n" +
-                "1\n" +
-                "2\n" +
-                "8";
+                // Enter an index:
+                "0\n" + // = 3 was removed.
+                "1\n" + // = [4, 28, 78]
+                "2\n" + // = The list has 3 elements.
+                "7\n" + // = The list has been cleared.
+                "1\n" + // = []
+                "2\n" + // = The list has 0 elements.
+                "8"; // = Goodbye.
 
         String expected =   "-Menu-\n" +
                 "1. Print\n" +

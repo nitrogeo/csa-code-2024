@@ -20,9 +20,10 @@ public class A8_ArrayExpander { // contains attributes
         }
         else {
             int[] temp = new int[numbers.length + 1];
-            for (int iter = 0; iter < numbers.length; iter++) {
-                temp[temp.length-1] = numbers[iter];
+            for (int iter = 0; iter < numbers.length; iter++) { // s2
+                temp[iter] = numbers[iter];
             }
+            temp[temp.length - 1] = value /*numbers[iter]*/;
             numbers = temp;
         }
     }
@@ -43,7 +44,7 @@ public class A8_ArrayExpander { // contains attributes
          AND saves the last iter to iterFinal
         */
             for (int iter = 0; iter < index; iter++) { // s2, for1
-                temp[iter + 1] = numbers[iter];
+                temp[iter] = numbers[iter];
             }
 
             temp[index] = value; // s3: Place value at index in temp.
@@ -54,6 +55,7 @@ public class A8_ArrayExpander { // contains attributes
                 temp[iter + 1] = numbers[iter];
             }
         }
+        temp[index] = value /*numbers[iter]*/;
         numbers = temp;
     }
     public int set(int index, int value) {

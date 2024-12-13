@@ -44,14 +44,6 @@ public class A8_ExpanderMain {
                 printMenu();
                 sel = keyboard.nextInt();
             }
-            if (sel == 6) { // Asks the user for an index and removes the value at that index
-                System.out.println("Enter an index:");
-                int indx = keyboard.nextInt();
-                array.remove(indx);
-
-                printMenu();
-                sel = keyboard.nextInt();
-            }
             if (sel == 5) { // Gathers a value and the index that is being changed. Next, it will display the value that was replaced in the list.
                 System.out.println("Enter a value to add:");
                 int val = keyboard.nextInt();
@@ -59,6 +51,14 @@ public class A8_ExpanderMain {
                 int indx = keyboard.nextInt();
                 int old = array.set(indx, val);
                 System.out.println(old + " was replaced.");
+
+                printMenu();
+                sel = keyboard.nextInt();
+            }
+            if (sel == 6) { // Asks the user for an index and removes the value at that index
+                System.out.println("Enter an index:");
+                int indx = keyboard.nextInt();
+                array.remove(indx);
 
                 printMenu();
                 sel = keyboard.nextInt();

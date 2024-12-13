@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="tully 12.13 tuts #2">
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="tully 12.13 advisory tuts #3, last one, i think i synced all the changes from aft 12.12 and my pc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/mainTests 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/mainTests 01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ExpanderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ExpanderMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ExpanderMain_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ExpanderMain_Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/mainTests 01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/mainTests 01.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734106457684</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tully 12.13 advisory tuts #3, last one, i think i synced all the changes from aft 12.12 and my pc">
+      <option name="closed" value="true" />
+      <created>1734107197063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734107197063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +342,8 @@
     <MESSAGE value="gn chat" />
     <MESSAGE value="tully 12.13 tuts - first commit after merger; code is worse than yesterday after school tuts wth" />
     <MESSAGE value="tully 12.13 tuts #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tully 12.13 tuts #2" />
+    <MESSAGE value="tully 12.13 advisory tuts #3, last one, i think i synced all the changes from aft 12.12 and my pc" />
+    <option name="LAST_COMMIT_MESSAGE" value="tully 12.13 advisory tuts #3, last one, i think i synced all the changes from aft 12.12 and my pc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
