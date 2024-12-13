@@ -19,13 +19,10 @@ public class A8_ArrayExpander { // contains attributes
             numbers[0] = value;
         }
         else {
-            int iterFinal= 0;
             int[] temp = new int[numbers.length + 1];
             for (int iter = 0; iter < numbers.length; iter++) {
-                temp[iter] = numbers[iter];
-                iterFinal = iter;
+                temp[temp.length-1] = numbers[iter];
             }
-            temp[iterFinal] = value;
             numbers = temp;
         }
     }
