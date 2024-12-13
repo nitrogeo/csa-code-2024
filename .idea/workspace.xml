@@ -7,8 +7,6 @@
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="backup in csa tutorials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ArrayExpander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +132,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "r2d2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "G:/My Drive/10th Grade/5. CSA/code",
     "project.structure.last.edited": "Project",

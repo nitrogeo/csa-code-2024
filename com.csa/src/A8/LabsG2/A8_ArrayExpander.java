@@ -9,7 +9,7 @@ public class A8_ArrayExpander { // contains attributes
         numbers = null;
     }
 
-    public void add(int value) { // ADD W/ 11111111111 VARRRR!!!!!!!!!!
+    public void add(int value) { // insert in main +++ ADD w/ 1 VAR
         // Extends the size of numbers and adds value to its end.
         /*
         makes new array temp with a length numbers+1
@@ -29,7 +29,7 @@ public class A8_ArrayExpander { // contains attributes
             numbers = temp;
         }
     }
-    public void add(int index, int value) { // ADD W/ 2 VARS!!!!!
+    public void add(int index, int value) { // ADD w/ 2 VARS
         int temp[];
         if (numbers == null && index == 0) { // s1
             temp = new int[1];
@@ -52,7 +52,7 @@ public class A8_ArrayExpander { // contains attributes
 
             /* "Copy the remaining elements from numbers into temp, but place each element at the position one higher than where it was in numbers."
              */
-            for (int iter = index + 1; iter < numbers.length; iter++) { // s4
+            for (int iter = index; iter < numbers.length; iter++) { // s4
                 temp[iter - 1] = numbers[iter];
             }
         }
