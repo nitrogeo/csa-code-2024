@@ -32,6 +32,7 @@ public class A8_ArrayExpander { // contains attributes
         if (numbers == null && index == 0) { // s1
             temp = new int[1];
             temp[0] = value; // tully: again didnt put value in the actual array
+            numbers = temp;
             return; // tully: need to return code and close out this method if numbers is null
         }
         else { // s1
