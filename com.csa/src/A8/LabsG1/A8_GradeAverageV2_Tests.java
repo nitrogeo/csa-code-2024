@@ -245,7 +245,7 @@ public class A8_GradeAverageV2_Tests {
 
         expected = unifyLineSeperators(expected);
 
-        A8.LabsG1.TestingOutputStream o = (A8.LabsG1.TestingOutputStream)System.out;
+        A8.LabsG1.A9.TestingOutputStream o = (A8.LabsG1.A9.TestingOutputStream)System.out;
         Assert.assertEquals(unifyLineSeperators(expected), unifyLineSeperators(o.toString()));
     }*/
 

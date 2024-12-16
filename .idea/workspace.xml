@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="end of day">
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="WOOOOOOO THANK JESUS ALL CODE PASSED WOOOOOOO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG2/A8_ExpanderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ArrayExpander.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ExpanderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A8/LabsG2/A8_ExpanderMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +159,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A8_ExpanderMain">
     <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
       <module name="code" />
@@ -321,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734124013831</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="WOOOOOOO THANK JESUS ALL CODE PASSED WOOOOOOO">
+      <option name="closed" value="true" />
+      <created>1734291525641</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734291525649</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +355,8 @@
     <MESSAGE value="tully 12.13 tuts #2" />
     <MESSAGE value="tully 12.13 advisory tuts #3, last one, i think i synced all the changes from aft 12.12 and my pc" />
     <MESSAGE value="end of day" />
-    <option name="LAST_COMMIT_MESSAGE" value="end of day" />
+    <MESSAGE value="WOOOOOOO THANK JESUS ALL CODE PASSED WOOOOOOO" />
+    <option name="LAST_COMMIT_MESSAGE" value="WOOOOOOO THANK JESUS ALL CODE PASSED WOOOOOOO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
