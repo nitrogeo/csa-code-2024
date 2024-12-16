@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_Ch4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH3.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +196,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A9_CH1_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A9.CG1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="A9.CG1" />
+      <option name="MAIN_CLASS_NAME" value="A9.CG1.A9_CH1_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AgeTest_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
@@ -204,21 +221,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="A5.CG1" />
       <option name="MAIN_CLASS_NAME" value="A5.CG1.AgeTest_Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloUser_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A3_Files.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="A3_Files" />
-      <option name="MAIN_CLASS_NAME" value="A3_Files.HelloUser_Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.A9_CH1_Tests" />
         <item itemvalue="Application.A8_ExpanderMain" />
         <item itemvalue="Application.IceCreamLab" />
         <item itemvalue="JUnit.AgeTest_Tests" />
         <item itemvalue="JUnit.HelloUser_Tests.test1" />
-        <item itemvalue="JUnit.HelloUser_Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734373530180</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1734374264327</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734374264327</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
