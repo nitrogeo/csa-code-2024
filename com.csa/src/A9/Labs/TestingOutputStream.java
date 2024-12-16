@@ -1,4 +1,4 @@
-package A9;
+package A9.Labs;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
