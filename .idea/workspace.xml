@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_Ch4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH5.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH6.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_Ch4.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG2/A9_CH4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.A8_ExpanderMain.executor": "Run",
+    "Application.A9_CH6.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.DistanceBetweenTwoPoints.executor": "Run",
     "Application.Dog.executor": "Run",
@@ -94,6 +93,9 @@
     "JUnit.A9_CH1_Tests.executor": "Run",
     "JUnit.A9_CH2_Tests.executor": "Run",
     "JUnit.A9_CH3_Tests.executor": "Run",
+    "JUnit.A9_CH4_Tests.executor": "Run",
+    "JUnit.A9_CH5_Tests.executor": "Run",
+    "JUnit.A9_CH6_Tests.executor": "Run",
     "JUnit.Adjustments_Tests.executor": "Run",
     "JUnit.AgeTest_Tests.executor": "Run",
     "JUnit.Alpha_Tests.executor": "Run",
