@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup bauguss">
+    <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ home csa backup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A9/Labs/A9_PigLatin.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/Labs/A9_PigLatin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/Dessert (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamLab (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamLab (2).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamLab (3).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamShop (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +68,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.A8_ExpanderMain.executor": "Run",
     "Application.A9_CH6.executor": "Run",
+    "Application.A9_PigLatin.executor": "Run",
     "Application.Circle.executor": "Run",
     "Application.DistanceBetweenTwoPoints.executor": "Run",
     "Application.Dog.executor": "Run",
@@ -93,6 +108,8 @@
     "JUnit.A9_CH4_Tests.executor": "Run",
     "JUnit.A9_CH5_Tests.executor": "Run",
     "JUnit.A9_CH6_Tests.executor": "Run",
+    "JUnit.A9_PigLatin_Method_Tests.executor": "Run",
+    "JUnit.A9_PigLatin_Output_Tests.executor": "Run",
     "JUnit.A9_SentenceInformation_Method_Tests.executor": "Run",
     "JUnit.A9_SentenceInformation_Output_Tests.executor": "Run",
     "JUnit.Adjustments_Tests.executor": "Run",
@@ -469,7 +486,8 @@
     <MESSAGE value="monday morning backup" />
     <MESSAGE value="@ school csa backup" />
     <MESSAGE value="@ school csa backup bauguss" />
-    <option name="LAST_COMMIT_MESSAGE" value="@ school csa backup bauguss" />
+    <MESSAGE value="@ home csa backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="@ home csa backup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,7 +510,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
           <line>22</line>
-          <properties class="A7.Labs.L2Dessert.Dessert" method="getItemName">
+          <properties class="A7.Labs.L2Dessert.Dessert">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -501,7 +519,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
           <line>50</line>
-          <properties class="A7.Labs.L2Dessert.Dessert" method="toString">
+          <properties class="A7.Labs.L2Dessert.Dessert">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
