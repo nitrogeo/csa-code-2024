@@ -5,31 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ home csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH1_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH2_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH3_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/TestingOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH4_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH5_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH6_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/ConnectFour/A10_ConnectFourMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/ConnectFour/A10_ConnectFour_Class_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/ConnectFour/A10_ConnectFour_Output_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/Maze/A10_MazeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/Maze/A10_Maze_Class_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/Maze/A10_Maze_Output_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/TicTacToe/A10_TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/TicTacToe/A10_TicTacToe_Method_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/TicTacToe/A10_TicTacToe_Output_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.javaClub/src/date011325.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab (2).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab (3).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop (1).class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +92,7 @@
     "Application.Smile.executor": "Run",
     "Application.Truck.executor": "Run",
     "Application.code.executor": "Run",
+    "Application.date011325.executor": "Run",
     "Application.visual_novel.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.A10_CH1_Tests.executor": "Run",
@@ -174,11 +167,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/My Drive/10th Grade/5. CSA/code",
+    "last_opened_file_path": "G:/My Drive/10th Grade/5. CSA/code",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -205,6 +198,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="A8.LabsG2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A8_TreasureHunt" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A8.LabsG1.A8_TreasureHunt" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A8.LabsG1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -521,7 +527,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
           <line>22</line>
-          <properties class="A7.Labs.L2Dessert.Dessert">
+          <properties class="A7.Labs.L2Dessert.Dessert" method="getItemName">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -530,7 +536,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
           <line>50</line>
-          <properties class="A7.Labs.L2Dessert.Dessert">
+          <properties class="A7.Labs.L2Dessert.Dessert" method="toString">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
