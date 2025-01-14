@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH3.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A9/CG1/A9_CH1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A9/CG1/A9_CH1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A10_CH1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -479,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736877677168</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1736880397219</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736880397219</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
