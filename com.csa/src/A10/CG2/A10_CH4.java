@@ -9,12 +9,12 @@ package A10.CG2;
 
 public class A10_CH4 {
     public static int[] columnTotals(int[][] data) {
-        int[] coltol = new int [data.length]; // variable for largest value
+        int[] coltol = new int [data[0].length]; // variable for largest value
         int curcol = 0;
         int r;
         int c;
-        for (c = 0; c < data[0].length; c++) { // finds column = iter
-            for (r = c; r < data.length; r++) { // finds row = iter1
+        for (c = 0; c < data[0].length; c++) { // finds column = iter c
+            for (r = 0; r < data.length; r++) { // finds row = iter1 r
                 curcol += data[r][c];
             } // when reach last row...
             coltol[c] = curcol;

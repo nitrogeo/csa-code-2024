@@ -7,6 +7,7 @@
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH4.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH5.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/CG2/A10_CH5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +86,7 @@
     "JUnit.A10_CH2_Tests.executor": "Run",
     "JUnit.A10_CH3_Tests.executor": "Run",
     "JUnit.A10_CH4_Tests.executor": "Run",
+    "JUnit.A10_CH5_Tests.executor": "Run",
     "JUnit.A8_ArrayExpander_Tests.executor": "Run",
     "JUnit.A8_CH1_Tests.executor": "Run",
     "JUnit.A8_CH2_Tests.executor": "Run",
@@ -493,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736888600196</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1736889571950</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736889571950</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
