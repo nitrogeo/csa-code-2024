@@ -91,15 +91,6 @@ public class A10_CH6 {
                 }
             }
         }
-
-        // if num of rows isnt equal, then return false
-        if ((set1.length != set2.length) || (set2[0].length != set1[0].length)) same = false;
-        else { // if # of rows same, continue
-            // wont have staggered arrays, so checking for them isnt necessary
-            // iter thru all rows and compare lengths (ha)
-
-        }
-
         return same;
     }
 }
