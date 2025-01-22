@@ -13,25 +13,27 @@ public class A10_CH6 {
         int kingiter = 0; // number of rows added together (in order to avg them)
         int[] kingarray = new int[data[0][0]];
 
-        boolean rplus0;
-        int rmin;
-        boolean rmin0;
+        int rplus = 0;
+        boolean rplus0 = false;
+        int rmin = 0;
+        boolean rmin0 = false;
         //
-        boolean cplus0;
+        int cplus;
+        boolean cplus0 = false;
         int cmin;
-        boolean cmin0;
+        boolean cmin0 = false;
 
         int dul;
-        boolean dul0;
+        boolean dul0 = false;
         //
         int dur;
-        boolean dur0;
+        boolean dur0 = false;
         //
         int ddl;
-        boolean ddl0;
+        boolean ddl0 = false;
         //
         int ddr;
-        boolean ddr0;
+        boolean ddr0 = false;
 
         // pick an element...
         // r and c is current iter to check 8 adjacent ones of
@@ -39,10 +41,18 @@ public class A10_CH6 {
             for (int r = 0; r < data.length; r++) { // finds row
                 // ************************* HORIZONTAL *****************************
                 // this saves the adjacent ROW values
-                int rplus =  data[r + 1][c];
-                // boolean rplus0;
-                // int rmin;
-                // boolean rmin0;
+                if (r != 0) { // if the row isnt 0 then set cmin to r + 1
+                    if (r == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                        rplus = data[r][c];
+                        rplus0 = true;
+                    }
+                    else rplus = data[r + 1][c];
+                }
+                else { // else set rmin to 0
+                    rplus = data[r][c];
+                    rplus0 = true;
+                }
+
                 if (r != 0) { // if the row isnt 0 then set cmin to r - 1
                     rmin = data[r - 1][c];
                 }
@@ -50,8 +60,19 @@ public class A10_CH6 {
                     rmin = data[r][c];
                     rmin0 = true;
                 }
+
                 // this saves the adjacent COLUMN values
-                int cplus =  data[r][c + 1];
+                if (c != 0) { // if the row isnt 0 then set cmin to r + 1
+                    if (c == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                        cplus = data[r][c];
+                        cplus0 = true;
+                    }
+                    else cplus =  data[r][c + 1];
+                }
+                else { // else set rmin to 0
+                    rplus = data[r][c];
+                    cplus0 = true;
+                }
                 // boolean cplus0;
                 // int cmin;
                 // boolean cmin0;
@@ -87,34 +108,38 @@ public class A10_CH6 {
                 */
 
                 // dul ******************************************************
-                if (c != 0) { // if the column isnt 0 then set cmin to c - 1
+                if ((c != 0) && (r != 0)) { // if the column isnt 0 then set diag to c - 1
                     dul = data[r - 1][c - 1];
                 }
-                else { // else set dplus to 0
+                else { // else set diag to 0
                     dul = data[r][c];
                     dul0 = true;
                 }
                 // dur ******************************************************
-                if (c != 0) { // if the column isnt 0 then set cmin to c - 1
-                    dur = data[r - 1][c + 1];
+                if (c != 0) { // if the column isnt 0 then set diag to c - 1
+                    if (c == data[0].length - 1){ // if current col is last col then do dur0
+                        dur = data[r][c];
+                        dur0 = true;
+                    }
+                    // else dur = data[r - 1][c + 1];
                 }
-                else { // else set dplus to 0
+                else { // else set diag to 0
                     dur = data[r][c];
                     dur0 = true;
                 }
                 // ddl ******************************************************
-                if (c != 0) { // if the column isnt 0 then set cmin to c - 1
+                if (c != 0) { // if the column isnt 0 then set diag to c - 1
                     ddl = data[r + 1][c - 1];
                 }
-                else { // else set dplus to 0
+                else { // else set diag to 0
                     ddl = data[r][c];
                     ddl0 = true;
                 }
                 // ddr ******************************************************
-                if (c != 0) { // if the column isnt 0 then set cmin to c - 1
+                if (c != 0) { // if the column isnt 0 then set diag to c - 1
                     ddr = data[r + 1][c + 1];
                 }
-                else { // else set dplus to 0
+                else { // else set diag to 0
                     ddr = data[r][c];
                     ddr0 = true;
                 }
@@ -124,7 +149,7 @@ public class A10_CH6 {
                 // ...
                 /* actually,,, nvm. iter thru all adjacent values saved from the variables above and
                 check if each one's 0 bool is true. if so, dont avg it. if its false, avg it and put the avg in
-                the current indx of int[][] kingarray.
+                the current indx of int[] kingarray.
                  */
 
                 // r1 and c1 are directional check iters
@@ -141,44 +166,47 @@ public class A10_CH6 {
                         }
                     }
                 }*/
-                {
-                    if (rplus0 = false) {
-                        kingsum += rplus;
-                        kingiter++;
-                    }
-                    if (rmin0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                    if (cplus0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                    if (cmin0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                    //
-                    if (dul0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                    if (dur0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                    if (ddl0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                    if (ddr0 = false) {
-                        kingsum += rmin;
-                        kingiter++;
-                    }
-                }
-                kingarray[c] = kingsum / kingiter;
             }
+            {
+                if (!rplus0) {
+                    kingsum += rplus;
+                    kingiter++;
+                }
+                // rmin0 always false
+                if (!rmin0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+                if (!cplus0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+                // cmin0 always false
+                if (!cmin0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+                //
+                if (!dul0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+                if (!dur0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+                if (!ddl0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+                if (!ddr0) {
+                    kingsum += rmin;
+                    kingiter++;
+                }
+            }
+            kingarray[c] = kingsum / kingiter;
         }
+
         return kingarray;
     }
 }
