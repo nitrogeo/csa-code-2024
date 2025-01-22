@@ -8,10 +8,10 @@ make var that checks if set to 0; if true, dont avg it
 */
 
 public class A10_CH6 {
-    public static int[] averageCells(int[][] data) {
+    public static int[][] averageCells(int[][] data) {
         int kingsum = 0; // total of that column to avg
         int kingiter = 0; // number of rows added together (in order to avg them)
-        int[] kingarray = new int[data[0][0]];
+        int[][] kingarray = new int [data.length][data[0].length];
 
         int rplus = 0;
         boolean rplus0 = false;
@@ -38,9 +38,13 @@ public class A10_CH6 {
         // pick an element...
         // r and c is current iter to check 8 adjacent ones of
         for (int c = 0; c < data[0].length; c++) { // finds column
-            for (int r = 0; r < data.length; r++) { // finds row
+            int r;
+            for (r = 0; r < data.length; r++) { // finds row
+                kingsum = 0;
+                kingiter = 0;
                 // ************************* HORIZONTAL *****************************
                 // this saves the adjacent ROW values
+                // rplus ********************
                 if (r != 0) { // if the row isnt 0 then set cmin to r + 1
                     if (r == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
                         rplus = data[r][c];
@@ -52,7 +56,7 @@ public class A10_CH6 {
                     rplus = data[r][c];
                     rplus0 = true;
                 }
-
+                // rmin ********************
                 if (r != 0) { // if the row isnt 0 then set cmin to r - 1
                     rmin = data[r - 1][c];
                 }
@@ -62,20 +66,19 @@ public class A10_CH6 {
                 }
 
                 // this saves the adjacent COLUMN values
-                if (c != 0) { // if the row isnt 0 then set cmin to r + 1
-                    if (c == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                // cplus ********************
+                if (c != 0) { // if the col isnt 0 then set cmin to r + 1
+                    if (c == data[0].length - 1){ // if c + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
                         cplus = data[r][c];
                         cplus0 = true;
                     }
                     else cplus =  data[r][c + 1];
                 }
-                else { // else set rmin to 0
-                    rplus = data[r][c];
+                else { // else set cplus to 0
+                    cplus = data[r][c];
                     cplus0 = true;
                 }
-                // boolean cplus0;
-                // int cmin;
-                // boolean cmin0;
+                // cmin ********************
                 if (c != 0) { // if the column isnt 0 then set cmin to c - 1
                     cmin = data[r][c - 1];
                 }
@@ -86,15 +89,11 @@ public class A10_CH6 {
                 // that was horizontal,,, now check for diagonal...
 
                 // ************************* DIAGONAL *****************************
-
                 // this saves the diagonal column values
-                /*
-                d = diagonal
+                /* d = diagonal
                 u = up; d = down
-                l = left, r = right
-                */
-                /*
-                int dul;
+                l = left, r = right */
+                /* int dul;
                 boolean dul0;
                 //
                 int dur;
@@ -106,8 +105,8 @@ public class A10_CH6 {
                 int ddr;
                 boolean ddr0;
                 */
-
                 // dul ******************************************************
+                // check if either are 0
                 if ((c != 0) && (r != 0)) { // if the column isnt 0 then set diag to c - 1
                     dul = data[r - 1][c - 1];
                 }
@@ -116,30 +115,67 @@ public class A10_CH6 {
                     dul0 = true;
                 }
                 // dur ******************************************************
+                // check if r is 0 and c is max
                 if (c != 0) { // if the column isnt 0 then set diag to c - 1
-                    if (c == data[0].length - 1){ // if current col is last col then do dur0
+                    if (r != 0) { // if the row isnt 0 then set cmin to r + 1
+                        if (c == data[0].length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                            /*^^^ if c isnt 0 and r isnt 0 then ^^^ check if the r is the last r*/
+                            dur = data[r][c];
+                            dur0 = true;
+                        }
+                        else dur = data[r - 1][c + 1];
+                    }
+                    else { // if r = 0
                         dur = data[r][c];
                         dur0 = true;
                     }
-                    // else dur = data[r - 1][c + 1];
                 }
-                else { // else set diag to 0
+                else { // else set diag to 0,,, if c = 0
                     dur = data[r][c];
                     dur0 = true;
                 }
                 // ddl ******************************************************
+                // check if r is max and c is 0
                 if (c != 0) { // if the column isnt 0 then set diag to c - 1
-                    ddl = data[r + 1][c - 1];
+                    if (r != 0) { // if the row isnt 0 then set cmin to r + 1
+                        if (r == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                            /*^^^ if c isnt 0 and r isnt 0 then ^^^ check if the r is the last r*/
+                            ddl = data[r][c];
+                            ddl0 = true;
+                        }
+                        else ddl = data[r + 1][c - 1];
+                    }
+                    else { // if r = 0
+                        ddl = data[r][c];
+                        ddl0 = true;
+                    }
                 }
-                else { // else set diag to 0
+                else { // else set diag to 0,,, if c = 0
                     ddl = data[r][c];
                     ddl0 = true;
                 }
                 // ddr ******************************************************
+                // check if either are max
                 if (c != 0) { // if the column isnt 0 then set diag to c - 1
-                    ddr = data[r + 1][c + 1];
+                    if (c == data[0].length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                        /*^^^ if c isnt 0 and r isnt 0 then ^^^ check if the r is the last r*/
+                        ddr = data[r][c];
+                        ddr0 = true;
+                    }
+                    else if (r != 0) {
+                        if (r == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
+                            /*^^^ if c isnt 0 and r isnt 0 then ^^^ check if the r is the last r*/
+                            ddr = data[r][c];
+                            ddr0 = true;
+                        }
+                        else ddr = data[r + 1][c + 1];
+                    }
+                    else { // quit, 0bool
+                        ddr = data[r][c];
+                        ddr0 = true;
+                    }
                 }
-                else { // else set diag to 0
+                else { // else set diag to 0,,, quit 0 bool
                     ddr = data[r][c];
                     ddr0 = true;
                 }
@@ -151,7 +187,6 @@ public class A10_CH6 {
                 check if each one's 0 bool is true. if so, dont avg it. if its false, avg it and put the avg in
                 the current indx of int[] kingarray.
                  */
-
                 // r1 and c1 are directional check iters
                 /* for (int r1 = 0; r < data.length; r++) { // row to check
                     for (int c1 = 0; c < data[0].length; c++) { // column to check
@@ -166,47 +201,52 @@ public class A10_CH6 {
                         }
                     }
                 }*/
+                {
+                    if (!rplus0) {
+                        kingsum += rplus;
+                        kingiter++;
+                    }
+                    // rmin0 always false
+                    if (!rmin0) {
+                        kingsum += rmin;
+                        kingiter++;
+                    }
+                    if (!cplus0) {
+                        kingsum += cplus;
+                        kingiter++;
+                    }
+                    // cmin0 always false
+                    if (!cmin0) {
+                        kingsum += cmin;
+                        kingiter++;
+                    }
+                    //
+                    if (!dul0) {
+                        kingsum += dul;
+                        kingiter++;
+                    }
+                    if (!dur0) {
+                        kingsum += dur;
+                        kingiter++;
+                    }
+                    if (!ddl0) {
+                        kingsum += ddl;
+                        kingiter++;
+                    }
+                    if (!ddr0) {
+                        kingsum += ddr;
+                        kingiter++;
+                    }
+                    kingsum += data[r][c];
+                }
+                if (kingiter > 0) {
+                    kingarray[r][c] = kingsum / kingiter;
+                }
+                else {
+                    kingarray[r][c] = data[r][c];
+                }
             }
-            {
-                if (!rplus0) {
-                    kingsum += rplus;
-                    kingiter++;
-                }
-                // rmin0 always false
-                if (!rmin0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-                if (!cplus0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-                // cmin0 always false
-                if (!cmin0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-                //
-                if (!dul0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-                if (!dur0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-                if (!ddl0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-                if (!ddr0) {
-                    kingsum += rmin;
-                    kingiter++;
-                }
-            }
-            kingarray[c] = kingsum / kingiter;
         }
-
         return kingarray;
     }
 }

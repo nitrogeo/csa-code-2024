@@ -527,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737495424968</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="@ home csa backup">
+      <option name="closed" value="true" />
+      <created>1737510094666</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737510094666</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
