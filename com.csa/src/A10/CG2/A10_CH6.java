@@ -45,9 +45,32 @@ public class A10_CH6 {
                 // ************************* HORIZONTAL *****************************
                 // this saves the adjacent ROW values
                 // rplus ********************
+                //
+                //
+                // r c
+                kingsum = data[r][c];
+                kingiter++;
+                // r-1 c-1
+                if(r-1>=0&&c-1>=0)
+                {
+                    kingsum = data[r-1][c-1];
+                    kingiter++;
+                }
+                // r-1 c
+                if(r-1>=0)
+                {
+                    kingsum = data[r-1][c];
+                    kingiter++;
+                }
+                // r-1 c
+                if(r-1>=0&& c+1<data[0].length)
+                {
+                    kingsum = data[r-1][c+1];
+                    kingiter++;
+                }
                 if (r != 0) { // if the row isnt 0 then set cmin to r + 1
                     if (r == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
-                        rplus = data[r][c];
+
                         rplus0 = true;
                     }
                     else rplus = data[r + 1][c];
@@ -56,6 +79,7 @@ public class A10_CH6 {
                     rplus = data[r][c];
                     rplus0 = true;
                 }
+
                 // rmin ********************
                 if (r != 0) { // if the row isnt 0 then set cmin to r - 1
                     rmin = data[r - 1][c];
@@ -65,7 +89,7 @@ public class A10_CH6 {
                     rmin0 = true;
                 }
 
-                // this saves the adjacent COLUMN values
+                // this saves the adjacent COLUMN values ********************************
                 // cplus ********************
                 if (c != 0) { // if the col isnt 0 then set cmin to r + 1
                     if (c == data[0].length - 1){ // if c + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
