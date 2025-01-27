@@ -7,13 +7,33 @@ package A10.CG2;
 make var that checks if set to 0; if true, dont avg it
 */
 
-// this code never worked; keep in mind when reusing
-
-public class A10_CH6 {
+public class A10_CH6b {
     public static int[][] averageCells(int[][] data) {
         int kingsum = 0; // total of that column to avg
         int kingiter = 0; // number of rows added together (in order to avg them)
         int[][] kingarray = new int [data.length][data[0].length];
+
+        int rplus = 0;
+        boolean rplus0 = false;
+        int rmin = 0;
+        boolean rmin0 = false;
+        //
+        int cplus;
+        boolean cplus0 = false;
+        int cmin;
+        boolean cmin0 = false;
+
+        int dul;
+        boolean dul0 = false;
+        //
+        int dur;
+        boolean dur0 = false;
+        //
+        int ddl;
+        boolean ddl0 = false;
+        //
+        int ddr;
+        boolean ddr0 = false;
 
         // pick an element...
         // r and c is current iter to check 8 adjacent ones of
@@ -48,21 +68,6 @@ public class A10_CH6 {
                     kingsum = data[r-1][c+1];
                     kingiter++;
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 if (r != 0) { // if the row isnt 0 then set cmin to r + 1
                     if (r == data.length - 1){ // if r + 1 would be OutOfBounds then do rplus0,,, if current row is last row then do rplus0
 
