@@ -7,6 +7,7 @@ public class A10_Maze {
     int moveCount;
 
     String valid = "SE-";
+    String mazePrint = "";
 
     public A10_Maze() { // constructor
         maze = new char[][]
@@ -20,10 +21,12 @@ public class A10_Maze {
         moveCount = 0;
     }
     public A10_Maze(char[][] load) { // constructor
-        char[][] newarg = new char[load.length][load[0].length];
+        char[][] fakemaze =
+        maze = new char[load.length][load[0].length];
         maze = load;
+        fakemaze = maze;
 
-        playerRow = maze[1][0];
+        playerRow = 1;
         moveCount = 0;
     }
 
@@ -44,7 +47,7 @@ public class A10_Maze {
     public int getPlayerColumn() {
         return playerColumn;
     }
-    boolean move(char direction) {
+    public boolean move(char direction) {
         /*
         1. check what direction was given
         2. check if the move is possible (array)
@@ -90,10 +93,14 @@ public class A10_Maze {
             }
             else return false;
         }
+
+        else return false;
         return false;
     }
     public String toString() {
-        return String.format("(%5.2f): " + getItemName() + " - " + getFlavor() + " ice cream in a(n) " + getContainer() + " with " + getToppings() + ".",
-                cost);
+        for (int iter = 0; iter < maze.length; iter++) {
+            mazePrint += maze[iter];
+        }
+        return mazePrint;
     }
 }
