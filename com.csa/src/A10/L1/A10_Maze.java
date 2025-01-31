@@ -17,17 +17,21 @@ public class A10_Maze {
                         {'W','-','W','-','W','-'},
                         {'E','-','W','-','-','-'},
                         {'W','-','-','-','W','W'}};
-        playerRow = maze[1][0];
+        playerRow = 1;
         moveCount = 0;
     }
     public A10_Maze(char[][] load) { // constructor
-        char[][] fakemaze =
         maze = new char[load.length][load[0].length];
         maze = load;
-        fakemaze = maze;
 
-        playerRow = 1;
-        moveCount = 0;
+        // make for loop to find where start is
+        for (int r = 0; r < maze.length; r++) {
+            for (int c = 0; c < maze.length; c++) {
+                if ('S' == maze[r][c]) {
+                    playerRow = maze[r][c];
+                }
+            }
+        }
     }
 
     // methods below
@@ -98,8 +102,20 @@ public class A10_Maze {
         return false;
     }
     public String toString() {
-        for (int iter = 0; iter < maze.length; iter++) {
-            mazePrint += maze[iter];
+        // iter thru all indexes and add to mazePrint string. if its the last one in a row, add \n. if its the player positon, print x.
+        for (int r = 0; r < maze.length; r++) {
+            for (int c = 0; c < maze.length; c++) {
+                if ((c == maze[r].length - 1) && (maze[playerRow][playerColumn] == maze[r][c])) {
+                    mazePrint += "X\n";
+                }
+                else if (c == maze[r].length - 1) {
+                    mazePrint += maze[r][c] + "\n";
+                }
+                else if (maze[playerRow][playerColumn] == maze[r][c]) {
+                    mazePrint += "X";
+                }
+                else mazePrint += maze[r][c];
+            }
         }
         return mazePrint;
     }
