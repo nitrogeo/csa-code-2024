@@ -15,6 +15,7 @@ public class A10_TicTacToe {
         A10_Maze maze = new A10_Maze();
 
         while () {
+            // print board
             while (!winCondit) {
                 System.out.println("X enter the column for your move (0-2):");
                 cmove = scan.nextInt();
