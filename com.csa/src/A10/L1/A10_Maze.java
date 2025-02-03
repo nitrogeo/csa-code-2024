@@ -1,13 +1,13 @@
 package A10.L1;
 
 public class A10_Maze {
-    char[][] maze;
-    int playerColumn;
-    int playerRow;
-    int moveCount;
+    public static char[][] maze;
+    public static int playerColumn;
+    public static int playerRow;
+    public static int moveCount;
 
-    String valid = "SE-";
-    String mazePrint = "";
+    public static String valid = "SE-";
+    public static String mazePrint = "";
 
     public A10_Maze() { // constructor
         maze = new char[][]
@@ -26,7 +26,7 @@ public class A10_Maze {
 
         // make for loop to find where start is
         for (int r = 0; r < maze.length; r++) {
-            for (int c = 0; c < maze.length; c++) {
+            for (int c = 0; c < maze[0].length; c++) {
                 if ('S' == maze[r][c]) {
                     playerRow = maze[r][c];
                 }
