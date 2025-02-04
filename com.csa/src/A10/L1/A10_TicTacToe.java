@@ -9,12 +9,13 @@ public class A10_TicTacToe {
     public static int rmove;
     public static int cmove;
     public static char[][] board;
+    public static char[][] outline;
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         A10_Maze maze = new A10_Maze();
 
-        while () {
+        while (!winCondit) {
             // print board
             while (!winCondit) {
                 System.out.println("X enter the column for your move (0-2):");
@@ -43,17 +44,26 @@ public class A10_TicTacToe {
         if 111 222 333 or an entire colum then horWin = true
         ...
         wait it should either:
-        - check each row manually
+        - check each row manually; i.e. check each possible win cond:
+            - top row
+            - mid row
+            - bottom row
+            - diagonal L to R
+            - diagonal R to L
+            - left col
+            - mid col
+            - right col
         */
         for (int r = 0; r < board.length; r++) {
             for (int c = 0; c < board[0].length; c++) {
-                /
+
             }
         }
         return winCondit;
     }
     public boolean isCat (char[][] board){
-        // iter thru each collumn and see if x OR o is horizontal or diagonal win
+        // if board full and no win
+
     }
 
 }

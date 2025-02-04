@@ -7,7 +7,9 @@
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_MazeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_MazeMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A10/L1/A10_MazeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A10/L1/A10_MazeMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +93,7 @@
     "JUnit.A10_CH6_Tests.executor": "Run",
     "JUnit.A10_Maze_Class_Tests.executor": "Run",
     "JUnit.A10_Maze_Output_Tests.executor": "Run",
+    "JUnit.A10_TicTacToe_Method_Tests.executor": "Run",
     "JUnit.A8_ArrayExpander_Tests.executor": "Run",
     "JUnit.A8_CH1_Tests.executor": "Run",
     "JUnit.A8_CH2_Tests.executor": "Run",
@@ -579,7 +582,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738349228103</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1738608302594</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1738608302594</updated>
+    </task>
+    <task id="LOCAL-00038" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1738608396761</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1738608396761</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

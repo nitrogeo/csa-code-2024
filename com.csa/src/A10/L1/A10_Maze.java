@@ -28,7 +28,8 @@ public class A10_Maze {
         for (int r = 0; r < maze.length; r++) {
             for (int c = 0; c < maze[0].length; c++) {
                 if ('S' == maze[r][c]) {
-                    playerRow = maze[r][c];
+                    playerRow = r;
+                    playerColumn = c;
                 }
             }
         }
@@ -58,7 +59,7 @@ public class A10_Maze {
         3. check if the move is valid (maze)
         */
         if (direction == 'W') { // up
-            if (playerRow < maze.length) {
+            if (playerRow > 0) {
                 if (valid.contains("" + maze[playerRow - 1][playerColumn])) {
                     playerRow = playerRow - 1;
                     moveCount++;
@@ -68,7 +69,7 @@ public class A10_Maze {
             else return false;
         }
         if (direction == 'A') { // left
-            if (playerColumn < maze.length) {
+            if (playerColumn > 0) {
                 if (valid.contains("" + maze[playerRow][playerColumn - 1])) {
                     playerRow = playerColumn - 1;
                     moveCount++;
@@ -78,7 +79,7 @@ public class A10_Maze {
             else return false;
         }
         if (direction == 'S') { // down
-            if (playerRow < maze.length) {
+            if (playerRow < maze.length - 1) {
                 if (valid.contains("" + maze[playerRow + 1][playerColumn])) {
                     playerRow = playerRow + 1;
                     moveCount++;
@@ -88,7 +89,7 @@ public class A10_Maze {
             else return false;
         }
         if (direction == 'D') { // right
-            if (playerColumn < maze.length) {
+            if (playerColumn < maze.length - 1) {
                 if (valid.contains("" + maze[playerRow][playerColumn + 1])) {
                     playerRow = playerColumn + 1;
                     moveCount++;
@@ -104,16 +105,20 @@ public class A10_Maze {
     public String toString() {
         // iter thru all indexes and add to mazePrint string. if its the last one in a row, add \n. if its the player positon, print x.
         for (int r = 0; r < maze.length; r++) {
-            for (int c = 0; c < maze.length; c++) {
+            for (int c = 0; c < maze[0].length; c++) {
+                // if last in row and player position
                 if ((c == maze[r].length - 1) && (maze[playerRow][playerColumn] == maze[r][c])) {
                     mazePrint += "X\n";
                 }
+                // else if just last in row
                 else if (c == maze[r].length - 1) {
                     mazePrint += maze[r][c] + "\n";
                 }
+                // else if just player position
                 else if (maze[playerRow][playerColumn] == maze[r][c]) {
                     mazePrint += "X";
                 }
+                // else just add the current index val to mazeprint
                 else mazePrint += maze[r][c];
             }
         }

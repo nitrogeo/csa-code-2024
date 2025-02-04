@@ -6,10 +6,10 @@ public class A10_MazeMain {
         Scanner scan = new Scanner(System.in);
         A10_Maze maze = new A10_Maze();
         boolean moveCheck = false;
-        do {
+        while (!maze.won()){
             System.out.println("Enter move (W - up, A - left, S - Down, D - Right):");
-            char move = scan.next().charAt(0);
-            moveCheck = maze.move(move);
+            char sentmove = scan.next().charAt(0);
+            moveCheck = maze.move(sentmove);
 
             if (!moveCheck) { // if move invalid
                 System.out.println("Invalid move");
@@ -17,6 +17,9 @@ public class A10_MazeMain {
             // if valid print the current maze
             else System.out.println(maze.toString());
 
-        } while (!maze.won());
+        }
+        if (maze.won()) {
+
+        }
     }
 }
