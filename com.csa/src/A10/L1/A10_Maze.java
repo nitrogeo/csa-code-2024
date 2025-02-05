@@ -77,7 +77,7 @@ public class A10_Maze {
         if (direction == 'A') { // left
             if (playerColumn > 0) {
                 if (valid.contains("" + maze[playerRow][playerColumn - 1])) {
-                    playerRow = playerColumn - 1;
+                    playerColumn = playerColumn - 1;
                     moveCount++;
                     return true;
                 }
@@ -97,7 +97,7 @@ public class A10_Maze {
         if (direction == 'D') { // right
             if (playerColumn < maze.length - 1) {
                 if (valid.contains("" + maze[playerRow][playerColumn + 1])) {
-                    playerRow = playerColumn + 1;
+                    playerColumn = playerColumn + 1;
                     moveCount++;
                     return true;
                 }
@@ -110,16 +110,17 @@ public class A10_Maze {
     }
     public String toString() {
         // iter thru all indexes and add to mazePrint string. if its the last one in a row, add \n. if its the player positon, print x.
-        // reset mazeprint
-        mazePrint = "";
-        for (int r = 0; r < maze.length; r++) {
-            for (int c = 0; c < maze[0].length; c++) {
+        int r;
+        int c;
+        System.out.println(mazePrint);
+        for (r = 0; r < maze.length; r++) {
+            for (c = 0; c < maze[0].length; c++) {
                 // if last in row and player position
-                if ((c == maze[r].length - 1) && (maze[playerRow][playerColumn] == maze[r][c])) {
+                /*if ((c == maze[r].length - 1) && (maze[playerRow][playerColumn] == maze[r][c])) {
                     mazePrint += "X\n";
-                }
+                }*/
                 // else if just last in row
-                else if (c == maze[r].length - 1) {
+                if (c == maze[r].length - 1) {
                     mazePrint += maze[r][c] + "\n";
                 }
                 // else if just player position
