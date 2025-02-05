@@ -1,15 +1,14 @@
 package A10.L1;
 
-import A7.Labs.L2Dessert.IceCreamShop;
-
 import java.util.Scanner;
 
 public class A10_TicTacToe {
     public static boolean winCondit = false;
     public static int rmove;
     public static int cmove;
-    public static char[][] board;
-    public static char[][] outline;
+    public static char[][] board = {{' ',' ',' '},{' ',' ',' '},{' ',' ',' '}};
+    public static String[][] outline = {{" |"," | ","| "},{"----","---","----"},{" |"," | ","| "},{"----","---","----"},{" |"," | ","| "}};
+    public static int moveCt = 0;
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -33,6 +32,7 @@ public class A10_TicTacToe {
 
                 // if valid print the current maze
                 else System.out.println(maze.toString());
+                moveCt++;
             }
         }
     }
@@ -56,14 +56,50 @@ public class A10_TicTacToe {
         */
         for (int r = 0; r < board.length; r++) {
             for (int c = 0; c < board[0].length; c++) {
+                // top row
+                if ((board[0][0] == player)&&(board[0][1] == player)&&(board[0][2] == player)){
+                    winCondit = true;
+                }
+                // mid row
+                if ((board[1][0] == player)&&(board[1][1] == player)&&(board[1][2] == player)){
+                    winCondit = true;
+                }
+                // bottom row
+                if ((board[2][0] == player)&&(board[2][1] == player)&&(board[2][2] == player)){
+                    winCondit = true;
+                }
 
+                // left col
+                if ((board[0][0] == player)&&(board[1][0] == player)&&(board[2][0] == player)){
+                    winCondit = true;
+                }
+                // mid col
+                if ((board[0][1] == player)&&(board[1][1] == player)&&(board[2][1] == player)){
+                    winCondit = true;
+                }
+                // right col
+                if ((board[0][2] == player)&&(board[1][2] == player)&&(board[2][2] == player)){
+                    winCondit = true;
+                }
+
+                // L to R diagonal
+                if ((board[0][0] == player)&&(board[1][1] == player)&&(board[2][2] == player)){
+                    winCondit = true;
+                }
+                // R to L diagonal
+                if ((board[0][2] == player)&&(board[1][1] == player)&&(board[2][0] == player)){
+                    winCondit = true;
+                }
             }
         }
         return winCondit;
     }
     public boolean isCat (char[][] board){
         // if board full and no win
-
+        if ((moveCt == 9) && !winCondit) {
+            System.out.print("Cats game.");
+            return true;
+        }
+        else return false;
     }
-
 }

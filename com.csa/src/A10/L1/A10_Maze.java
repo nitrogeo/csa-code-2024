@@ -11,12 +11,12 @@ public class A10_Maze {
 
     public A10_Maze() { // constructor
         maze = new char[][]
-                {{'W','W','W','W','W','-'},
-                        {'S','-','-','-','W','-'},
-                        {'W','W','W','-','W','-'},
-                        {'W','-','W','-','W','-'},
-                        {'E','-','W','-','-','-'},
-                        {'W','-','-','-','W','W'}};
+               {{'W','W','W','W','W','-'},
+                {'S','-','-','-','W','-'},
+                {'W','W','W','-','W','-'},
+                {'W','-','W','-','W','-'},
+                {'E','-','W','-','-','-'},
+                {'W','-','-','-','W','W'}};
         playerRow = 1;
         moveCount = 0;
     }
@@ -36,12 +36,18 @@ public class A10_Maze {
     }
 
     // methods below
-
     public boolean won () {
-        if (maze[playerRow][playerColumn] == maze[4][0]) {
-            return true;
+        int endRow = 0;
+        int endCol = 0;
+        for (int r = 0; r < maze.length; r++) {
+            for (int c = 0; c < maze[0].length; c++) {
+                if ('E' == maze[r][c]) {
+                    endRow = r;
+                    endCol = c;
+                }
+            }
         }
-        else return false;
+        return maze[playerRow][playerColumn] == maze[endRow][endCol];
     }
     public int getMoveCount() {
         return moveCount;
@@ -104,6 +110,8 @@ public class A10_Maze {
     }
     public String toString() {
         // iter thru all indexes and add to mazePrint string. if its the last one in a row, add \n. if its the player positon, print x.
+        // reset mazeprint
+        mazePrint = "";
         for (int r = 0; r < maze.length; r++) {
             for (int c = 0; c < maze[0].length; c++) {
                 // if last in row and player position
