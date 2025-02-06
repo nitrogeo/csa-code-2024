@@ -7,24 +7,26 @@ public class A10_MazeMain {
         Scanner scan = new Scanner(System.in);
         A10_Maze maze = new A10_Maze();
         boolean moveCheck = false;
-        System.out.println(maze.toString());
+        if (maze.getMoveCount() == 0) {
+            System.out.println(maze.toString());
+        }
         while (!maze.won()){ // while game still going
-            System.out.println("Enter move (W - up, A - left, S - Down, D - Right):");
+            System.out.println("\nEnter move (W - up, A - left, S - Down, D - Right):\n");
             char sentmove = scan.next().charAt(0);
             moveCheck = maze.move(sentmove);
 
-            if (!moveCheck) { // if move invalid
+            // if move invalid
+            if (!moveCheck) {
                 System.out.println("Invalid move");
                 continue;
             }
             // if valid print the current maze
             else {
-                maze.move(sentmove);
                 System.out.println(maze.toString());
             }
         }
         if (maze.won()) {
-            System.out.println("Congratulations you solved the maze in " + maze.getMoveCount() + " moves!");
+            System.out.println("\nCongratulations you solved the maze in " + maze.getMoveCount() + " moves!");
         }
     }
 }
