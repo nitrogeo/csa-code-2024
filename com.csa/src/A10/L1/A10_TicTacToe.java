@@ -3,21 +3,27 @@ package A10.L1;
 import java.util.Scanner;
 
 public class A10_TicTacToe {
-    public static boolean winCondit = false;
     public static int rmove;
     public static int cmove;
     public static char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
-    public static String[][] outline = {{" |", " | "}, {"----", "---", "----"}, {" |", " | "}, {"----", "---", "----"}, {" |", " | "}};
+    public static String[][] outline = {{" | ", " | "}, {"------------"}, {" | ", " | "}, {"------------"}, {" | ", " | "}};
     public static int moveCt = 0;
 
-    public static char turn = 'X';
-    public static String boardPrint = outline[0][0] + board[0][0] + outline[0][1] + board[0][1] + outline[0][2] + "\n" + board[1][0] + outline[1][0] + board[1][1] + outline[1][1] + board[1][2] + "\n" + board[2][0] + outline[2][0] + board[2][1] + outline[2][1] + board[2][2];
+    public static char player = 'X';
+    // public static String boardPrint = outline[0][0] + board[0][0] + outline[0][1] + board[0][1] + outline[0][2] + "\n" + board[1][0] + outline[1][0] + board[1][1] + outline[1][1] + board[1][2] + "\n" + board[2][0] + outline[2][0] + board[2][1] + outline[2][1] + board[2][2];
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        while (!winCondit) { // while game going on
-            if (turn == 'X') {
+        System.out.println(
+                " " + board[0][0] + outline[0][0] + board[0][1] + outline[0][1] + board[0][2] + "\n" +
+                        outline[1][0] + "\n" +
+                        " " + board[1][0] + outline[2][0] + board[1][1] + outline[2][1] + board[1][2] + "\n" +
+                        outline[3][0] + "\n" +
+                        " " + board[2][0] + outline[2][0] + board[2][1] + outline[2][1] + board[2][2]);
+
+        while (!(isWinner(board, player))) { // while game going on
+            if (player == 'X') {
                 // X
                 System.out.println("X enter the column for your move (0-2):");
                 rmove = scan.nextInt();
@@ -31,55 +37,77 @@ public class A10_TicTacToe {
                 System.out.println("X enter the row for your move (0-2):");
                 cmove = scan.nextInt();
                 if ((cmove > -1) && (cmove < 3)) {
-                    board[rmove][cmove] = turn;
+                    board[rmove][cmove] = player;
                 } else {
                     System.out.println("Invalid move, enter a new move.");
                     continue;
                 }
 
-                if (turn == 'X') {
-                    turn = 'O';
+                moveCt++;
+                System.out.println(
+                        board[0][0] + outline[0][0] + board[0][1] + outline[0][1] + board[0][2] + "\n" +
+                                outline[1][0] + "\n" +
+                                board[1][0] + outline[2][0] + board[1][1] + outline[2][1] + board[1][2] + "\n" +
+                                outline[3][0] + "\n" +
+                                board[2][0] + outline[2][0] + board[2][1] + outline[2][1] + board[2][2]);
+                if (player == 'X') {
+                    player = 'O';
                 }
 
                 // if valid print the current maze
-                System.out.println();
 
-                // if valid print the current maze
             }
-            if (turn == 'O') {
-                // O
+            if (player == 'O') {
+                // O col
                 System.out.println("O enter the column for your move (0-2):");
-                rmove = scan.nextInt();
-                if ((rmove > -1) && (rmove < 3)) {
-
-                } else {
-                    System.out.println("Invalid move, enter a new move.");
-                    continue;
-                }
-
-                System.out.println("X enter the row for your move (0-2):");
                 cmove = scan.nextInt();
+                // if valid
                 if ((cmove > -1) && (cmove < 3)) {
-                    board[rmove][cmove] = turn;
-                } else {
+                    board[rmove][cmove] = player;
+                }
+                // if not valid
+                else {
+                    System.out.println("Invalid move, enter a new move.");
+                    continue;
+                }
+                // O row
+                System.out.println("O enter the row for your move (0-2):");
+                rmove = scan.nextInt();
+                if (board[rmove][cmove] == 'X') {
+                    System.out.println("Invalid move, enter a new move.");
+                    continue;
+                }
+                if ((rmove > -1) && (rmove < 3) && (board[rmove][cmove] == ' ')) {
+                    board[rmove][cmove] = player;
+                }
+                else {
                     System.out.println("Invalid move, enter a new move.");
                     continue;
                 }
 
-                updateBoard(rmove, cmove);
-                System.out.println();
+                moveCt++;
+                System.out.println(
+                        board[0][0] + outline[0][0] + board[0][1] + outline[0][1] + board[0][2] + "\n" +
+                        outline[1][0] + "\n" +
+                        board[1][0] + outline[2][0] + board[1][1] + outline[2][1] + board[1][2] + "\n" +
+                        outline[3][0] + "\n" +
+                        board[2][0] + outline[2][0] + board[2][1] + outline[2][1] + board[2][2]);
 
-                if (turn == 'O') {
-                    turn = 'X';
-                }
             }
-            while (!winCondit) {
-
+            if (isWinner(board, player)) {
+                System.out.println(player + " WINS!");
+            }
+            if (isCat(board)) {
+                System.out.println("Cats game.");
+            }
+            if (player == 'O') {
+                player = 'X';
             }
         }
 
-        public boolean isWinner ( char[][] board, char player){
-            // iter thru each collumn and see if x is horizontal or diagonal win condition
+    }
+    public static boolean isWinner (char[][] board, char player){
+        // iter thru each collumn and see if x is horizontal or diagonal win condition
         /*
         add x pos (.legnth nums, not index nums) to string...
         if 123 or 321 then diagWin = true
@@ -96,56 +124,67 @@ public class A10_TicTacToe {
             - mid col
             - right col
         */
-            for (int r = 0; r < board.length; r++) {
-                for (int c = 0; c < board[0].length; c++) {
-                    // top row
-                    if ((board[0][0] == player) && (board[0][1] == player) && (board[0][2] == player)) {
-                        winCondit = true;
-                    }
-                    // mid row
-                    if ((board[1][0] == player) && (board[1][1] == player) && (board[1][2] == player)) {
-                        winCondit = true;
-                    }
-                    // bottom row
-                    if ((board[2][0] == player) && (board[2][1] == player) && (board[2][2] == player)) {
-                        winCondit = true;
-                    }
+        for (int r = 0; r < board.length; r++) {
+            for (int c = 0; c < board[0].length; c++) {
+                // top row
+                if ((board[0][0] == player) && (board[0][1] == player) && (board[0][2] == player)) {
+                    return true;
+                }
+                // mid row
+                if ((board[1][0] == player) && (board[1][1] == player) && (board[1][2] == player)) {
+                    return true;
+                }
+                // bottom row
+                if ((board[2][0] == player) && (board[2][1] == player) && (board[2][2] == player)) {
+                    return true;
+                }
 
-                    // left col
-                    if ((board[0][0] == player) && (board[1][0] == player) && (board[2][0] == player)) {
-                        winCondit = true;
-                    }
-                    // mid col
-                    if ((board[0][1] == player) && (board[1][1] == player) && (board[2][1] == player)) {
-                        winCondit = true;
-                    }
-                    // right col
-                    if ((board[0][2] == player) && (board[1][2] == player) && (board[2][2] == player)) {
-                        winCondit = true;
-                    }
+                // left col
+                if ((board[0][0] == player) && (board[1][0] == player) && (board[2][0] == player)) {
+                    return true;
+                }
+                // mid col
+                if ((board[0][1] == player) && (board[1][1] == player) && (board[2][1] == player)) {
+                    return true;
+                }
+                // right col
+                if ((board[0][2] == player) && (board[1][2] == player) && (board[2][2] == player)) {
+                    return true;
+                }
 
-                    // L to R diagonal
-                    if ((board[0][0] == player) && (board[1][1] == player) && (board[2][2] == player)) {
-                        winCondit = true;
-                    }
-                    // R to L diagonal
-                    if ((board[0][2] == player) && (board[1][1] == player) && (board[2][0] == player)) {
-                        winCondit = true;
-                    }
+                // L to R diagonal
+                if ((board[0][0] == player) && (board[1][1] == player) && (board[2][2] == player)) {
+                    return true;
+                }
+                // R to L diagonal
+                if ((board[0][2] == player) && (board[1][1] == player) && (board[2][0] == player)) {
+                    return true;
                 }
             }
-            return winCondit;
         }
-        public boolean isCat ( char[][] board){
-            // if board full and no win
-            if ((moveCt == 9) && !winCondit) {
-                System.out.print("Cats game.");
-                return true;
-            } else return false;
+        return false;
+    }
+    public static boolean isCat (char[][] board){
+        // if board full and no win
+        /*if ((moveCt == 9) && !isWinner(board, player)) {
+            System.out.print("Cats game.");
+            return true;
         }
-        public static void updateBoard ( int rmove, int cmove, char player){
-            boardPrint = board[0][0] + outline[0][0] + board[0][1] + outline[0][1] + board[0][2] + "\n" + outline[1][0] + outline[1][1] + outline[1][2] + "\n" + board[1][0] + outline[2][0] + board[1][1] + outline[2][1] + board[1][2] + "\n" + outline[1][0] + outline[1][1] + outline[1][2] + "\n" + board[2][0] + outline[2][0] + board[2][1] + outline[2][1] + board[2][2];
+        else return false;*/
+
+        // if no one is winning and no space is 'space' then return true
+        for (int r = 0; r < board.length; r++) {
+            for (int c = 0; c < board[0].length; c++) {
+                 if (board[r][c] == ' ') {
+                    return false;
+                }
+            }
         }
+        // if x or o is a winner, then its not cat
+        if ((!isWinner(board, 'X') || (!isWinner(board, 'O')))) {
+            return false;
+        }
+        return true;
     }
 }
 
