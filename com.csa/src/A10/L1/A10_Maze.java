@@ -1,13 +1,13 @@
 package A10.L1;
 
 public class A10_Maze {
-    public static char[][] maze;
-    public static int playerColumn;
-    public static int playerRow;
-    public static int moveCount;
+    private char[][] maze;
+    private int playerColumn;
+    private int playerRow;
+    private int moveCount;
 
-    public static String valid = "SE-";
-    public static String mazePrint = "";
+    public String valid = "SE-";
+    public String mazePrint = "";
 
     public A10_Maze() { // constructor
         maze = new char[][]
@@ -42,17 +42,7 @@ public class A10_Maze {
 
     // methods below
     public boolean won () {
-        int endRow = 0;
-        int endCol = 0;
-        for (int r = 0; r < maze.length; r++) {
-            for (int c = 0; c < maze[0].length; c++) {
-                if ('E' == maze[r][c]) {
-                    endRow = r;
-                    endCol = c;
-                }
-            }
-        }
-        return (playerRow == endRow) && (playerColumn == endCol);
+        return maze[playerRow][playerColumn] == 'E';
     }
     public int getMoveCount() {
         return moveCount;
@@ -72,52 +62,32 @@ public class A10_Maze {
         int newRow = playerRow;
         int newCol = playerColumn;
         if (direction == 'W') { // up
-            if (playerRow > 0) {
-                if (valid.contains("" + maze[playerRow - 1][playerColumn])) {
-                    playerRow = playerRow - 1;
-                    moveCount++;
-                    return true;
-                }
-            }
-            else return false;
+            newRow--;
         }
         else if (direction == 'A') { // left
-            if (playerColumn > 0) {
-                if (valid.contains("" + maze[playerRow][playerColumn - 1])) {
-                    playerColumn = playerColumn - 1;
-                    moveCount++;
-                    return true;
-                }
-            }
-            else return false;
+            newCol--;
         }
         else if (direction == 'S') { // down
-            if (playerRow < maze.length - 1) {
-                if (valid.contains("" + maze[playerRow + 1][playerColumn])) {
-                    playerRow = playerRow + 1;
-                    moveCount++;
-                    return true;
-                }
-            }
-            else return false;
+            newRow++;
         }
         else if (direction == 'D') { // right
-            if (playerColumn < maze[0].length - 1) {
-                if (valid.contains("" + maze[playerRow][playerColumn + 1])) {
-                    playerColumn = playerColumn + 1;
-                    moveCount++;
-                    return true;
-                }
-            }
-            else return false;
+            newCol++;
         }
+        else return false; // move doesnt exist, wrong letter
 
-        else return false; // invalid input
-        return false;
+        if ((newRow >= 0) && (newCol >= 0) && (newRow < maze.length) && (newCol < maze[0].length)) {
+            if (valid.contains("" + maze[newRow][newCol])) {
+                playerRow = newRow;
+                playerColumn = newCol;
+                moveCount++;
+                return true;
+            }
+        }
+        return false; // move cant exist, wrong direction
     }
     public String toString() {
         // iter thru all indexes and add to mazePrint string. if its the last one in a row, add \n. if its the player positon, print x.
-        mazePrint = "";
+        mazePrint = "\n";
         for (int r = 0; r < maze.length; r++) {
             for (int c = 0; c < maze[0].length; c++) {
                 // if player position
@@ -131,6 +101,7 @@ public class A10_Maze {
                 mazePrint += "\n";
             }
         }
+        mazePrint += "\n";
         return mazePrint;
     }
 }

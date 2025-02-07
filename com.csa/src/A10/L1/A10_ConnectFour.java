@@ -54,7 +54,7 @@ public class A10_ConnectFour {
         // double for to print bar then decides the cell
         for (int c = 0; c < board[0].length; c++) {
             for (int r = 0; r < board.length; r++) {
-
+                
             }
         }
     }
