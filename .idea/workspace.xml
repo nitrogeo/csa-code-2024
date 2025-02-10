@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/CG1/A11_CH1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_ConnectFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_ConnectFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/L1/A10_TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/Dessert (1).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamLab (1).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamLab (2).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamLab (3).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (1)/Labs/L2Dessert/IceCreamShop (1).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A10/L1/A10_ConnectFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A10/L1/A10_ConnectFour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A10/L1/A10_TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A10/L1/A10_TicTacToe.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -630,7 +614,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738814676077</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1738993702726</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1738993702726</updated>
+    </task>
+    <task id="LOCAL-00042" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1738993780790</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1738993780790</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -678,11 +678,6 @@
           <line>20</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
           <line>22</line>
@@ -691,15 +686,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>
-          <line>50</line>
-          <properties class="A7.Labs.L2Dessert.Dessert" method="toString">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.InputMismatchException" package="java.util" />
