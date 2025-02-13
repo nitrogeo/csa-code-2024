@@ -1,0 +1,9 @@
+iteration for loop:
+for (int iter = 0; iter < x.size(); iter++) {
+
+}
+
+check for containment
+if ("aeiouAEIOU".contains("" + subby[iter])) {
+    subby[iter] = '*';
+}
