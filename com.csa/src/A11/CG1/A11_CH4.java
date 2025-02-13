@@ -1,4 +1,4 @@
-package A10.CG1;
+package A11.CG1;
 
 import java.util.ArrayList;
 /*
@@ -11,11 +11,11 @@ public class A11_CH4 {
         for (int iter = numbers.size() -1; iter >= 0; iter--) {
 
 
-            for (int iter1 = numbers.size() -1; 1 >= 0; iter1--) {
+            /*for (int iter1 = numbers.size() -1; 1 >= 0; iter1--) {
                 if (numbers.get() == toRemove[iter]) {
                     numbers.remove(x)
                 }
-            }
+            }*/
         }
     }
 }
