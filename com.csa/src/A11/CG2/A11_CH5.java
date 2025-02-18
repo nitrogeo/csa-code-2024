@@ -26,6 +26,9 @@ iter backwards thru list1
 if target found remove it
 */
 public class A11_CH5 {
+    public static void main(String[] args) {
+
+    }
     /*public static void removeShared(ArrayList<Integer> list1, ArrayList<Integer> list2) {
         boolean removed = false;
         // iter thru list2 (toremove)...
@@ -48,12 +51,15 @@ public class A11_CH5 {
         }
     }*/
     public static void removeShared(ArrayList<Integer> list1, ArrayList<Integer> list2) {
-        for (int iter = 0; iter >= list1.size(); iter++) {
+        for (int iter = 0; iter < list1.size(); iter++) {
             if (list2.contains(list1.get(iter))) {
                 int target = list1.get(iter);
                 iter--;
+                for (int iter1 = list2.size() - 1; iter1 >= 0; iter1--) {
+                    list2.remove(iter1);
+                }
                 for (int iter1 = list1.size() - 1; iter1 >= 0; iter1--) {
-
+                    list1.remove(iter1);
                 }
             }
         }
