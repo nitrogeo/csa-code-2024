@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/@scratchpad/java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A11_CH4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/CG2/A11_CH5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/@scratchpad/java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/@scratchpad/java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A11/CG1/A11_CH3.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/CG1/A11_CH3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/CG1/A11_CH4_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A10/CG1/A11_CH4_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/CG1/A11_CH4.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/CG1/A11_CH4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +100,8 @@
     &quot;JUnit.A10_TicTacToe_Output_Tests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.A11_CH1_Tests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.A11_CH2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH3_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH4_Tests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.A8_ArrayExpander_Tests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.A8_CH1_Tests.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.A8_CH2_Tests.executor&quot;: &quot;Run&quot;,

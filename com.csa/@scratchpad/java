@@ -3,6 +3,13 @@ for (int iter = 0; iter < x.size(); iter++) {
 
 }
 
+double for loop:
+for (int iter = 0; iter < x.size(); iter++) {
+    for (int iter1 = 0; iter1 < x.length(); iter1++) {
+
+    }
+}
+
 check for containment
 if ("aeiouAEIOU".contains("" + subby[iter])) {
     subby[iter] = '*';
