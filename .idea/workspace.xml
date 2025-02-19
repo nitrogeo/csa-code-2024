@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/CG2/A11_CH6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/CG2/A11_CH7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A11/CG2/A11_CH5.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/CG2/A11_CH5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert (1).class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab (1).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab (2).class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab (3).class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop (1).class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
@@ -113,6 +109,8 @@
     "JUnit.A11_CH3_Tests.executor": "Run",
     "JUnit.A11_CH4_Tests.executor": "Run",
     "JUnit.A11_CH5_Tests.executor": "Run",
+    "JUnit.A11_CH6_Tests.executor": "Run",
+    "JUnit.A11_CH7_Tests.executor": "Run",
     "JUnit.A8_ArrayExpander_Tests.executor": "Run",
     "JUnit.A8_CH1_Tests.executor": "Run",
     "JUnit.A8_CH2_Tests.executor": "Run",
@@ -674,7 +672,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739902456225</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1739915497719</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1739915497719</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -721,11 +727,6 @@
           <url>file://$PROJECT_DIR$/com.csa/src/A5/Labs/MixedNumberV2.java</url>
           <line>20</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com.csa/src/A11/CG2/A11_CH5.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com.csa/src/A7/Labs/L2Dessert/Dessert.java</url>

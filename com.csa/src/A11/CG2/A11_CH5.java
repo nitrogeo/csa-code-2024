@@ -25,6 +25,7 @@ if target found remove it
 iter backwards thru list1
 if target found remove it
 */
+// done 12:10 2.19.2025
 public class A11_CH5 {
     public static void main(String[] args) {
 
@@ -50,16 +51,21 @@ public class A11_CH5 {
             }
         }
     }*/
+    // "==" compares memory adresses
     public static void removeShared(ArrayList<Integer> list1, ArrayList<Integer> list2) {
         for (int iter = 0; iter < list1.size(); iter++) {
             if (list2.contains(list1.get(iter))) {
                 int target = list1.get(iter);
                 iter--;
                 for (int iter1 = list2.size() - 1; iter1 >= 0; iter1--) {
-                    list2.remove(iter1);
+                    if (list2.get(iter1) == target) {
+                        list2.remove(iter1);
+                    }
                 }
                 for (int iter1 = list1.size() - 1; iter1 >= 0; iter1--) {
-                    list1.remove(iter1);
+                    if (list1.get(iter1) == target) {
+                        list1.remove(iter1);
+                    }
                 }
             }
         }
