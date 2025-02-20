@@ -52,6 +52,10 @@ public class A11_CH5 {
         }
     }*/
     // "==" compares memory adresses
+
+    // this isnt an infinite loop because the size of list1 is reduced,,,
+    // where even if iter is looped, the size will decrease
+    // ch7 is a loop with `iter--` because list1's size doesnt decrease
     public static void removeShared(ArrayList<Integer> list1, ArrayList<Integer> list2) {
         for (int iter = 0; iter < list1.size(); iter++) {
             if (list2.contains(list1.get(iter))) {
