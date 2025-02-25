@@ -1,3 +1,4 @@
+/*
 package A11.L1;
 
 import java.util.ArrayList;
@@ -30,12 +31,16 @@ public class A11_HangmanMain {
         this.sentences.add("Nah, I'd win.");
         wrongGuesses = 0;
         int random = (int)(Math.random() * 10 + 1);
-        this.sentence = this.sentence.get(random);
+        */
+/*this.sentence = this.sentence.get(random);*//*
+
     }
-    void A11_Hangman(String sentence) {
+    */
+/*void A11_Hangman(String sentence) {
          = sentence;
         wrongGuesses = 0;
-    }
+    }*//*
+
 
     // methods
     boolean won() {
@@ -68,3 +73,4 @@ public class A11_HangmanMain {
 
     }
 }
+*/

@@ -5,8 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_HangmanMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lol/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lol/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lol/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lol/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lol/com.nitrogeo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.lol/src/rickroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_HangmanMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_HangmanMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A7/CG1/Player_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A7/CG1/Player_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH1_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH2_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH3_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11/CG1/A11_CH4_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_ClassGrades_Assignment_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_ClassGrades_Output_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_ClassGrades_StudentClass_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_Hangman_Class_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_Hangman_Output_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/TestingOutputStream.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +113,7 @@
     "Application.Truck.executor": "Run",
     "Application.code.executor": "Run",
     "Application.date011325.executor": "Run",
+    "Application.rickroll.executor": "Run",
     "Application.visual_novel.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.A10_CH1_Tests.executor": "Run",
@@ -183,6 +215,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\My Drive\10th Grade\5. CSA\code" />
       <recent name="D:\My Drive\10th Grade\5. CSA\code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -302,14 +335,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00001" summary="delete erroneuous ch4 file">
-      <option name="closed" value="true" />
-      <created>1734028604258</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1734028604258</updated>
     </task>
     <task id="LOCAL-00002" summary="update git username (on this pc)">
       <option name="closed" value="true" />
@@ -695,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740163499370</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1740422684304</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1740422684304</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

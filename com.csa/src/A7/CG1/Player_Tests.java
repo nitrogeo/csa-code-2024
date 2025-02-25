@@ -17,7 +17,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test1() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method getUserName = classRef.getMethod("getUserName");
             Method getExperience = classRef.getMethod("getExperience");
             Method getLevel = classRef.getMethod("getLevel");
@@ -41,7 +41,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test2() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method getUserName = classRef.getMethod("getUserName");
             Method getExperience = classRef.getMethod("getExperience");
             Method getLevel = classRef.getMethod("getLevel");
@@ -76,7 +76,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test3() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method getUserName = classRef.getMethod("getUserName");
             Method getExperience = classRef.getMethod("getExperience");
             Method getLevel = classRef.getMethod("getLevel");
@@ -102,7 +102,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test4() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method getUserName = classRef.getMethod("getUserName");
             Method getExperience = classRef.getMethod("getExperience");
             Method getLevel = classRef.getMethod("getLevel");
@@ -127,7 +127,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test5() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method setExperience = classRef.getMethod("setExperience",int.class);
             Method getExperience = classRef.getMethod("getExperience");
 
@@ -145,7 +145,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test6() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
 
             Method getLevel = classRef.getMethod("getLevel");
             Method setLevel = classRef.getMethod("setLevel",int.class);
@@ -164,7 +164,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test7() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
 
             Method getStrength = classRef.getMethod("getStrength");
             Method setStrength = classRef.getMethod("setStrength",int.class);
@@ -183,7 +183,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test8() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method getDexterity = classRef.getMethod("getDexterity");
             Method setDexterity = classRef.getMethod("setDexterity",int.class);
             Method armorClass = classRef.getMethod("armorClass");
@@ -202,7 +202,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test9() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method toString = classRef.getMethod("toString");
 
             Object player = classRef.getConstructor(String.class, int.class, int.class, int.class, int.class).newInstance
@@ -218,7 +218,7 @@ public class Player_Tests {
     @Test(timeout = 250)
     public void test10() throws Exception {
         try {
-            Class<?> classRef = Class.forName(generateClassName("Player"));
+            Class<?> classRef = Class.forName(generateClassName("rickroll"));
             Method toString = classRef.getMethod("toString");
 
             Object player = classRef.getConstructor(String.class, int.class, int.class, int.class, int.class).newInstance
