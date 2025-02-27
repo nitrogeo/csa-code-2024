@@ -1,3 +1,4 @@
+package A11.L1;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -5,7 +6,6 @@ import org.junit.Test;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class A11_Hangman_Class_Tests
 {

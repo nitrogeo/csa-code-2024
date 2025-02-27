@@ -14,3 +14,5 @@ check for containment
 if ("aeiouAEIOU".contains("" + subby[iter])) {
     subby[iter] = '*';
 }
+
+al real puncs: ,<.>/?;:'"[{]}\|!@#$%^&*()-_=+`~
