@@ -16,8 +16,9 @@ public class A11_Hangman {
     private ArrayList<Character> consonants = new ArrayList<>();;
 
     public String allvowels = "aeiouAEIOU";
-    public String allcons = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
-    public String allpuncs = "!,.?;:‘\"\'";
+    public String allcons = "qwrtypsdfghjklzxcvbnmQWRTYPSDFGHJKLZXCVBNM";
+    public String alllets = "qweryiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+    public String allpuncs = "!,.?;:‘\"'";
 
     // constructors
     public A11_Hangman() {
@@ -33,7 +34,7 @@ public class A11_Hangman {
         this.sentences.add("Nah, I'd win.");
         wrongGuesses = 0;
         int random = (int)(Math.random() * 10 + 1);
-        this.sentence = this.sentences.get(random);
+        this.sentence = this.sentences.get(random - 1);
     }
 
     public A11_Hangman(String sentence) {
@@ -44,10 +45,23 @@ public class A11_Hangman {
 
     // methods
     public boolean won() {
-        if ((allvowels.contains("" + sentence)) || (allcons.contains("" + sentence))) {
-            return true;
+        /*
+        iter thru sentence. if all current iters NOT in vowels or cons, return false; else true
+
+        tully:
+        get letter
+        if conslist or vowellist or space or punc then count++ (if guessed it or space or punc)
+        if cont = size then true
+        */
+        for (int iter = 0; iter < sentence.length(); iter++) {
+            char letter = sentence.charAt(iter);
+            /*char letterlow = sentence.toLowerCase(charAt(iter));
+            char lettercap = sentence.toUpperCase(charAt(iter));*/
+            if ((alllets.contains("" + letter)) && ((!vowels.contains(letter)) && (!consonants.contains(letter)))) {
+                return false;
+            }
         }
-        return false;
+        return true;
     }
     public void printSentence() {
         String printable = "";
@@ -65,7 +79,7 @@ public class A11_Hangman {
         return MAX_GUESSES - wrongGuesses;
     }
     public boolean addGuessedLetter(char c) {
-        if (((vowels.contains(c)) || (consonants.contains(c))) && (allpuncs.contains("" + c))) {
+        if (((!vowels.contains(c)) && (!consonants.contains(c))) && (sentence.contains("" + c))) {
             return true;
         }
         return false;

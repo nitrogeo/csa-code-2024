@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/@scratchpad/java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/@scratchpad/java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_ClassGrades_Output_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_ClassGrades_Output_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_HangmanMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_HangmanMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman_Class_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman_Class_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman_Output_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman_Output_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/TestingOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/TestingOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_ClassGrades_Output_Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_Hangman_Class_Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A11_Hangman_Output_Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/TestingOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +104,7 @@
     "JUnit.A11_CH7_Tests.executor": "Run",
     "JUnit.A11_CH8_Tests.executor": "Run",
     "JUnit.A11_Hangman_Class_Tests.executor": "Run",
+    "JUnit.A11_Hangman_Output_Tests.executor": "Run",
     "JUnit.A8_ArrayExpander_Tests.executor": "Run",
     "JUnit.A8_CH1_Tests.executor": "Run",
     "JUnit.A8_CH2_Tests.executor": "Run",
@@ -316,14 +307,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00003" summary="backup in csa tutorials">
-      <option name="closed" value="true" />
-      <created>1734038024921</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1734038024921</updated>
     </task>
     <task id="LOCAL-00004" summary="carried over good fixes from csa tuts today into better code from r2d2 on monday night / tues 12am">
       <option name="closed" value="true" />
@@ -709,7 +692,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740595614253</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1740681852312</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1740681852312</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
