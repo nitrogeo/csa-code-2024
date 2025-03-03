@@ -18,7 +18,9 @@ public class A11_Hangman {
     public String allvowels = "aeiouAEIOU";
     public String allcons = "qwrtypsdfghjklzxcvbnmQWRTYPSDFGHJKLZXCVBNM";
     public String alllets = "qweryiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
-    public String allpuncs = "!,.?;:‘\"'";
+    public String allpuncs = "<>!,.?;:‘\"'";
+    public String testpuncs = "!,.?;:‘\"'";
+    private int rightGuesses;
 
     // constructors
     public A11_Hangman() {
@@ -26,11 +28,11 @@ public class A11_Hangman {
         this.sentences.add("I've played these games before!");
         this.sentences.add("Nah, I'mma do my own thing.");
         this.sentences.add("x");
-        this.sentences.add("Check Steam.");
+        this.sentences.add("Give me an OREO! >:(");
         this.sentences.add("I bought a property in Egypt.");
-        this.sentences.add("Arc on Windows begins today.");
+        this.sentences.add("Zip! Oliver! What are you doing?!");
         this.sentences.add("Better to assimilate than explain.");
-        this.sentences.add("You can be a hero too, kid.");
+        this.sentences.add("This is the story of how we all became heroes.");
         this.sentences.add("Nah, I'd win.");
         wrongGuesses = 0;
         int random = (int)(Math.random() * 10 + 1);
@@ -57,8 +59,19 @@ public class A11_Hangman {
             char letter = sentence.charAt(iter);
             /*char letterlow = sentence.toLowerCase(charAt(iter));
             char lettercap = sentence.toUpperCase(charAt(iter));*/
-            if ((alllets.contains("" + letter)) && ((!vowels.contains(letter)) && (!consonants.contains(letter)))) {
-                return false;
+
+            // if the current char is a letter
+            if (Character.isLetter(letter)) {
+                char lowlett = Character.toLowerCase(letter);
+                // if not guessed
+                if (((!vowels.contains(lowlett)) && (!consonants.contains(lowlett)))) {
+                    // check if uppercase
+                    /*letter = Character.toUpperCase(letter);
+                    if (((!vowels.contains(letter)) && (!consonants.contains(letter)))) {
+                        return false;
+                    }*/
+                    return false;
+                }
             }
         }
         return true;
@@ -66,37 +79,68 @@ public class A11_Hangman {
     public void printSentence() {
         String printable = "";
         for (int iter = 0; iter < this.sentence.length(); iter++) {
-            if ((vowels.contains(this.sentence.charAt(iter))) || ((consonants.contains(this.sentence.charAt(iter)))) || ((allpuncs.contains("" + this.sentence.charAt(iter)))) ) {
-                printable += this.sentence.charAt(iter);
+            char letter = this.sentence.charAt(iter);
+            char uplett = Character.toUpperCase(letter);
+            if ((vowels.contains(uplett)) || ((consonants.contains(uplett))) || ((allpuncs.contains("" + letter))) ) {
+                printable += letter;
             }
-            else if (this.sentence.charAt(iter) == ' ') {
+            else if (letter == ' ') {
                 printable += " ";
             }
             else printable += "-";
         }
+        System.out.print(printable);
     }
     public int guessesLeft() {
         return MAX_GUESSES - wrongGuesses;
     }
     public boolean addGuessedLetter(char c) {
-        if (((!vowels.contains(c)) && (!consonants.contains(c))) && (sentence.contains("" + c))) {
+        char lowc = Character.toLowerCase(c);
+        char upc = Character.toUpperCase(c);
+        // if invalid guess
+        // punc not wrong guess but still wont be added
+        if ((c == ' ') || (allpuncs.contains("" + c)) || (vowels.contains(upc)) || (consonants.contains(upc))) {
+            wrongGuesses++;
+            return false;
+        }
+
+        // if new guess, add c to guesses (vowls or cons)...
+        // if new right guess (check lower and uppercase
+        if (sentence.toLowerCase().contains("" + lowc)) {
+            if (allvowels.contains("" + c)) {
+                vowels.add(upc);
+            } else consonants.add(upc);
+            /*rightGuesses++;*/
             return true;
         }
+        else if (sentence.contains("" + Character.toUpperCase(lowc))) {
+            if (allvowels.contains("" + c)) {
+                vowels.add(upc);
+            } else consonants.add(upc);
+            /*rightGuesses++;*/
+            return true;
+        }
+
+        // if new wrong guess
+        wrongGuesses++;
         return false;
     }
     public void printGuessed() {
         System.out.println("Guessed vowels: " + vowels);
         System.out.println("Guessed consonants: " + consonants);
-        System.out.println("You have " + guessesLeft() + "wrong guesses left.");
+        if (guessesLeft() == 1) {
+            System.out.println("You have " + guessesLeft() + " wrong guess left.");
+        }
+        else System.out.println("You have " + guessesLeft() + " wrong guesses left.");
     }
     public boolean isPunctuation (char c) {
-        if (allpuncs.contains("" + c)) {
+        if (testpuncs.contains("" + c)) {
             return true;
         }
         return false;
     }
     public boolean isInSentence(char c) {
-        if (this.sentence.contains("" + toLowerCase(c)) || (this.sentence.contains("" + toUpperCase(c))) ) {
+        if (this.sentence.toLowerCase().contains("" + Character.toLowerCase(c)) || (this.sentence.contains("" + toUpperCase(c))) ) {
             return true;
         }
         return false;
