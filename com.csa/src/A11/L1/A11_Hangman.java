@@ -106,11 +106,13 @@ public class A11_Hangman {
         1. When it is the first time a letter is guessed it is added to vowels or consonants.
         */
 
+        // if invalid GUESS
         if ((c == ' ') || (allpuncs.contains("" + c)) || (vowels.contains(upc)) || (consonants.contains(upc))) {
             wrongGuesses++;
-            return false;
+            addcheck = false;
         }
 
+        // FIRST ADDS TO GUSSES IF LETTER
         // if letter AND new guess,,, add c to guesses (vowls or cons)...
         if (allvowels.contains("" + c) && (!vowels.contains(upc))) {
             vowels.add(upc);
