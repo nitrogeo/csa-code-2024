@@ -39,14 +39,21 @@ public class A11_HangmanMain {
             Game.printGuessed();
             System.out.print("Enter your guess:\n\n");
             guess = scan.next().charAt(0);
+            // if guess wrong
             if (!Game.addGuessedLetter(guess)) {
-                if (Game.guessesLeft() < A11_Hangman.MAX_GUESSES && !Game.isInSentence(guess)) {
+                // if any guesses are left...
+                if (Game.guessesLeft() > 0) {
                     System.out.println("Incorrect guess.\n");
-                    Game.printSentence();
-                    if (Game.guessesLeft() == 0) System.out.println("\n\nYou failed to save this man.");
+//                    Game.printSentence();
+                }
+                // if no guesses left
+                if (Game.guessesLeft() == 0) {
+                    System.out.println("\n\nYou failed to save this man.");
+                    break;
                 }
             }
-            if (Game.won()) {
+            // if u won
+            else if (Game.won()) {
                 Game.printSentence();
                 System.out.println("\n\nYou saved this man with " + Game.guessesLeft() + " wrong guesses still left.");
             }
