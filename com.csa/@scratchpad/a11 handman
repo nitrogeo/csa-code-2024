@@ -62,10 +62,9 @@ public class A11_Hangman {
 
             // if the current char is a letter
             if (Character.isLetter(letter)) {
-                char uplett = Character.toUpperCase(letter);
+                char lowlett = Character.toLowerCase(letter);
                 // if not guessed
-                if (((!vowels.contains(uplett)) && (!consonants.contains(uplett)))) {
-                    // check if uppercase
+                if (((!vowels.contains(lowlett)) && (!consonants.contains(lowlett)))) {
                     // check if uppercase
                     /*letter = Character.toUpperCase(letter);
                     if (((!vowels.contains(letter)) && (!consonants.contains(letter)))) {
@@ -98,48 +97,32 @@ public class A11_Hangman {
     public boolean addGuessedLetter(char c) {
         char lowc = Character.toLowerCase(c);
         char upc = Character.toUpperCase(c);
-
-        /*
-        2. Returns true if c has not been guessed yet and is contained in the sentence.
-        3. The method returns false if c is a space, punctuation, or has already been guessed.
-        1. When it is the first time a letter is guessed it is added to vowels or consonants.
-        */
-        // if invalid GUESS
+        // if invalid guess
+        // punc not wrong guess but still wont be added
         if ((c == ' ') || (allpuncs.contains("" + c)) || (vowels.contains(upc)) || (consonants.contains(upc))) {
             wrongGuesses++;
             return false;
         }
 
-        // if new right guess, return true
+        // if new guess, add c to guesses (vowls or cons)...
+        // if new right guess (check lower and uppercase
         if (sentence.toLowerCase().contains("" + lowc)) {
-            // add to guesses if letter
-            if (allvowels.contains("" + c) && (!vowels.contains(upc))) {
+            if (allvowels.contains("" + c)) {
                 vowels.add(upc);
-            }
-            else if (allcons.contains("" + c) && (!consonants.contains(upc))) {
-                consonants.add(upc);
-            }
+            } else consonants.add(upc);
+            /*rightGuesses++;*/
             return true;
         }
-
         else if (sentence.contains("" + Character.toUpperCase(lowc))) {
-            if (allvowels.contains("" + c) && (!vowels.contains(upc))) {
+            if (allvowels.contains("" + c)) {
                 vowels.add(upc);
-            }
-            else if (allcons.contains("" + c) && (!consonants.contains(upc))) {
-                consonants.add(upc);
-            }
+            } else consonants.add(upc);
+            /*rightGuesses++;*/
             return true;
         }
 
         // if new wrong guess
         wrongGuesses++;
-        if (allvowels.contains("" + c) && (!vowels.contains(upc))) {
-            vowels.add(upc);
-        }
-        else if (allcons.contains("" + c) && (!consonants.contains(upc))) {
-            consonants.add(upc);
-        }
         return false;
     }
     public void printGuessed() {

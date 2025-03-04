@@ -1,7 +1,5 @@
 package A11.L1;
 
-import A7.Labs.L2Dessert.IceCreamShop;
-
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -44,10 +42,11 @@ public class A11_HangmanMain {
                 // if any guesses are left...
                 if (Game.guessesLeft() > 0) {
                     System.out.println("Incorrect guess.\n");
-//                    Game.printSentence();
                 }
                 // if no guesses left
                 if (Game.guessesLeft() == 0) {
+                    System.out.println("Incorrect guess.\n");
+                    Game.printSentence();
                     System.out.println("\n\nYou failed to save this man.");
                     break;
                 }
@@ -57,6 +56,7 @@ public class A11_HangmanMain {
                 Game.printSentence();
                 System.out.println("\n\nYou saved this man with " + Game.guessesLeft() + " wrong guesses still left.");
             }
+            // if u guess right it just keeps going
         }
 
         // gameplay
