@@ -1,3 +1,4 @@
+/*
 package A11.L1;
 
 import org.junit.experimental.theories.internal.Assignments;
@@ -25,7 +26,9 @@ public class A11_StudentClass {
         assignments.add(a);
     }
     double average() {
-        return getAssignments();
+        */
+/*return getAssignments();*//*
+
     }
     double minorAverage() {
 
@@ -37,3 +40,4 @@ public class A11_StudentClass {
 
     }
 }
+*/

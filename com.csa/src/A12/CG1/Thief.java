@@ -1,6 +1,7 @@
+/*
 package A12.CG1;
 
-public class Thief extends A12_GameCharacter {
+public class Thief extends A12.CG1.A12_GameCharacter {
     // attributes
     public static int stealthPoints;
     public static int inventoryWeight;
@@ -29,4 +30,4 @@ public class Thief extends A12_GameCharacter {
     void takeDamage(int damage) {
         
     }
-}
+}*/

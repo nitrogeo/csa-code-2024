@@ -1,6 +1,7 @@
+/*
 package A12.CG1;
 
-public class A12_Student extends A12_Person {
+public class A12_Student extends A12.CG1.A12_Person {
     // attributes
     public static int id;
 
@@ -20,4 +21,4 @@ public class A12_Student extends A12_Person {
     String toString() {
 
     }
-}
+}*/

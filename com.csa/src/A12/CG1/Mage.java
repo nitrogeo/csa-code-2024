@@ -20,6 +20,8 @@ public class Mage extends A12_GameCharacter {
     }
 
     // methods
+
+
     public static int getSpellShieldCost() {
         return spellShieldCost;
     }
@@ -33,22 +35,30 @@ public class Mage extends A12_GameCharacter {
         this.spellShieldAbsorbAmount = spellShieldAbsorbAmount;
     }
     void drinkManaPotion(int gain) {
-        getMagicPoints() += gain;
+        int mp = getMagicPoints();
+        mp += gain;
     }
 
     @Override
     public void takeDamage(int damage) {
-        if (magicPoints >= spellShieldCost) {
+        int mp = getMagicPoints();
+        int hp = getHitPoints();
+        if (mp >= spellShieldCost) {
             // the damage is reduced by spellShieldAbsorbAmount (to a minimum 0)
-            if (damage - spellShieldAbsorbAmount < 0) {
+            if ((damage - spellShieldAbsorbAmount) < 0) {
                 damage = 0;
             }
             else {
                 damage -= spellShieldAbsorbAmount;
             }
 
-            magicPoints - spellShieldCost;
-            super.takeDamage(damage);
+            if ((mp -= spellShieldCost) < 0) {
+                super.takeDamage(damage);
+            }
+            else {
+                mp -= spellShieldCost;
+                hp -= damage;
+            }
         }
     }
 }
