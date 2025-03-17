@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ home csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Assignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_ClassGradesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_StudentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/CG1/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/CG1/Thief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/@scratchpad/java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/@scratchpad/java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A11/L1/A11_Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +220,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A8_TreasureHunt">
     <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
       <module name="code" />

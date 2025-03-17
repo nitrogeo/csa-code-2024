@@ -122,6 +122,7 @@ public class A11_Hangman {
             return true;
         }
 
+        // if nrg, return true but checks if sentence contains uppercase letter
         else if (sentence.contains("" + Character.toUpperCase(lowc))) {
             if (allvowels.contains("" + c) && (!vowels.contains(upc))) {
                 vowels.add(upc);
