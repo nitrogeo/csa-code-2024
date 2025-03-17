@@ -58,6 +58,8 @@ public class Mage extends A12_GameCharacter {
             else {
                 mp -= spellShieldCost;
                 hp -= damage;
+
+                // questions: how to fix zonbie test and whhy not pass tests
             }
         }
     }
