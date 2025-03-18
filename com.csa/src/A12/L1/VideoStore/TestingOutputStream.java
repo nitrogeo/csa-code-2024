@@ -1,4 +1,4 @@
-package A12.L1;
+package A12.L1.VideoStore;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
