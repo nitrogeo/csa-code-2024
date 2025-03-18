@@ -25,7 +25,7 @@ public class LineLab {
         MyLine line = new MyLine(p1,p2);
         int sel = 0;
         while (sel >= 0 && sel < 5) {
-            System.out.println("-Main Menu-\n1. Replace Line\n2. Change Point 1\n3. Change Point 2\n4. View line Information\n5. Exit\nEnter selection:\n");
+            System.out.println("-Zom Menu-\n1. Replace Line\n2. Change Point 1\n3. Change Point 2\n4. View line Information\n5. Exit\nEnter selection:\n");
             sel = scan.nextInt();
             if (sel == 1) {
                 System.out.println("Enter point one...");

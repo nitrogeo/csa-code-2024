@@ -45,7 +45,7 @@ public class IceCreamLab_Tests
 
         String expected =   "Enter the name of your ice cream shop:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -57,7 +57,7 @@ public class IceCreamLab_Tests
                 "---Totally Cool---\n" +
                 "Menu Unavailable\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -68,7 +68,7 @@ public class IceCreamLab_Tests
                 "\n" +
                 "You must first add items to the menu.\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -117,7 +117,7 @@ public class IceCreamLab_Tests
 
         String expected =   "Enter the name of your ice cream shop:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -135,7 +135,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -147,7 +147,7 @@ public class IceCreamLab_Tests
                 "---Bob's Desserts---\n" +
                 "S. (19.99): 2 - Chocolate ice cream in a(n) bowl with Chocolate Syrup.\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -200,7 +200,7 @@ public class IceCreamLab_Tests
 
         String expected =   "Enter the name of your ice cream shop:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -216,7 +216,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -232,7 +232,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -245,7 +245,7 @@ public class IceCreamLab_Tests
                 "1. ( 9.09): Yummy Rainbow - Neopolitan ice cream in a(n) bowl with Sprinkles.\n" +
                 "2. (14.85): Turtle Cone - Chocolate and Vanilla ice cream in a(n) waffle cone with Chocolate Shell.\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -298,7 +298,7 @@ public class IceCreamLab_Tests
 
         String expected =   "Enter the name of your ice cream shop:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -314,7 +314,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -330,7 +330,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -343,7 +343,7 @@ public class IceCreamLab_Tests
                 "2. ( 9.09): Yummy Rainbow - Neopolitan ice cream in a(n) bowl with Sprinkles.\n" +
                 "S. (14.85): Turtle Cone - Chocolate and Vanilla ice cream in a(n) waffle cone with Chocolate Shell.\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -407,7 +407,7 @@ public class IceCreamLab_Tests
 
         String expected =   "Enter the name of your ice cream shop:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -423,7 +423,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -439,7 +439,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -455,7 +455,7 @@ public class IceCreamLab_Tests
                 "Enter the item's toppings: \n" +
                 "Enter the item's cost: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -469,7 +469,7 @@ public class IceCreamLab_Tests
                 "2. (14.85): Turtle Cone - Chocolate and Vanilla ice cream in a(n) waffle cone with Chocolate Shell.\n" +
                 "S. (15.99): Yummy Worms - Chocolate ice cream in a(n) bowl with Gummy Worms.\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -485,7 +485,7 @@ public class IceCreamLab_Tests
                 "(15.99): Yummy Worms - Chocolate ice cream in a(n) bowl with Gummy Worms.\n" +
                 "Enter the new price for the above item: \n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +
@@ -499,7 +499,7 @@ public class IceCreamLab_Tests
                 "2. ( 2.22): Turtle Cone - Chocolate and Vanilla ice cream in a(n) waffle cone with Chocolate Shell.\n" +
                 "S. ( 3.33): Yummy Worms - Chocolate ice cream in a(n) bowl with Gummy Worms.\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. View Shop's Menu\n" +
                 "2. Add / Change Menu Item 1\n" +
                 "3. Add / Change Menu Item 2\n" +

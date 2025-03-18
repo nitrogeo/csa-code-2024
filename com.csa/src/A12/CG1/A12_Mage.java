@@ -1,7 +1,5 @@
 package A12.CG1;
 
-// done 9:09 pm 3.17
-
 public class A12_Mage extends A12_GameCharacter {
     // attributes
     public static int spellShieldCost;
@@ -22,6 +20,8 @@ public class A12_Mage extends A12_GameCharacter {
     }
 
     // methods
+
+
     public static int getSpellShieldCost() {
         return spellShieldCost;
     }
@@ -34,52 +34,34 @@ public class A12_Mage extends A12_GameCharacter {
     void setSpellShieldAbsorbAmount(int spellShieldAbsorbAmount) {
         this.spellShieldAbsorbAmount = spellShieldAbsorbAmount;
     }
-    public void drinkManaPotion(int gain) {
+    void drinkManaPotion(int gain) {
         int mp = getMagicPoints();
         mp += gain;
-        setMagicPoints(mp);
     }
 
     @Override
     public void takeDamage(int damage) {
-        int newdamage = damage;
+        int newdamage = 0;
         int mp = getMagicPoints();
-        //if mp greater or equal to speelshieldcost
+        int hp = getHitPoints();
         if (getMagicPoints() >= spellShieldCost) {
             // the damage is reduced by spellShieldAbsorbAmount (to a minimum 0)
-            // minimum 0
-            if ((newdamage - spellShieldAbsorbAmount) < 0) {
+            if ((damage - spellShieldAbsorbAmount) < 0) {
                 newdamage = 0;
             }
-            // above 0
             else {
                 newdamage -= spellShieldAbsorbAmount;
             }
 
-            // mp reduced by ssc
-            mp -= spellShieldCost;
-            setMagicPoints(mp);
-
-            // hp - newdamage
-            super.takeDamage(newdamage);
-            // i.e. `hp - newdamage;`
-        }
-        // if mp too low
-        else {
-            /*// if mp too low
             if ((mp -= spellShieldCost) < 0) {
-
+                super.takeDamage(newdamage);
             }
-            // if mp not too low
             else {
                 mp -= spellShieldCost;
-                setMagicPoints(mp);
                 super.takeDamage(newdamage);
 
-                // questions: how to fix zonbie test and whhy not pass tests*/
-
-            // mage takes full damage
-            super.takeDamage(newdamage);
+                // questions: how to fix zonbie test and whhy not pass tests
+            }
         }
     }
 }

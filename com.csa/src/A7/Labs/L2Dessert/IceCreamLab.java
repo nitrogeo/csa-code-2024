@@ -13,7 +13,7 @@ public class IceCreamLab {
 
         int sel = 0;
         while (sel >= 0 && sel <= 6) {
-            System.out.print("\n-Main Menu-\n1. View Shop's Menu\n2. Add / Change Menu Item 1\n3. Add / Change Menu Item 2\n4. Add / Change Special\n5. Sale\n6. Exit\nEnter selection:\n\n");
+            System.out.print("\n-Zom Menu-\n1. View Shop's Menu\n2. Add / Change Menu Item 1\n3. Add / Change Menu Item 2\n4. Add / Change Special\n5. Sale\n6. Exit\nEnter selection:\n\n");
             sel = scan.nextInt();
             if (sel == 1) {
                 System.out.println(shop.toString());

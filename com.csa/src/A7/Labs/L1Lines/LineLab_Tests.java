@@ -57,7 +57,7 @@ public class LineLab_Tests {
                 "Enter the x value:\n" +
                 "Enter the y value:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -72,7 +72,7 @@ public class LineLab_Tests {
                 "Y Intercept: 5.200\n" +
                 "Equation: y = -0.400x + 5.200\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -88,7 +88,7 @@ public class LineLab_Tests {
                 "Enter the x value:\n" +
                 "Enter the y value:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -103,7 +103,7 @@ public class LineLab_Tests {
                 "Y Intercept: -725.000\n" +
                 "Equation: y = 9.364x + -725.000\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -156,7 +156,7 @@ public class LineLab_Tests {
                 "Enter the x value:\n" +
                 "Enter the y value:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -171,7 +171,7 @@ public class LineLab_Tests {
                 "Y Intercept: 1.250\n" +
                 "Equation: y = 0.750x + 1.250\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -183,7 +183,7 @@ public class LineLab_Tests {
                 "Enter the x value:\n" +
                 "Enter the y value:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -198,7 +198,7 @@ public class LineLab_Tests {
                 "Y Intercept: 2.941\n" +
                 "Equation: y = 0.412x + 2.941\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -251,7 +251,7 @@ public class LineLab_Tests {
                 "Enter the x value:\n" +
                 "Enter the y value:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -266,7 +266,7 @@ public class LineLab_Tests {
                 "Y Intercept: -5.000\n" +
                 "Equation: y = 4.000x + -5.000\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -278,7 +278,7 @@ public class LineLab_Tests {
                 "Enter the x value:\n" +
                 "Enter the y value:\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
@@ -293,7 +293,7 @@ public class LineLab_Tests {
                 "Y Intercept: -9.571\n" +
                 "Equation: y = 5.143x + -9.571\n" +
                 "\n" +
-                "-Main Menu-\n" +
+                "-Zom Menu-\n" +
                 "1. Replace Line\n" +
                 "2. Change Point 1\n" +
                 "3. Change Point 2\n" +
