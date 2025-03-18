@@ -53,3 +53,22 @@ public class A11_Assignment {
         this.assignmentName = assignmentName;
     }
 }
+
+############## "to a minimum of 0"
+EITHER
+Math.max(0, value)
+OR
+// at minimum 0
+if ((newdamage - spellShieldAbsorbAmount) < 0) {
+    newdamage = 0;
+}
+// above 0
+else {
+    newdamage -= spellShieldAbsorbAmount;
+}
+
+IF JAVA SAYS:
+java.lang.NoSuchMethodException: A12.CG1.A12_Thief.<init>(java.lang.String,int,int,int)
+i.e. `no such method: class.<init>`
+THEN:
+make the constructor of the class public

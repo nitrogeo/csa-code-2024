@@ -44,7 +44,6 @@ public class A12_Mage extends A12_GameCharacter {
     public void takeDamage(int damage) {
         int newdamage = damage;
         int mp = getMagicPoints();
-        int hp = getHitPoints();
         //if mp greater or equal to speelshieldcost
         if (getMagicPoints() >= spellShieldCost) {
             // the damage is reduced by spellShieldAbsorbAmount (to a minimum 0)
