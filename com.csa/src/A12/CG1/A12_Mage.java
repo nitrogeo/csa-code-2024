@@ -1,6 +1,8 @@
 package A12.CG1;
 
-public class Mage extends A12_GameCharacter {
+// done 9:09 pm 3.17
+
+public class A12_Mage extends A12_GameCharacter {
     // attributes
     public static int spellShieldCost;
     public static int spellShieldAbsorbAmount;
@@ -12,7 +14,7 @@ public class Mage extends A12_GameCharacter {
     */
 
     // constructors
-    Mage(String characterName, int hitPoints, int magicPoints, int spellShieldCost, int spellShieldAbsorbAmount) {
+    public A12_Mage(String characterName, int hitPoints, int magicPoints, int spellShieldCost, int spellShieldAbsorbAmount) {
         super(characterName, hitPoints, magicPoints);
 
         this.spellShieldCost = spellShieldCost;
@@ -20,8 +22,6 @@ public class Mage extends A12_GameCharacter {
     }
 
     // methods
-
-
     public static int getSpellShieldCost() {
         return spellShieldCost;
     }
@@ -34,33 +34,53 @@ public class Mage extends A12_GameCharacter {
     void setSpellShieldAbsorbAmount(int spellShieldAbsorbAmount) {
         this.spellShieldAbsorbAmount = spellShieldAbsorbAmount;
     }
-    void drinkManaPotion(int gain) {
+    public void drinkManaPotion(int gain) {
         int mp = getMagicPoints();
         mp += gain;
+        setMagicPoints(mp);
     }
 
     @Override
     public void takeDamage(int damage) {
+        int newdamage = damage;
         int mp = getMagicPoints();
         int hp = getHitPoints();
-        if (mp >= spellShieldCost) {
+        //if mp greater or equal to speelshieldcost
+        if (getMagicPoints() >= spellShieldCost) {
             // the damage is reduced by spellShieldAbsorbAmount (to a minimum 0)
-            if ((damage - spellShieldAbsorbAmount) < 0) {
-                damage = 0;
+            // minimum 0
+            if ((newdamage - spellShieldAbsorbAmount) < 0) {
+                newdamage = 0;
             }
+            // above 0
             else {
-                damage -= spellShieldAbsorbAmount;
+                newdamage -= spellShieldAbsorbAmount;
             }
 
+            // mp reduced by ssc
+            mp -= spellShieldCost;
+            setMagicPoints(mp);
+
+            // hp - newdamage
+            super.takeDamage(newdamage);
+            // i.e. `hp - newdamage;`
+        }
+        // if mp too low
+        else {
+            /*// if mp too low
             if ((mp -= spellShieldCost) < 0) {
-                super.takeDamage(damage);
+
             }
+            // if mp not too low
             else {
                 mp -= spellShieldCost;
-                hp -= damage;
+                setMagicPoints(mp);
+                super.takeDamage(newdamage);
 
-                // questions: how to fix zonbie test and whhy not pass tests
-            }
+                // questions: how to fix zonbie test and whhy not pass tests*/
+
+            // mage takes full damage
+            super.takeDamage(newdamage);
         }
     }
 }
