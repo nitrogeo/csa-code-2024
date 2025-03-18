@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ home csa backup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/@scratchpad/java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/@scratchpad/java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Thief.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Thief.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/CG1/A12_Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +106,7 @@
     "JUnit.A11_Hangman_Class_Tests.executor": "Run",
     "JUnit.A11_Hangman_Output_Tests.executor": "Run",
     "JUnit.A12_Mage_Tests.executor": "Run",
+    "JUnit.A12_Student_Tests.executor": "Run",
     "JUnit.A12_Thief_Tests.executor": "Run",
     "JUnit.A8_ArrayExpander_Tests.executor": "Run",
     "JUnit.A8_CH1_Tests.executor": "Run",
@@ -312,14 +310,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00008" summary="tully 12.13 advisory tuts #3, last one, i think i synced all the changes from aft 12.12 and my pc">
-      <option name="closed" value="true" />
-      <created>1734107197063</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1734107197063</updated>
     </task>
     <task id="LOCAL-00009" summary="end of day">
       <option name="closed" value="true" />
@@ -705,7 +695,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742264600962</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="@ home csa backup">
+      <option name="closed" value="true" />
+      <created>1742265375785</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1742265375785</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
