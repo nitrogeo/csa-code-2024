@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_GreenZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_GreenZombieDie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_RedZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_RedZombieDie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_VideoStore_Class_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Class_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_VideoStore_Output_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Output_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_VideoStore_RentalClasses_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_RentalClasses_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_YellowZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_YellowZombieDie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_ZombieDiceBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDiceBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_ZombieDice_Class_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Class_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_ZombieDice_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/TestingOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/TestingOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A8/LabsG1/A8_GradeAverageV2_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,14 +313,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00011" summary="start a9">
-      <option name="closed" value="true" />
-      <created>1734320109620</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1734320109628</updated>
     </task>
     <task id="LOCAL-00012" summary="start a9">
       <option name="closed" value="true" />
@@ -722,7 +698,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742318592310</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1742319978725</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1742319978725</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
