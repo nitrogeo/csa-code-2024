@@ -1,6 +1,8 @@
 package A12.L1.VideoStore;
 
-import A12.L1.ZombieDice.A12_Game;
+import A12.L1.A12_Game;
+import A12.L1.A12_Rental;
+import A12.L1.A12_Video;
 
 import java.util.ArrayList;
 
@@ -22,25 +24,55 @@ public class A12_VideoStore {
 
     // methods
     ArrayList<A12_Game> getGames() {
-        for
+        ArrayList<A12_Game> games =  new ArrayList<>();
+        for (int iter = 0; iter < rentals.size(); iter++) {
+            if (rentals.get(iter) instanceof A12_Game) {
+                games.add((A12_Game) rentals.get(iter));
+            }
+        }
+        return games;
     }
     ArrayList<A12_Video> getVideos() {
-
+        ArrayList<A12_Video> games =  new ArrayList<>();
+        for (int iter = 0; iter < rentals.size(); iter++) {
+            if (rentals.get(iter) instanceof A12_Video) {
+                games.add((A12_Video) rentals.get(iter));
+            }
+        }
+        return games;
     }
     ArrayList<A12_Rental> rented() {
-        ArrayList rented = new ArrayList();
-        for (A12_Rental iter: rentals) {
-            if (rentals.indexOf(iter).isRented) {
-                rented+=Rental(iter);
+        ArrayList<A12_Rental> rented = new ArrayList();
+        for (int iter = 0; iter < rentals.size(); iter++) {
+            // if the current item is rented
+            if (rentals.get(iter).isRented()) {
+                rented.add(rentals.get(iter));
             }
         }
         return rented;
     }
-    ArrayList<Game> gamesInStock() {
-
+    ArrayList<A12_Game> gamesInStock() {
+        ArrayList<A12_Game> insto = new ArrayList();
+        for (int iter = 0; iter < rentals.size(); iter++) {
+            // if the current item is rented
+            if (!rentals.get(iter).isRented()) {
+                if (rentals.get(iter) instanceof A12_Game) {
+                    insto.add((A12_Game) rentals.get(iter));
+                }
+            }
+        }
+        return insto;
     }
-    ArrayList<Video> videosInStock() {
-
-        
+    ArrayList<A12_Video> videosInStock() {
+        ArrayList<A12_Video> insto = new ArrayList();
+        for (int iter = 0; iter < rentals.size(); iter++) {
+            // if the current item is rented
+            if (!rentals.get(iter).isRented()) {
+                if (rentals.get(iter) instanceof A12_Game) {
+                    insto.add((A12_Video) rentals.get(iter));
+                }
+            }
+        }
+        return insto;
     }
 }

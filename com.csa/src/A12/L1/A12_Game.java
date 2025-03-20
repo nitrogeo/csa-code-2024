@@ -1,6 +1,4 @@
-package A12.L1.ZombieDice;
-
-import A12.L1.VideoStore.A12_Rental;
+package A12.L1;
 
 public class A12_Game extends A12_Rental {
     // attributes
