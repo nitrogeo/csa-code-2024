@@ -33,6 +33,7 @@ public class A12_Rental {
         this.rented = rented;
     }
     public String toString() {
-
+        /*return ("%-20s %20s", "Title:", title);*/
+        return String.format("%-20s %20s", "Title:", title);
     }
 }

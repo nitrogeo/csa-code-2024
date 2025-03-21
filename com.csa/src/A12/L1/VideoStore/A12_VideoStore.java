@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class A12_VideoStore {
     // attributes
     String platform;
-    ArrayList<A12_Rental> rentals;
+    static ArrayList<A12_Rental> rentals;
 
     // constructors
     public A12_VideoStore() {
