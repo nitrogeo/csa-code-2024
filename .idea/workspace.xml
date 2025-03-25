@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/A12_Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Video.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Class_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Class_Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L1Lines/LineLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L1Lines/LineLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L1Lines/LineLab_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L1Lines/LineLab_Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L2Dessert/IceCreamLab_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A7/Labs/L2Dessert/IceCreamLab_Tests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,11 @@
     &quot;accountId&quot;: &quot;eaa0508d-66b3-4166-88d0-de16db13419b&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="A12_VideoStore_Class_Tests" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -112,6 +124,7 @@
     "JUnit.A12_Mage_Tests.executor": "Run",
     "JUnit.A12_Student_Tests.executor": "Run",
     "JUnit.A12_Thief_Tests.executor": "Run",
+    "JUnit.A12_VideoStore_Class_Tests.executor": "Run",
     "JUnit.A8_ArrayExpander_Tests.executor": "Run",
     "JUnit.A8_CH1_Tests.executor": "Run",
     "JUnit.A8_CH2_Tests.executor": "Run",
@@ -316,14 +329,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00014" summary="sunday night backup">
-      <option name="closed" value="true" />
-      <created>1734327892533</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1734327892533</updated>
     </task>
     <task id="LOCAL-00015" summary="monday morning backup">
       <option name="closed" value="true" />
@@ -709,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742492853592</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1742579212313</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1742579212313</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

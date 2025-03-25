@@ -1,15 +1,11 @@
 package A12.L1.VideoStore;
 
-import A12.L1.A12_Game;
-import A12.L1.A12_Rental;
-import A12.L1.A12_Video;
-
 import java.util.ArrayList;
 
 public class A12_VideoStore {
     // attributes
     String platform;
-    static ArrayList<A12_Rental> rentals;
+    ArrayList<A12_Rental> rentals = new ArrayList<>();
 
     // constructors
     public A12_VideoStore() {
@@ -23,25 +19,25 @@ public class A12_VideoStore {
     }
 
     // methods
-    ArrayList<A12_Game> getGames() {
-        ArrayList<A12_Game> games =  new ArrayList<>();
+    public ArrayList<A12_Game> getGames() {
+        ArrayList<A12_Game> games2 =  new ArrayList<>();
         for (int iter = 0; iter < rentals.size(); iter++) {
             if (rentals.get(iter) instanceof A12_Game) {
-                games.add((A12_Game) rentals.get(iter));
+                games2.add((A12_Game)rentals.get(iter));
             }
         }
-        return games;
+        return games2;
     }
-    ArrayList<A12_Video> getVideos() {
-        ArrayList<A12_Video> games =  new ArrayList<>();
+    public ArrayList<A12_Rental> getVideos() {
+        ArrayList<A12_Rental> games =  new ArrayList<>();
         for (int iter = 0; iter < rentals.size(); iter++) {
             if (rentals.get(iter) instanceof A12_Video) {
-                games.add((A12_Video) rentals.get(iter));
+                games.add(rentals.get(iter));
             }
         }
         return games;
     }
-    ArrayList<A12_Rental> rented() {
+    public ArrayList<A12_Rental> rented() {
         ArrayList<A12_Rental> rented = new ArrayList();
         for (int iter = 0; iter < rentals.size(); iter++) {
             // if the current item is rented
@@ -51,25 +47,25 @@ public class A12_VideoStore {
         }
         return rented;
     }
-    ArrayList<A12_Game> gamesInStock() {
-        ArrayList<A12_Game> insto = new ArrayList();
+    public ArrayList<A12_Rental> gamesInStock() {
+        ArrayList<A12_Rental> insto = new ArrayList();
         for (int iter = 0; iter < rentals.size(); iter++) {
             // if the current item is rented
             if (!rentals.get(iter).isRented()) {
                 if (rentals.get(iter) instanceof A12_Game) {
-                    insto.add((A12_Game) rentals.get(iter));
+                    insto.add(rentals.get(iter));
                 }
             }
         }
         return insto;
     }
-    ArrayList<A12_Video> videosInStock() {
-        ArrayList<A12_Video> insto = new ArrayList();
+    public ArrayList<A12_Rental> videosInStock() {
+        ArrayList<A12_Rental> insto = new ArrayList();
         for (int iter = 0; iter < rentals.size(); iter++) {
             // if the current item is rented
             if (!rentals.get(iter).isRented()) {
                 if (rentals.get(iter) instanceof A12_Game) {
-                    insto.add((A12_Video) rentals.get(iter));
+                    insto.add(rentals.get(iter));
                 }
             }
         }

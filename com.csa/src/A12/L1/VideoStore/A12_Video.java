@@ -1,4 +1,4 @@
-package A12.L1;
+package A12.L1.VideoStore;
 
 public class A12_Video extends A12_Rental {
     // attributes
@@ -18,13 +18,13 @@ public class A12_Video extends A12_Rental {
     }
 
     // methods
-    String getDirector() {
+    public String getDirector() {
         return director;
     }
-    int getMinutes() {
+    public int getMinutes() {
         return minutes;
     }
-    String toString() {
-
+    public String toString() {
+        return String.format("%-20s %20s\n%-20s %20.2s\n%-20s %20s\n%-20s %20s\n%-20s %20s", "Title:", title, "Cost:", cost, "Rating:", rating, "Director:", director, "Runtime:", minutes + "minutes");
     }
 }

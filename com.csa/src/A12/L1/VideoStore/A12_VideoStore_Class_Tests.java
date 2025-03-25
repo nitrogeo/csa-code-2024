@@ -67,6 +67,7 @@ public class A12_VideoStore_Class_Tests
             setRented.invoke(((ArrayList)getGames.invoke(check)).get(2),true);
             setRented.invoke(((ArrayList)getVideos.invoke(check)).get(1),true);
 
+            System.out.println(getGames.invoke(check));
             String message =  "failed after using the constructor and then renting 2 games and 1 video.";
             Assert.assertEquals("getGames().size()"+message,3,((ArrayList)getGames.invoke(check)).size());
             Assert.assertEquals("getVideos().size()"+message,3,((ArrayList)getVideos.invoke(check)).size());
