@@ -11,10 +11,10 @@ public class A12_Video extends A12_Rental {
     private int minutes;
 
     // constructors
-    public A12_Video(String title, double cost, int rating) {
+    public A12_Video(String title, double cost, int rating, String director, int minutes) {
         super(title, cost, rating);
-        this.director = getDirector();
-        this.minutes = getMinutes();
+        this.director = director;
+        this.minutes = minutes;
     }
 
     // methods
@@ -25,6 +25,6 @@ public class A12_Video extends A12_Rental {
         return minutes;
     }
     public String toString() {
-        return String.format("%-20s %20s\n%-20s %20.2s\n%-20s %20s\n%-20s %20s\n%-20s %20s", "Title:", title, "Cost:", cost, "Rating:", rating, "Director:", director, "Runtime:", minutes + "minutes");
+        return String.format("%-20s %20s\n%-20s %20.2f\n%-20s %20s\n%-20s %20s\n%-20s %20s", "Title:", title, "Cost:", cost, "Rating:", rating, "Director:", director, "Runtime:", minutes + " minutes");
     }
 }

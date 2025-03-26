@@ -9,9 +9,9 @@ public class A12_VideoStore {
 
     // constructors
     public A12_VideoStore() {
-        rentals.add(new A12_Video("Iron Man 3", 3.99, A12_Video.PG13));
-        rentals.add(new A12_Video("The Wolverine", 2.79, A12_Video.R));
-        rentals.add(new A12_Video("The Avengers", 1.99, A12_Video.PG13));
+        rentals.add(new A12_Video("Iron Man 3", 3.99, A12_Video.PG13, "Shawn Black", 130));
+        rentals.add(new A12_Video("The Wolverine", 2.79, A12_Video.R, "James Mangold", 126));
+        rentals.add(new A12_Video("The Avengers", 1.99, A12_Video.PG13, "Joss Whedon", 143));
 
         rentals.add(new A12_Game("Assassin's Creed", 4.99, A12_Game.MATURE, "Playstation 3", 1));
         rentals.add(new A12_Game("Frogger Advanced", 2.99, A12_Game.EARLY_CHILDHOOD, "Game Boy Advanced", 1));
@@ -20,22 +20,22 @@ public class A12_VideoStore {
 
     // methods
     public ArrayList<A12_Game> getGames() {
-        ArrayList<A12_Game> games2 =  new ArrayList<>();
+        ArrayList<A12_Game> games =  new ArrayList<>();
         for (int iter = 0; iter < rentals.size(); iter++) {
             if (rentals.get(iter) instanceof A12_Game) {
-                games2.add((A12_Game)rentals.get(iter));
-            }
-        }
-        return games2;
-    }
-    public ArrayList<A12_Rental> getVideos() {
-        ArrayList<A12_Rental> games =  new ArrayList<>();
-        for (int iter = 0; iter < rentals.size(); iter++) {
-            if (rentals.get(iter) instanceof A12_Video) {
-                games.add(rentals.get(iter));
+                games.add((A12_Game)rentals.get(iter));
             }
         }
         return games;
+    }
+    public ArrayList<A12_Rental> getVideos() {
+        ArrayList<A12_Rental> videos =  new ArrayList<>();
+        for (int iter = 0; iter < rentals.size(); iter++) {
+            if (rentals.get(iter) instanceof A12_Video) {
+                videos.add(rentals.get(iter));
+            }
+        }
+        return videos;
     }
     public ArrayList<A12_Rental> rented() {
         ArrayList<A12_Rental> rented = new ArrayList();
