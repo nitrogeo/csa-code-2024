@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -322,14 +320,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00016" summary="@ school csa backup">
-      <option name="closed" value="true" />
-      <created>1734373321130</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1734373321130</updated>
     </task>
     <task id="LOCAL-00017" summary="@ school csa backup">
       <option name="closed" value="true" />
@@ -715,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742924897136</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1743009983245</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1743009983245</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
