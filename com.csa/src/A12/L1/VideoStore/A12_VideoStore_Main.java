@@ -61,7 +61,7 @@ public class A12_VideoStore_Main {
                     rcsel = scan.nextInt();
                     scan.nextLine();
                     if (rcsel == 1) {
-
+                        c
                     }
                     if (rcsel == 2) {
                         continue;
@@ -104,7 +104,7 @@ public class A12_VideoStore_Main {
                     rcsel = scan.nextInt();
                     scan.nextLine();
                     if (rcsel == 1) {
-
+                        c
                     }
                     if (rcsel == 2) {
                         continue;

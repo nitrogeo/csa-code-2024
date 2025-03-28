@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,14 +319,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00018" summary="@ school csa backup">
-      <option name="closed" value="true" />
-      <created>1734374264327</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1734374264327</updated>
     </task>
     <task id="LOCAL-00019" summary="@ school csa backup bauguss">
       <option name="closed" value="true" />
@@ -713,7 +704,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743011231100</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1743183682389</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1743183682389</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
