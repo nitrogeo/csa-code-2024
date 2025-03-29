@@ -34,6 +34,6 @@ public class A12_Rental {
     }
     public String toString() {
         /*return ("%-20s %20s", "Title:", title);*/
-        return String.format("%-20s %20s", "Title:", title);
+        return String.format("%-20s %20s\n%-20s %20s", "Title:", title, "Cost:", cost);
     }
 }

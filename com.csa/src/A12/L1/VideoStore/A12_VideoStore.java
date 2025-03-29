@@ -28,11 +28,11 @@ public class A12_VideoStore {
         }
         return games;
     }
-    public ArrayList<A12_Rental> getVideos() {
-        ArrayList<A12_Rental> videos =  new ArrayList<>();
+    public ArrayList<A12_Video> getVideos() {
+        ArrayList<A12_Video> videos =  new ArrayList<>();
         for (int iter = 0; iter < rentals.size(); iter++) {
             if (rentals.get(iter) instanceof A12_Video) {
-                videos.add(rentals.get(iter));
+                videos.add((A12_Video) rentals.get(iter));
             }
         }
         return videos;
