@@ -64,7 +64,7 @@ public class A12_VideoStore {
         for (int iter = 0; iter < rentals.size(); iter++) {
             // if the current item is rented
             if (!rentals.get(iter).isRented()) {
-                if (rentals.get(iter) instanceof A12_Game) {
+                if (rentals.get(iter) instanceof A12_Video) {
                     insto.add(rentals.get(iter));
                 }
             }

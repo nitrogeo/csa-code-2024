@@ -19,23 +19,26 @@ public class A12_VideoStore_Main {
         int rcsel;
 
         A12_VideoStore store = new A12_VideoStore();
-        boolean done = true;
-        while (done) {
+        boolean done = false;
+        while (!done) {
             // menu + sel
             // renting menu
             System.out.println("\nRenting Menu\n1. Rent Movie\n2. Rent Game\n3. Checkout\nEnter selection:");
+            for (int iter = 0; iter < ren.size(); iter++) {
+                gmenu += ("\n" + (iter + 1) + ". " + games.get(iter).title);
+            }
             rmsel = scan.nextInt();
             if (rmsel == 1) {
                 { // ***** SETUP
                     // iter thru rentals and add all games to a new arraylist
-                    ArrayList<A12_Video> videos;
-                    videos = store.getVideos();
+                    ArrayList<A12_Rental> videos;
+                    videos = store.videosInStock();
                     /*for (int iter = 0; iter < store.rentals.size(); iter++) {
                         if (store.rentals.get(iter) instanceof A12_Video) {
                             videos.add(store.rentals.get(iter).title);
                         }
                     }*/
-                    // iter thru games and add all items to the menu
+                    // iter thru movies and add all items to the menu
                     for (int iter = 0; iter < videos.size(); iter++) {
                         vmenu += ("\n" + (iter + 1) + ". " + videos.get(iter).title);
                     }
@@ -53,17 +56,17 @@ public class A12_VideoStore_Main {
                 System.out.print(vmenu);
                 System.out.println("\nEnter selection:");
                 vsel = scan.nextInt();
-                scan.nextInt();
                 if (vsel != 0) {
                     System.out.println("\n" + store.rentals.get(vsel - 1));
 
                     System.out.println("1 - Rent, 2 - Put Back\nEnter selection:");
                     rcsel = scan.nextInt();
-                    scan.nextInt();
                     if (rcsel == 1) {
                         store.rentals.get(vsel - 1).setRented(true);
+                        vmenu = "";
                     }
                     if (rcsel == 2) {
+                        vmenu = "";
                         continue;
                     }
                 }
@@ -72,8 +75,8 @@ public class A12_VideoStore_Main {
             if (rmsel == 2) {
                 { // ***** SETUP
                     // iter thru rentals and add all games to a new arraylist
-                    ArrayList<A12_Game> games;
-                    games = store.getGames();
+                    ArrayList<A12_Rental> games;
+                    games = store.gamesInStock();
                     /*for (int iter = 0; iter < store.rentals.size(); iter++) {
                         if (store.rentals.get(iter) instanceof A12_Game) {
                             games.add(store.rentals.get(iter).title);
@@ -97,17 +100,17 @@ public class A12_VideoStore_Main {
                 System.out.print(gmenu);
                 System.out.print("\nEnter selection:");
                 gsel = scan.nextInt();
-                scan.nextInt();
                 if (gsel != 0) {
                     System.out.print("\n" + store.rentals.get(gsel - 1));
 
                     System.out.println("1 - Rent, 2 - Put Back\nEnter selection:");
                     rcsel = scan.nextInt();
-                    scan.nextInt();
                     if (rcsel == 1) {
                         store.rentals.get(gsel - 1).setRented(true);
+                        gmenu = "";
                     }
                     if (rcsel == 2) {
+                        gmenu = "";
                         continue;
                     }
                 }
@@ -118,16 +121,22 @@ public class A12_VideoStore_Main {
                 double subtot = 0;
                 double fanum = 0;
                 double tot = 0;
+                ArrayList<A12_Rental> rentees = store.rented();
+
                 // iter thru rented items and add to receipt and to totals
                 for (int iter = 0; iter < store.rented().size(); iter++) {
-                    receipt += ("\n    " + (iter + 1) + ". " + store.rented());
+                    receipt += ("\n    " + rentees.get(iter).title);
+                    receipt += String.format("%20.2f", rentees.get(iter).cost);
                     subtot += store.rented().get(iter).cost;
                     fanum = subtot * .0825;
                     tot = subtot + fanum;
                 }
 
 
-                receipt += String.format("%-20s %20s\n%-20s %20.2f\n%-20s %20s\n%-20s %20.2f\n%-20s %20s\n%-20s %20.2f\n", "\n\nSubtotal:", subtot, "\nTax:", fanum, "Total:", tot);
+                receipt += String.format("%-20s %15.2f\n%-20s %14.2f\n%-20s %13.2f\n", "\n\nSubtotal:", subtot, "Tax:", fanum, "Total:", tot);
+
+                System.out.println(receipt);
+                done = true;
             }
         }
     }
