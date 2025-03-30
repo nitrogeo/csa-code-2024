@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ home csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/VideoStore/A12_VideoStore_Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,14 +317,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00019" summary="@ school csa backup bauguss">
-      <option name="closed" value="true" />
-      <created>1736457191739</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1736457191739</updated>
     </task>
     <task id="LOCAL-00020" summary="@ school csa backup bauguss">
       <option name="closed" value="true" />
@@ -711,7 +702,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743291827733</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="@ home csa backup">
+      <option name="closed" value="true" />
+      <created>1743308661925</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1743308661931</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

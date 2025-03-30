@@ -24,13 +24,17 @@ public class A12_VideoStore_Main {
             // menu + sel
             // renting menu
             System.out.println("\nRenting Menu\n1. Rent Movie\n2. Rent Game\n3. Checkout\nEnter selection:");
-            for (int iter = 0; iter < ren.size(); iter++) {
-                gmenu += ("\n" + (iter + 1) + ". " + games.get(iter).title);
+
+            String checker = "";
+            for (int iter = 0; iter < store.rentals.size(); iter++) {
+                checker += ("\n" + (iter + 1) + ". " + store.rentals.get(iter).title);
             }
+            System.out.println(checker);
+
             rmsel = scan.nextInt();
             if (rmsel == 1) {
                 { // ***** SETUP
-                    // iter thru rentals and add all games to a new arraylist
+                    // add vids in stock to a new arraylist
                     ArrayList<A12_Rental> videos;
                     videos = store.videosInStock();
                     /*for (int iter = 0; iter < store.rentals.size(); iter++) {
@@ -74,7 +78,7 @@ public class A12_VideoStore_Main {
             }
             if (rmsel == 2) {
                 { // ***** SETUP
-                    // iter thru rentals and add all games to a new arraylist
+                    // add games in stock to a new arraylist
                     ArrayList<A12_Rental> games;
                     games = store.gamesInStock();
                     /*for (int iter = 0; iter < store.rentals.size(); iter++) {
@@ -133,7 +137,7 @@ public class A12_VideoStore_Main {
                 }
 
 
-                receipt += String.format("%-20s %15.2f\n%-20s %14.2f\n%-20s %13.2f\n", "\n\nSubtotal:", subtot, "Tax:", fanum, "Total:", tot);
+                receipt += String.format("%-20s %15.2f\n%-20s %13.2f\n%-20s %13.2f\n", "\n\nSubtotal:", subtot, "Tax:", fanum, "Total:", tot);
 
                 System.out.println(receipt);
                 done = true;
