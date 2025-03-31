@@ -1,15 +1,14 @@
 package A12.L1.ZombieDice;
 
-public class A12_YellowZombieDie {
+public class A12_YellowZombieDie extends A12_ZombieDie {
     // constructors
-    A12_YellowZombieDie() {
-        super.YELLOW;
+    public A12_YellowZombieDie() {
+        super(YELLOW);
     }
 
     // methods
-    void roll() {
-        Arraylist<Integer> dice  = [1, 1, 2, 2, 3, 3];
-        int result = (int)(Math.random() * dice.size());
-        return result;
+    public void roll() {
+        int[] dice = new int[]{1, 1, 2, 2, 2, 3};
+        setValue(dice[(int)(Math.random() * dice.length)]);
     }
 }

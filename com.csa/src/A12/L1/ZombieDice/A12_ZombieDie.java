@@ -13,30 +13,30 @@ public class A12_ZombieDie {
     private int value;
 
     // constructors
-    ZombieDie(int dieColor) {
+    public A12_ZombieDie(int dieColor) {
        this.dieColor = dieColor;
-       die = 0;
+       value = NOT_ROLLED;
     }
 
     // methods
-    int getValue() {
+    public int getValue() {
         return value;
     }
-    int getDieColor() {
+    public int getDieColor() {
         return dieColor;
     }
-    void setDieColor(int dieColor) {
+    public void setDieColor(int dieColor) {
         this.dieColor = dieColor;
     }
-    void setValue(int value) {
+    public void setValue(int value) {
         this.value = value;
     }
-    String toString() {
-        if (dice != 0) {
-            System.out.print(die.dieColor);
+    public String toString() {
+        if (value != NOT_ROLLED) {
+            System.out.print("");
         }
         else {
-            System.out.print(die.dieColor);
+            System.out.print(value.dieColor);
         }
     }
 
