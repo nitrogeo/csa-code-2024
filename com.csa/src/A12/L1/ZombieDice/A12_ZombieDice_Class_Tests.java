@@ -1,6 +1,6 @@
-/*
 package A12.L1;
 
+import A12.L1.ZombieDice.A12_ZombieDie;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -61,7 +61,7 @@ public class A12_ZombieDice_Class_Tests
             Assert.assertEquals("YellowZombieDie toString() failed after construction.","Yellow",toString.invoke(yellow));
             Assert.assertEquals("GreenZombieDie toString() failed after construction.","Green",toString.invoke(green));
 
-            setValue.invoke(red,A12_ZombieDie.RUNNER);
+            setValue.invoke(red, A12_ZombieDie.RUNNER);
             setValue.invoke(yellow,A12_ZombieDie.RUNNER);
             setValue.invoke(green,A12_ZombieDie.RUNNER);
 
@@ -169,4 +169,3 @@ public class A12_ZombieDice_Class_Tests
         }
     }
 }
-*/
