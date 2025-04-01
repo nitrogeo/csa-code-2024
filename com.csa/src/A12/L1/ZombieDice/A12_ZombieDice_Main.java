@@ -2,16 +2,17 @@ package A12.L1.ZombieDice;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.SequencedCollection;
 
 public class A12_ZombieDice_Main {
     /*need insp from sotirng numbers in variables code and code for math.random*/
 
     public static String[] names;
-    public static int[] scores;
+    public static int[] scores = new int[5];
     public static ArrayList<A12_ZombieDie> hand;
     public static ArrayList<A12_ZombieDie> brains;
-    public static ArrayList<A12_ZombieDie> shots;
-    public static ArrayList<A12_ZombieDie> runners;
+    public static ArrayList<A12_ZombieDie> shots = new ArrayList<>(3);
+    public static ArrayList<A12_ZombieDie> runners = new ArrayList<>(3);
 
     // methods
     public static void shuffleNames(String[] names) {
@@ -85,20 +86,21 @@ public class A12_ZombieDice_Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int sel;
+        // turn gamble selection
+        int tsel;
         boolean won = false;
-        int turnIndex;
-        int[] turnOrder = new int[names.length];
 
         A12_ZombieDiceBucket buckees = new A12_ZombieDiceBucket();
         while (!won) {
             System.out.println("How many players will be playing (2-5):");
             sel = scan.nextInt();
             scan.nextLine();
-            if (sel > 2 && sel < 5) {
+            if (sel >= 2 && sel <= 5) {
                 String[] names = new String[sel];
-                for (int iter = 0; iter < names.length - 1; iter++) {
+                for (int iter = 0; iter < names.length; iter++) {
                     System.out.println("Enter a player's name:");
                     names[iter] = scan.next();
+                    scores[iter] = 0;
                     // somehow make each name be a a12_zombiedie var with the game's player attributes
                     // how its done: the iters of the names and scores match up
                 }
@@ -110,9 +112,21 @@ public class A12_ZombieDice_Main {
                 // iter thru turnorder for the game
                 for (int iter = 0; iter < names.length - 1; iter++) {
                     System.out.println(names[iter] + " it is your turn and you have " + scores[iter] + " brains in your bank.");
-
-                    System.out.printf("\n\n%-8s\n%-8s\n%-8s\n%-8s", "Turn summary:", "Brains: [" + scores[iter] + "]", "Shots: [" + shots.get(iter) + "]", "Runners: [" + runners.get(iter));
+                    if (scores[iter] == 0) {
+                        System.out.printf("\n%16s\n%16s\n%16s\n%16s", "Turn summary:", "Brains: []", "Shots: []", "Runners: []");
+                    }
+                    else {
+                        System.out.printf("\n%8s\n%16s\n%16s\n%16s", "Turn summary:", "Brains: [" + scores[iter] + "]", "Shots: [" + shots.get(iter) + "]", "Runners: [" + runners.get(iter) + "]");
+                    }
                     System.out.print("\n1. Keep Going\n2. Stop & add to bank\nEnter selection:");
+                    tsel = scan.nextInt();
+                    scan.nextLine();
+                    if (tsel == 1) {
+
+                    }
+                    if (tsel == 2) {
+                        System.out.println("You ate " + brains.get(iter) + " brains this turn giving you " + scores[iter] + " brains now in your bank.");
+                    }
                 }
             }
         }

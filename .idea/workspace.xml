@@ -6,17 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/@scratchpad/java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/@scratchpad/java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Class_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Class_Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/VideoStore/A12_VideoStore_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/VideoStore/A12_VideoStore_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_GreenZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_GreenZombieDie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_RedZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_RedZombieDie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_YellowZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_YellowZombieDie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDiceBucket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDiceBucket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDice_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDice_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDie.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
     "Application.A11_CH5.executor": "Debug",
     "Application.A11_HangmanMain.executor": "Run",
     "Application.A12_VideoStore_Main.executor": "Run",
+    "Application.A12_ZombieDice_Main.executor": "Run",
     "Application.A8_ExpanderMain.executor": "Run",
     "Application.A8_TreasureHunt.executor": "Run",
     "Application.A9_CH6.executor": "Run",
@@ -328,14 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00021" summary="@ school csa backup bauguss">
-      <option name="closed" value="true" />
-      <created>1736459354247</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1736459354247</updated>
     </task>
     <task id="LOCAL-00022" summary="@ school csa backup bauguss">
       <option name="closed" value="true" />
@@ -721,7 +711,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743355695390</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1743529712588</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1743529712588</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
