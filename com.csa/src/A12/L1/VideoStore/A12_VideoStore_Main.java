@@ -76,7 +76,7 @@ public class A12_VideoStore_Main {
                 else continue;
             }
             if (sel == 3) {
-                if (!store.rented.isEmpty()) {
+                if (!store.rented().isEmpty()) {
                     String receipt = "Receipt:\n\nRented Videos:";
                     double subtot = 0;
                     double fanum = 0;

@@ -33,11 +33,13 @@ public class A12_ZombieDie {
     }
     public String toString() {
         if (value != NOT_ROLLED) {
-            System.out.print("");
+            return Integer.toString(value);
         }
         else {
-            System.out.print(value.dieColor);
+            return Integer.toString(getValue());
         }
     }
-
+    void roll() {
+        value = NOT_ROLLED;
+    }
 }
