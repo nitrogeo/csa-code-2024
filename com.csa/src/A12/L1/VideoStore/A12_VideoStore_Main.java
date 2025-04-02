@@ -7,39 +7,68 @@ public class A12_VideoStore_Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int sel;
-
+        // renting menu sel
+        int rmsel;
+        // vid sel
+        int vsel;
+        String vmenu = "Video Menu";
+        // game sel
+        int gsel;
+        String gmenu = "Game Menu";
+        // rent check sel
+        int rcsel;
 
 
         A12_VideoStore store = new A12_VideoStore();
         boolean done = false;
-        while (done) {
+        while (!done) {
             // menu + sel
             // renting menu
             System.out.print("\nRenting Menu\n1. Rent Movie\n2. Rent Game\n3. Checkout\nEnter selection:\n");
-            sel = scan.nextInt();
-            scan.nextLine();
-            if (sel == 1) {
-                // iter thru rentals and add all games to a new arraylist
-                ArrayList<String> videos = new ArrayList<>();
-                for (int iter = 0; iter < store.rentals.size(); iter++) {
-                    if (store.rentals.get(iter) instanceof A12_Video) {
-                        videos.add(store.rentals.get(iter).title);
-                    }
+
+            String checker = "";
+            for (int iter = 0; iter < store.rentals.size(); iter++) {
+                checker += ("\n" + (iter + 1) + ". " + store.rentals.get(iter).title);
+            }
+            System.out.println(checker);
+
+            rmsel = scan.nextInt();
+            if (rmsel == 1) {
+                { // ***** SETUP
+                    // add vids in stock to a new arraylist
+                    ArrayList<A12_Rental> videos;
+                    videos = store.videosInStock();
+                    /*for (int iter = 0; iter < store.rentals.size(); iter++) {
+                        if (store.rentals.get(iter) instanceof A12_Video) {
+                            videos.add(store.rentals.get(iter).title);
+                        }
+                    }*/
                 }
-                // iter thru games and add all items to the menu
-                String vmenu = "Video Menu";
+
+                // iter thru movies and add all items to the menu
                 for (int iter = 0; iter < videos.size(); iter++) {
                     vmenu += ("\n" + (iter + 1) + ". " + videos.get(iter));
                 }
                 vmenu += ("\n0. Cancel");
-            /*// iter thru games and add all items to the menu
-            String menu = "";
-            for (int iter = 0; iter < games.size(); iter++) {
-                menu += ("\n" + games.get(iter));
-            }*/
+
                 System.out.print(vmenu);
                 System.out.println("\nEnter selection:");
+
+                vsel = scan.nextInt();
+                if (vsel != 0) {
+                    System.out.println("\n" + store.rentals.get(vsel - 1));
+
+                    System.out.println("1 - Rent, 2 - Put Back\nEnter selection:");
+                    rcsel = scan.nextInt();
+                    if (rcsel == 1) {
+                        store.rentals.get(vsel - 1).setRented(true);
+                        vmenu = "";
+                    }
+                    if (rcsel == 2) {
+                        vmenu = "";
+                        continue;
+                    }
+
                 sel = scan.nextInt();
                 scan.nextLine();
                 if (sel != 0) {

@@ -150,9 +150,9 @@ public class A12_ZombieDice_Main {
                             }
                             System.out.println("\nThe results of your rolls were: " + hand);
                             for (int iter2 = 0; iter2 < hand.size(); iter2++) {
-                                if (hand.get(iter2) = ) {
-
-                                }
+                                /*if (hand.get(iter2) = ) {
+                                    
+                                }*/
                             }
                         }
                         if (tsel == 2) { // *****************************************
