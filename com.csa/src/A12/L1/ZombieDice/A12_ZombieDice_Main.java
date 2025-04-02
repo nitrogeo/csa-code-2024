@@ -2,15 +2,14 @@ package A12.L1.ZombieDice;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.SequencedCollection;
 
 public class A12_ZombieDice_Main {
     /*need insp from sotirng numbers in variables code and code for math.random*/
 
     public static String[] names;
     public static int[] scores = new int[5];
-    public static ArrayList<A12_ZombieDie> hand;
-    public static ArrayList<A12_ZombieDie> brains;
+    public static ArrayList<A12_ZombieDie> hand = new ArrayList<>(3);
+    public static ArrayList<A12_ZombieDie> brains = new ArrayList<>(13);
     public static ArrayList<A12_ZombieDie> shots = new ArrayList<>(3);
     public static ArrayList<A12_ZombieDie> runners = new ArrayList<>(3);
 
@@ -110,23 +109,56 @@ public class A12_ZombieDice_Main {
                 // possible w/o shuffling others bc everyone is 0, also shots dotn carry btw turns
 
                 // iter thru turnorder for the game
-                for (int iter = 0; iter < names.length - 1; iter++) {
-                    System.out.println(names[iter] + " it is your turn and you have " + scores[iter] + " brains in your bank.");
-                    if (scores[iter] == 0) {
-                        System.out.printf("\n%16s\n%16s\n%16s\n%16s", "Turn summary:", "Brains: []", "Shots: []", "Runners: []");
-                    }
-                    else {
-                        System.out.printf("\n%8s\n%16s\n%16s\n%16s", "Turn summary:", "Brains: [" + scores[iter] + "]", "Shots: [" + shots.get(iter) + "]", "Runners: [" + runners.get(iter) + "]");
-                    }
-                    System.out.print("\n1. Keep Going\n2. Stop & add to bank\nEnter selection:");
-                    tsel = scan.nextInt();
-                    scan.nextLine();
-                    if (tsel == 1) {
+                for (int turn = 0; turn < names.length - 1; turn++) {
+                    System.out.println(names[turn] + " it is your turn and you have " + scores[turn] + " brains in your bank.");
 
-                    }
-                    if (tsel == 2) {
-                        System.out.println("You ate " + brains.get(iter) + " brains this turn giving you " + scores[iter] + " brains now in your bank.");
-                    }
+                    do {
+                        /*System.out.printf("\n%16s\n%16s\n%16s\n%16s", "Turn summary:", "Brains: []", "Shots: []", "Runners: []");*/
+                        System.out.println("        Turn summary:");
+                        System.out.println("                Brains:  " + brains);
+                        System.out.println("                Shots:   " + shots);
+                        System.out.println("                Runners: " + shots);
+
+                        System.out.print("\n1. Keep Going\n2. Stop & add to bank\nEnter selection:\n");
+                        tsel = scan.nextInt();
+                        scan.nextLine();
+
+                        //  runners are on the table and then u pick them up ("unrolling" them and keeping same color) into your hand
+                        for (int iter = 0; iter < runners.size(); iter++) {
+                            runners.get(iter).setValue(A12_ZombieDie.NOT_ROLLED);
+                            hand.add(runners.get(iter));
+                        }
+                        runners.clear();
+
+                        if (tsel == 1) { // *****************************************
+                            hand.clear();
+                            runners.clear();
+                            brains.clear();
+                            shots.clear();
+
+                            buckees.loadBucket();
+                            hand.add(buckees.draw());
+                            hand.add(buckees.draw());
+                            hand.add(buckees.draw());
+
+                            System.out.println("\nAfter drawing you have the following dice: " + hand);
+                            System.out.printf("        Rolling...");
+                            // iter thru hand and roll all dice
+                            for (int dice = 0; dice < hand.size(); dice++) {
+                                A12_ZombieDie die = hand.get(dice);
+                                die.roll();
+                            }
+                            System.out.println("\nThe results of your rolls were: " + hand);
+                            for (int iter2 = 0; iter2 < hand.size(); iter2++) {
+                                if (hand.get(iter2) = ) {
+
+                                }
+                            }
+                        }
+                        if (tsel == 2) { // *****************************************
+                            System.out.println("You ate " + brains.get(turn) + " brains this turn giving you " + scores[turn] + " brains now in your bank.");
+                        }
+                    } while (findWinner(names, scores) == null);
                 }
             }
         }

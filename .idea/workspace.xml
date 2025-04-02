@@ -6,13 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_GreenZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_GreenZombieDie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_RedZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_RedZombieDie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_YellowZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_YellowZombieDie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDice_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/VideoStore/A12_VideoStore_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/VideoStore/A12_VideoStore_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_GreenZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_GreenZombieDie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDie.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A12/L1/ZombieDice/A12_ZombieDie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_RedZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_RedZombieDie.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_YellowZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_YellowZombieDie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDiceBucket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDiceBucket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDice_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDice_Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDie.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +202,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "I:/My Drive/10th Grade/5. CSA/code",
+    "last_opened_file_path": "J:/My Drive/10th Grade/5. CSA/code",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",

@@ -39,7 +39,7 @@ public class A12_ZombieDie {
             return Integer.toString(getValue());
         }
     }
-    void roll() {
+    public void roll() {
         value = NOT_ROLLED;
     }
 }

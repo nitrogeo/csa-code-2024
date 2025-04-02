@@ -8,7 +8,7 @@ public class A12_GreenZombieDie extends A12_ZombieDie {
 
     // methods
     public void roll() {
-        int[] dice = new int[]{1, 1, 2, 2, 2, 3};
+        int[] dice = new int[]{RUNNER, RUNNER, BRAIN, BRAIN, BRAIN, SHOT};
         setValue(dice[(int)(Math.random() * dice.length)]);
     }
 }
