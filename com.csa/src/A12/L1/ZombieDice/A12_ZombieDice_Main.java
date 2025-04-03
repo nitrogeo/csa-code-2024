@@ -109,7 +109,7 @@ public class A12_ZombieDice_Main {
                 // possible w/o shuffling others bc everyone is 0, also shots dotn carry btw turns
 
                 // iter thru turnorder for the game
-                for (int turn = 0; turn < names.length - 1; turn++) {
+                for (int turn = 0; turn < names.length; turn++) {
                     System.out.println(names[turn] + " it is your turn and you have " + scores[turn] + " brains in your bank.");
 
                     do {
@@ -143,17 +143,23 @@ public class A12_ZombieDice_Main {
 
                             System.out.println("\nAfter drawing you have the following dice: " + hand);
                             System.out.printf("        Rolling...");
-                            // iter thru hand and roll all dice
-                            for (int dice = 0; dice < hand.size(); dice++) {
-                                A12_ZombieDie die = hand.get(dice);
+                            // iter thru hand and roll all dice AND ADD TO TURNsUMMARY
+                            for (int iter2 = 0; iter2 < hand.size(); iter2++) {
+                                A12_ZombieDie die = hand.get(iter2);
                                 die.roll();
+
+                                if (die.getValue() == A12_ZombieDie.RUNNER) {
+                                    brains.add(die);
+                                }
+                                if (die.getValue() == A12_ZombieDie.BRAIN) {
+                                    shots.add(die);
+                                }
+                                if (die.getValue() == A12_ZombieDie.SHOT) {
+                                    runners.add(die);
+                                }
                             }
                             System.out.println("\nThe results of your rolls were: " + hand);
-                            for (int iter2 = 0; iter2 < hand.size(); iter2++) {
-                                /*if (hand.get(iter2) = ) {
-                                    
-                                }*/
-                            }
+
                         }
                         if (tsel == 2) { // *****************************************
                             System.out.println("You ate " + brains.get(turn) + " brains this turn giving you " + scores[turn] + " brains now in your bank.");
