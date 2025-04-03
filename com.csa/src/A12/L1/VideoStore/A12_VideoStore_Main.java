@@ -27,12 +27,15 @@ public class A12_VideoStore_Main {
                         videos.add(store.rentals.get(iter).title);
                     }
                 }
-                // iter thru games and add all items to the menu
-                String vmenu = "\nVideo Menu";
-                for (int iter = 0; iter < videos.size(); iter++) {
-                    vmenu += ("\n" + (iter + 1) + ". " + videos.get(iter));
+                if (!games.isEmpty) {
+                    // iter thru games and add all items to the menu
+                    String vmenu = "\nVideo Menu";
+                    for (int iter = 0; iter < videos.size(); iter++) {
+                        vmenu += ("\n" + (iter + 1) + ". " + videos.get(iter));
+                    }
+                    vmenu += ("\n0. Cancel");
                 }
-                vmenu += ("\n0. Cancel");
+                else System.out.print("There are no more videos to rent.")
             /*// iter thru games and add all items to the menu
             String menu = "";
             for (int iter = 0; iter < games.size(); iter++) {
@@ -55,12 +58,15 @@ public class A12_VideoStore_Main {
                         games.add(store.rentals.get(iter).title);
                     }
                 }
-                // iter thru games and add all items to the menu
-                String gmenu = "Game Menu";
-                for (int iter = 0; iter < games.size(); iter++) {
-                    gmenu += ("\n" + (iter + 1) + ". " + games.get(iter));
+                if (!games.isEmpty) {
+                    // iter thru games and add all items to the menu
+                    String gmenu = "Game Menu";
+                    for (int iter = 0; iter < games.size(); iter++) {
+                        gmenu += ("\n" + (iter + 1) + ". " + games.get(iter));
+                    }
+                    gmenu += ("\n0. Cancel");
                 }
-                gmenu += ("\n0. Cancel");
+                else System.out.print("There are no more games to rent.")
             /*// iter thru games and add all items to the menu
             String menu = "";
             for (int iter = 0; iter < games.size(); iter++) {
