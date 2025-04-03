@@ -150,8 +150,17 @@ public class A12_ZombieDice_Main {
                             }
                             System.out.println("\nThe results of your rolls were: " + hand);
                             for (int iter2 = 0; iter2 < hand.size(); iter2++) {
-                                if (hand.get(iter2) = ) {
-                                    ffdffdffdfdfdf
+                                A12_ZombieDie die = hand.get(iter2);
+                                die.roll();
+
+                                if (die.getValue() == A12_ZombieDie.RUNNER) {
+                                    brains.add(die);
+                                }
+                                if (die.getValue() == A12_ZombieDie.BRAIN) {
+                                    shots.add(die);
+                                }
+                                if (die.getValue() == A12_ZombieDie.SHOT) {
+                                    runners.add(die);
                                 }
                             }
                         }
