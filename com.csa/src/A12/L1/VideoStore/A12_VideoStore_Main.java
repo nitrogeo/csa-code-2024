@@ -27,7 +27,6 @@ public class A12_VideoStore_Main {
             // renting menu
             System.out.print("\nRenting Menu\n1. Rent Movie\n2. Rent Game\n3. Checkout\nEnter selection:\n");
             rmsel = scan.nextInt();
-            scan.nextLine();
             if (rmsel == 1) {
                 // iter thru rentals and add all games to a new arraylist
                 ArrayList<String> videos = new ArrayList<>();
@@ -52,7 +51,6 @@ public class A12_VideoStore_Main {
                 System.out.print(vmenu);
                 System.out.println("\nEnter selection:");
                 vsel = scan.nextInt();
-                scan.nextLine();
                 if (vsel != 0) {
                     System.out.println("\n" + store.rentals.get(vsel - 1));
                 }
@@ -82,7 +80,6 @@ public class A12_VideoStore_Main {
                 System.out.print(gmenu);
                 System.out.println("\nEnter selection:");
                 gsel = scan.nextInt();
-                scan.nextLine();
                 if (gsel != 0) {
                     System.out.println("\n" + store.rentals.get(gsel - 1));
                 }
