@@ -10,7 +10,6 @@ public class Maze {
 
         check if a spot can end up being true (no wall and in bounds)
         */
-        boolean checkie = true;
         column = 1;
         row = 0;
 
@@ -30,8 +29,22 @@ public class Maze {
         beenThere[row][column] = true;
 
         // direction checks
-        if(isSolvable(char[][] maze, boolean[][] beenThere, int column, int row))
-
-        return checkie;
+        // right
+        if(isSolvable(maze, beenThere, column++, row)) {
+            return isSolvable(maze, beenThere, column++, row);
+        }
+        // left
+        else if(isSolvable(maze, beenThere, column--, row)) {
+            return isSolvable(maze, beenThere, column--, row);
+        }
+        // up
+        else if(isSolvable(maze, beenThere, column, row--)) {
+            return isSolvable(maze, beenThere, column, row--);
+        }
+        // down
+        else if(isSolvable(maze, beenThere, column, row++)) {
+            return isSolvable(maze, beenThere, column, row++);
+        }
+        return false;
     }
 }

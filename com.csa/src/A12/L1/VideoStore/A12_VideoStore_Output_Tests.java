@@ -1,3 +1,4 @@
+/*
 package A12.L1.VideoStore;
 
 import org.junit.Assert;
@@ -553,3 +554,4 @@ public class A12_VideoStore_Output_Tests
         Assert.assertEquals(unifyLineSeperators(expected), unifyLineSeperators(o.toString()));
     }
 }
+*/

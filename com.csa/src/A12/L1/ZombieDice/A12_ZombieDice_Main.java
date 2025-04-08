@@ -137,9 +137,9 @@ public class A12_ZombieDice_Main {
                             shots.clear();
 
                             buckees.loadBucket();
+                            /*hand.add(buckees.draw());
                             hand.add(buckees.draw());
-                            hand.add(buckees.draw());
-                            hand.add(buckees.draw());
+                            hand.add(buckees.draw());*/
 
                             System.out.println("\nAfter drawing you have the following dice: " + hand);
                             System.out.printf("        Rolling...");
