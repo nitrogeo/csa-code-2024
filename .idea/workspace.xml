@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A14/Searches_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A14/Sorts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A14/Sorts_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A14/searches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A13/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A13/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/A13/Maze_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A13/Maze_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/VideoStore/A12_VideoStore_Output_Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDice_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/production/code/A12/L1/ZombieDice/A12_ZombieDice_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A14/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A14/Sorts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A14/searches.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A14/searches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +190,7 @@
     "JUnit.RectangularPrism_Tests.executor": "Run",
     "JUnit.RockPaperScissors_Tests.executor": "Run",
     "JUnit.School_Tests.executor": "Run",
+    "JUnit.Searches_Tests.executor": "Run",
     "JUnit.SignCounter_Tests.executor": "Run",
     "JUnit.Sphere_Tests.executor": "Run",
     "JUnit.StudentID_Tests.executor": "Run",

@@ -2,22 +2,33 @@ package A14;
 
 public class searches {
     public static int linearSearch (int[] list, int value) {
-        int iter = 0;
-        int minIndex = iter;
-        for (iter = 0; iter < list.length; iter++) {
-            for (int b = iter + 1; iter < list.length; iter++) {
-                if (list[iter] < list[minIndex]);
-                minIndex = b;
+        int found =-1;
+
+        for (int iter = 0; iter < list.length; iter++) {
+            if (list[iter] == value) {
+                found = iter;
+                break;
             }
         }
-        // swap values at minIndex and a
-        int swapiter = iter;
-        int swapmin = minIndex;
-
-        iter = swapmin;
-        minIndex = swapiter;
+        return found;
     }
     public static int binarySearch (int[] list, int value) {
+        int start = 0;
+        int end = list[list.length-1];
 
+        while (start <=end) {
+            int check = (start + end) / 2;
+            if (list[check] == value) {
+                return check;
+            }
+            else if (list[check] > value) {
+                end = check - 1;
+            }
+            else {
+                start = check + 1;
+            }
+        }
+
+        return -1;
     }
 }
