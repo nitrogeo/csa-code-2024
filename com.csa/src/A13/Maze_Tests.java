@@ -110,6 +110,7 @@ public class Maze_Tests {
             Method method = classRef.getMethod("isSolvable", char[][].class, boolean[][].class, int.class, int.class);
 
             char[][] grid = {   {'-','-','E'},
+
                     {'W','-','W'},
                     {'W','-','S'}};
             boolean[][] visited = createVisited(grid);

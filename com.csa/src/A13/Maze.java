@@ -10,8 +10,6 @@ public class Maze {
 
         check if a spot can end up being true (no wall and in bounds)
         */
-        column = 1;
-        row = 0;
 
         // element checks
         // if out of bounds
@@ -30,20 +28,20 @@ public class Maze {
 
         // direction checks
         // right
-        if(isSolvable(maze, beenThere, column++, row)) {
-            return isSolvable(maze, beenThere, column++, row);
+        if(isSolvable(maze, beenThere, column + 1, row)) {
+            return true;
         }
         // left
-        else if(isSolvable(maze, beenThere, column--, row)) {
-            return isSolvable(maze, beenThere, column--, row);
+        else if(isSolvable(maze, beenThere, column - 1, row)) {
+            return true;
         }
         // up
-        else if(isSolvable(maze, beenThere, column, row--)) {
-            return isSolvable(maze, beenThere, column, row--);
+        else if(isSolvable(maze, beenThere, column, row - 1)) {
+            return true;
         }
         // down
-        else if(isSolvable(maze, beenThere, column, row++)) {
-            return isSolvable(maze, beenThere, column, row++);
+        else if(isSolvable(maze, beenThere, column, row + 1)) {
+            return true;
         }
         return false;
     }
