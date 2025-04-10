@@ -10,22 +10,25 @@ public class Sorts {
                     minIndex = b;
                 }
             }
-        }
-        // swap values at minIndex and a
-        int swapiter = iter;
-        int swapmin = minIndex;
+            // swap values at minIndex and a
+            int swapiter = iter;
+            int swapmin = minIndex;
 
-        iter = swapmin;
-        minIndex = swapiter;
-    }
-    public static int insertionSort (int[] list) {
-        for (iter = 1; iter < list.length; iter++) {
-            temp = data[iter];
-            j = i
-            while j > 0 && data[j - 1] > temp
-            data[j] = data[j - 1]
-            j = j - 1
-            data[j] = temp
+            iter = swapmin;
+            minIndex = swapiter;
         }
+        return list;
+    }
+    public static int[] insertionSort (int[] list) {
+        for (int iter = 1; iter < list.length; iter++) {
+            int temp = list[iter];
+            int j = iter;
+            while (j > 0 && list[j - 1] > temp) {
+                list[j] = list[j - 1];
+                j = j - 1;
+                list[j] = temp;
+            }
+        }
+        return list;
     }
 }
