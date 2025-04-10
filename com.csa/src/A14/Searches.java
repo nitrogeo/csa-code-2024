@@ -1,6 +1,6 @@
 package A14;
 
-public class searches {
+public class Searches {
     public static int linearSearch (int[] list, int value) {
         int found =-1;
 
