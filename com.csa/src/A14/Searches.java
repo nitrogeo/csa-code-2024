@@ -14,7 +14,7 @@ public class Searches {
     }
     public static int binarySearch (int[] list, int value) {
         int start = 0;
-        int end = list[list.length-1];
+        int end = list.length-1;
 
         while (start <=end) {
             int check = (start + end) / 2;

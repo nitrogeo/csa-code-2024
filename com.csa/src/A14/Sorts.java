@@ -2,19 +2,22 @@ package A14;
 
 public class Sorts {
     public static int[] selectionSort (int[] list) {
-        for (int iter = 0; iter < list.length; iter++) {
-            int minIndex = iter;
-                for (int b = iter + 1; iter < list.length; iter++) {
-                    if (list[b] < list[minIndex]) {
-                        minIndex = b;
+        int minIndex = 0;
+        int iter;
+        int iter1;
+
+
+        for (iter = 0; iter < list.length; iter++) {
+            minIndex = iter;
+                for (iter1 = iter + 1; iter1 < list.length; iter1++) {
+                    if (list[iter1] < list[minIndex]) {
+                        minIndex = iter1;
 
                     }
                 }
             // swap values at minIndex and a
-            int swapiter = iter;
-            int swapmin = minIndex;
-
-            list[iter] = swapmin;
+            int swapiter = list[iter];
+            list[iter] = list[minIndex];
             list[minIndex] = swapiter;
         }
         return list;
