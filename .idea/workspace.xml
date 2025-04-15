@@ -201,7 +201,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "tasks"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -225,7 +225,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A8_TreasureHunt">
     <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
       <module name="code" />
