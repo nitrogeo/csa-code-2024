@@ -24,7 +24,7 @@ public class bogo {
             bogo.add(8);
 
             int x = (int) (Math.random() * 100);
-            bogo.size(
+            // make bogo size = x
 
             System.out.print(list);
             while (list != bogo) {
