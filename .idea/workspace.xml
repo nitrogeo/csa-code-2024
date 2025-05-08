@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A16/aniframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A16/animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.csa/src/A16/anipanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/_PLYGRD/bogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/_PLYGRD/bogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.nitrogeo/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.nitrogeo/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +102,8 @@
     "Application.Smile.executor": "Run",
     "Application.Summation.executor": "Run",
     "Application.Truck.executor": "Run",
+    "Application.animal.executor": "Run",
+    "Application.bogo.executor": "Run",
     "Application.code.executor": "Run",
     "Application.date011325.executor": "Run",
     "Application.rickroll.executor": "Run",
@@ -201,7 +217,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "tasks"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -225,7 +241,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A8_TreasureHunt">
+  <component name="RunManager">
     <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
       <module name="code" />
@@ -329,22 +345,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00033" summary="@ school csa backup">
-      <option name="closed" value="true" />
-      <created>1738003561277</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1738003561277</updated>
-    </task>
-    <task id="LOCAL-00034" summary="@ school csa backup">
-      <option name="closed" value="true" />
-      <created>1738176473276</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1738176473276</updated>
     </task>
     <task id="LOCAL-00035" summary="@ school csa backup">
       <option name="closed" value="true" />
@@ -722,7 +722,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744391971250</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1744739288144</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1744739288146</updated>
+    </task>
+    <task id="LOCAL-00083" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1744824842907</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1744824842907</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

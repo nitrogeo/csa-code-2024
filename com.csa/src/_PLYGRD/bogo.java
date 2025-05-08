@@ -28,7 +28,7 @@ public class bogo {
 
             System.out.print(list);
             while (list != bogo) {
-                for (int x=0;x<list.size();x++) {
+                for (iter = 0; iter < list.size(); iter++) {
                     int change = (int) (Math.random() * 5+0);
                     int diff = bogo.get(change);
                     bogo.set(change, bogo.get(x));

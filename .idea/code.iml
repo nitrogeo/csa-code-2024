@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/com.csa/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/com.javaClub/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/com.lol/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/com.nitrogeo/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/com.csa/src/A9 Files" />
     </content>
     <orderEntry type="inheritedJdk" />
