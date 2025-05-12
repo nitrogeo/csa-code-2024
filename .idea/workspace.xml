@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5dd8fe-3e62-4f3b-9f68-831c46149af3" name="Changes" comment="@ school csa backup">
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A16/aniframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A16/animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.csa/src/A16/anipanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.csa/src/_PLYGRD/bogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/_PLYGRD/bogo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.nitrogeo/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.nitrogeo/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7 (2)/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L1Lines/MyLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/Dessert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamLab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/code/A7/Labs/L2Dessert/IceCreamShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A16/aniframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A16/aniframe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A16/animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A16/animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.csa/src/A16/anipanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.csa/src/A16/anipanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,159 +56,159 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.A10_MazeMain.executor": "Run",
-    "Application.A10_TicTacToe.executor": "Run",
-    "Application.A11_CH5.executor": "Debug",
-    "Application.A11_HangmanMain.executor": "Run",
-    "Application.A12_VideoStore_Main.executor": "Run",
-    "Application.A12_ZombieDice_Main.executor": "Run",
-    "Application.A8_ExpanderMain.executor": "Run",
-    "Application.A8_TreasureHunt.executor": "Run",
-    "Application.A9_CH6.executor": "Run",
-    "Application.A9_PigLatin.executor": "Run",
-    "Application.Circle.executor": "Run",
-    "Application.DistanceBetweenTwoPoints.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.Fish.executor": "Run",
-    "Application.GuessingGame.executor": "Run",
-    "Application.HelloUser.executor": "Run",
-    "Application.House.executor": "Run",
-    "Application.IceCreamLab.executor": "Run",
-    "Application.Investment.executor": "Run",
-    "Application.Jones.executor": "Run",
-    "Application.LineLab.executor": "Run",
-    "Application.LunchIsServed.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MixedNumber.executor": "Run",
-    "Application.OnlyPrint.executor": "Run",
-    "Application.PrintingCode.executor": "Run",
-    "Application.Rectangle.executor": "Run",
-    "Application.Rocket.executor": "Run",
-    "Application.Smile.executor": "Run",
-    "Application.Summation.executor": "Run",
-    "Application.Truck.executor": "Run",
-    "Application.animal.executor": "Run",
-    "Application.bogo.executor": "Run",
-    "Application.code.executor": "Run",
-    "Application.date011325.executor": "Run",
-    "Application.rickroll.executor": "Run",
-    "Application.visual_novel.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.A10_CH1_Tests.executor": "Run",
-    "JUnit.A10_CH2_Tests.executor": "Run",
-    "JUnit.A10_CH3_Tests.executor": "Run",
-    "JUnit.A10_CH4_Tests.executor": "Run",
-    "JUnit.A10_CH5_Tests.executor": "Run",
-    "JUnit.A10_CH6_Tests.executor": "Run",
-    "JUnit.A10_Maze_Class_Tests.executor": "Run",
-    "JUnit.A10_Maze_Output_Tests.executor": "Run",
-    "JUnit.A10_TicTacToe_Method_Tests.executor": "Run",
-    "JUnit.A10_TicTacToe_Output_Tests.executor": "Run",
-    "JUnit.A11_CH1_Tests.executor": "Run",
-    "JUnit.A11_CH2_Tests.executor": "Run",
-    "JUnit.A11_CH3_Tests.executor": "Run",
-    "JUnit.A11_CH4_Tests.executor": "Run",
-    "JUnit.A11_CH5_Tests.executor": "Run",
-    "JUnit.A11_CH6_Tests.executor": "Run",
-    "JUnit.A11_CH7_Tests.executor": "Run",
-    "JUnit.A11_CH8_Tests.executor": "Run",
-    "JUnit.A11_Hangman_Class_Tests.executor": "Run",
-    "JUnit.A11_Hangman_Output_Tests.executor": "Run",
-    "JUnit.A12_Mage_Tests.executor": "Run",
-    "JUnit.A12_Student_Tests.executor": "Run",
-    "JUnit.A12_Thief_Tests.executor": "Run",
-    "JUnit.A12_VideoStore_Class_Tests.executor": "Run",
-    "JUnit.A12_VideoStore_Output_Tests.executor": "Run",
-    "JUnit.A12_VideoStore_RentalClasses_Tests.executor": "Run",
-    "JUnit.A12_ZombieDice_Class_Tests.executor": "Run",
-    "JUnit.A8_ArrayExpander_Tests.executor": "Run",
-    "JUnit.A8_CH1_Tests.executor": "Run",
-    "JUnit.A8_CH2_Tests.executor": "Run",
-    "JUnit.A8_CH3_Tests.executor": "Run",
-    "JUnit.A8_CH4_Tests.executor": "Run",
-    "JUnit.A8_CH5_Tests.executor": "Run",
-    "JUnit.A8_CH6_Tests.executor": "Run",
-    "JUnit.A8_ExpanderMain_Tests.executor": "Run",
-    "JUnit.A8_GradeAverageV2_Tests.executor": "Run",
-    "JUnit.A8_TreasureHunt_Tests.executor": "Run",
-    "JUnit.A9_CH1_Tests.executor": "Run",
-    "JUnit.A9_CH2_Tests.executor": "Run",
-    "JUnit.A9_CH3_Tests.executor": "Run",
-    "JUnit.A9_CH4_Tests.executor": "Run",
-    "JUnit.A9_CH5_Tests.executor": "Run",
-    "JUnit.A9_CH6_Tests.executor": "Run",
-    "JUnit.A9_PigLatin_Method_Tests.executor": "Run",
-    "JUnit.A9_PigLatin_Output_Tests.executor": "Run",
-    "JUnit.A9_SentenceInformation_Method_Tests.executor": "Run",
-    "JUnit.A9_SentenceInformation_Output_Tests.executor": "Run",
-    "JUnit.Adjustments_Tests.executor": "Run",
-    "JUnit.AgeTest_Tests.executor": "Run",
-    "JUnit.Alpha_Tests.executor": "Run",
-    "JUnit.Calculations_Tests.executor": "Run",
-    "JUnit.Circle_Tests.executor": "Run",
-    "JUnit.Construction_Tests.executor": "Run",
-    "JUnit.Cylinder_Tests.executor": "Run",
-    "JUnit.Dessert_Tests.executor": "Run",
-    "JUnit.DistanceBetweenTwoPoints_Tests.executor": "Run",
-    "JUnit.Factorial_Tests.executor": "Run",
-    "JUnit.Factors_Tests.executor": "Run",
-    "JUnit.FinalCalculator_Tests.executor": "Run",
-    "JUnit.Formulas_Tests.executor": "Run",
-    "JUnit.GradeAverage_Tests.executor": "Run",
-    "JUnit.HelloUser_Tests.executor": "Run",
-    "JUnit.HelloUser_Tests.test1.executor": "Run",
-    "JUnit.IceCreamLab_Tests.executor": "Run",
-    "JUnit.IceCreamShop_Tests.executor": "Run",
-    "JUnit.Investment_Tests.executor": "Run",
-    "JUnit.LineLab_Tests.executor": "Run",
-    "JUnit.MathMenu_Tests.executor": "Run",
-    "JUnit.MathSum_Tests.executor": "Run",
-    "JUnit.Maze_Tests.executor": "Run",
-    "JUnit.Merge_Tests.executor": "Run",
-    "JUnit.MiddleValue_Tests.executor": "Run",
-    "JUnit.MixedNumberV2_Tests.executor": "Run",
-    "JUnit.MixedNumber_Tests.executor": "Run",
-    "JUnit.Multiples_Tests.executor": "Run",
-    "JUnit.MyLine_Tests.executor": "Run",
-    "JUnit.MyPoint_Tests.executor": "Run",
-    "JUnit.OddFun_Tests.executor": "Run",
-    "JUnit.Pizza_Tests.executor": "Run",
-    "JUnit.Planner_Tests.executor": "Run",
-    "JUnit.Player_Tests.executor": "Run",
-    "JUnit.PrimeOrNot_Tests.executor": "Run",
-    "JUnit.Range_Tests.executor": "Run",
-    "JUnit.Rectangle_Tests.executor": "Run",
-    "JUnit.RectangularPrism_Tests.executor": "Run",
-    "JUnit.RockPaperScissors_Tests.executor": "Run",
-    "JUnit.School_Tests.executor": "Run",
-    "JUnit.Searches_Tests.executor": "Run",
-    "JUnit.SignCounter_Tests.executor": "Run",
-    "JUnit.Sorts_Tests.executor": "Run",
-    "JUnit.Sphere_Tests.executor": "Run",
-    "JUnit.StudentID_Tests.executor": "Run",
-    "JUnit.Summation_Tests.executor": "Run",
-    "JUnit.Temperature_Tests.executor": "Run",
-    "JUnit.Time_Tests.executor": "Run",
-    "JUnit.Triangle_Tests.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/My Drive/10th Grade/5. CSA/code",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "tasks"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.A10_MazeMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A10_TicTacToe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A11_CH5.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.A11_HangmanMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A12_VideoStore_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A12_ZombieDice_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A8_ExpanderMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A8_TreasureHunt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A9_CH6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A9_PigLatin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Circle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DistanceBetweenTwoPoints.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fish.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuessingGame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.House.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IceCreamLab.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Investment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Jones.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LineLab.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LunchIsServed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MixedNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OnlyPrint.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintingCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rocket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Smile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Summation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Truck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.animal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bogo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.code.executor&quot;: &quot;Run&quot;,
+    &quot;Application.date011325.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rickroll.executor&quot;: &quot;Run&quot;,
+    &quot;Application.visual_novel.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.A10_CH1_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_CH2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_CH3_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_CH4_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_CH5_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_CH6_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_Maze_Class_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_Maze_Output_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_TicTacToe_Method_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A10_TicTacToe_Output_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH1_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH3_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH4_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH5_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH6_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH7_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_CH8_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_Hangman_Class_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A11_Hangman_Output_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_Mage_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_Student_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_Thief_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_VideoStore_Class_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_VideoStore_Output_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_VideoStore_RentalClasses_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A12_ZombieDice_Class_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_ArrayExpander_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_CH1_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_CH2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_CH3_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_CH4_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_CH5_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_CH6_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_ExpanderMain_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_GradeAverageV2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A8_TreasureHunt_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_CH1_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_CH2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_CH3_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_CH4_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_CH5_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_CH6_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_PigLatin_Method_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_PigLatin_Output_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_SentenceInformation_Method_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.A9_SentenceInformation_Output_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Adjustments_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AgeTest_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Alpha_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Calculations_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Circle_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Construction_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Cylinder_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Dessert_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DistanceBetweenTwoPoints_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Factorial_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Factors_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FinalCalculator_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Formulas_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GradeAverage_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloUser_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloUser_Tests.test1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IceCreamLab_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IceCreamShop_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Investment_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LineLab_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathMenu_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathSum_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Maze_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Merge_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MiddleValue_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MixedNumberV2_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MixedNumber_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Multiples_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyLine_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MyPoint_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OddFun_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Pizza_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Planner_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Player_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrimeOrNot_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Range_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Rectangle_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RectangularPrism_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RockPaperScissors_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.School_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Searches_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SignCounter_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Sorts_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Sphere_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentID_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Summation_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Temperature_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Time_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Triangle_Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/My Drive/10th Grade/5. CSA/code&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tasks&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\My Drive\10th Grade\5. CSA\code\com.csa\src\A11\L1" />
@@ -241,7 +230,7 @@
       <recent name="A6.Labs" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.A8_TreasureHunt">
     <configuration name="A8_ExpanderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A8.LabsG2.A8_ExpanderMain" />
       <module name="code" />
@@ -345,14 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724088061056</updated>
-    </task>
-    <task id="LOCAL-00035" summary="@ school csa backup">
-      <option name="closed" value="true" />
-      <created>1738262884723</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1738262884723</updated>
     </task>
     <task id="LOCAL-00036" summary="@ school csa backup">
       <option name="closed" value="true" />
@@ -738,7 +719,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744824842907</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="@ school csa backup">
+      <option name="closed" value="true" />
+      <created>1746726359322</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1746726359322</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

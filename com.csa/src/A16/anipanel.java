@@ -14,11 +14,14 @@ public class anipanel extends JPanel {
     }
 
     public void paint (Graphics g) {
-        // draws a black box with and x in it
+        /*// draws a black box with an x in it
         g.setColor(Color.BLACK);
         g.fillRect(0, 0, getWidth(), getHeight());
         g.setColor(Color.RED); ;
         g.drawLine (0, 0, getWidth(), getHeight());
-        g.drawLine(getWidth(), 0, 0, getHeight());
+        g.drawLine(getWidth(), 0, 0, getHeight());*/
+
+        g.setColor(new Color(240, 220, 133));
+        g.fillRect(0, 0, getWidth(), getHeight());
     }
 }

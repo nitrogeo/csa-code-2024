@@ -19,12 +19,12 @@ public class aniframe extends JFrame {
         pack();
 
         // creates the panel
-        aniframe p = new aniframe(title);
+        anipanel p = new anipanel();
 
         // get insets
-        Insets frameInsets = getInsets();
+        Insets insets = getInsets();
 
-        // calculating window size
+        // calculating window si    ze
         int width = p.getWidth() + insets.left + insets.right;
         int height = p.getHeight() + insets.top + insets.bottom;
 
