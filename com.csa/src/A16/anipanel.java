@@ -21,30 +21,63 @@ public class anipanel extends JPanel {
         g.drawLine (0, 0, getWidth(), getHeight());
         g.drawLine(getWidth(), 0, 0, getHeight());*/
 
-        // sky = baby blue
-        g.setColor(new Color(102, 146, 198)); // or 133 for blue idk
-        g.fillRect(0, 0, getWidth(), getHeight());
+        // bkg stuff
+        {
+            // sky + clouds
+            {
+                // sky = baby blue ******************************
+                g.setColor(new Color(102, 146, 198)); // or 133 for blue idk
+                g.fillRect(0, 0, getWidth(), getHeight());
 
-        // clouds = greyish pink
-        g.setColor(new Color(236, 216, 216)); // or 133 for blue idk
+                // clouds = greyish pink ******************************
 
-        int[] xPoints1 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
-        int[] yPoints1 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+                // cloud color
+                g.setColor(new Color(236, 216, 216)); // or 133 for blue idk
 
-        g.fillPolygon(xPoints1, yPoints1, xPoints1.length);
+                // cloud 1
+                int[] xPoints1 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
+                int[] yPoints1 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
 
-        int[] xPoints1 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
-        int[] yPoints1 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+                g.fillPolygon(xPoints1, yPoints1, xPoints1.length);
 
-        g.fillPolygon(xPoints1, yPoints1, xPoints1.length);
+                // cloud 2
+                int[] xPoints2 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
+                int[] yPoints2 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+
+                g.fillPolygon(xPoints2, yPoints2, xPoints2.length);
+            }
+
+            // rock
+            g.setColor(new Color(150, 120, 140)); // or 133 for blue idk
+
+            int[] xPoints3 = {245, 814, 1000, 1000, 0, 0, 66};
+            int[] yPoints3 = {479, 479, 611, 800, 800, 680, 551};
+
+            g.fillPolygon(xPoints3, yPoints3, xPoints3.length);
 
 
-        // surface ground = beige
-        g.setColor(new Color(204, 176, 92 )); // or 133 for blue idk
-        g.fillRect(0, 600, getWidth(), getHeight());
+            // ground
+            {
+                // surface ground = beige
+                g.setColor(new Color(204, 176, 92)); // or 133 for blue idk
+                g.fillRect(0, 600, getWidth(), getHeight());
 
-        // below ground = dark brown
-        g.setColor(new Color(132, 58, 22));
-        g.fillRect(0, 620, getWidth(), getHeight());
+                // below ground = dark brown
+                g.setColor(new Color(132, 58, 22));
+                g.fillRect(0, 620, getWidth(), getHeight());
+            }
+        }
+
+        // charmander!!!
+        {
+            // main stuff****************
+            {
+                // head
+
+                //
+            }
+            //
+
+        }
     }
 }
