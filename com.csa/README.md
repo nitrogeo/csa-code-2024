@@ -1,3 +1,10 @@
+# com.csa
+---
+This java folder contains all the code I've worked on in CSA.
+
+
+# vscode java default text
+---
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java printY in Visual Studio Code.
