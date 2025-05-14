@@ -1,7 +1,8 @@
-package A16;
+package A16.animal;
 
 import java.awt.*;
 import javax.swing.*;
+import javax.swing.plaf.basic.BasicCheckBoxMenuItemUI;
 
 public class anipanel extends JPanel {
 
@@ -24,7 +25,7 @@ public class anipanel extends JPanel {
         // reused colors
         Color orange = new Color(234, 124, 47);
         Color darkOrange = new Color(228, 112, 30);
-        Color turqoise = new Color(52, 129, 142);
+        Color turquoise = new Color(52, 129, 142);
 
         // bkg stuff
         {
@@ -46,10 +47,16 @@ public class anipanel extends JPanel {
                 g.fillPolygon(xPoints1, yPoints1, xPoints1.length);
 
                 // cloud 2
-                int[] xPoints2 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
-                int[] yPoints2 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+                int[] xPoints2 = {223, 540, 547, 440, 795, 548, 828, 828, 1000, 1000, 780};
+                int[] yPoints2 = {0,   0,   21, 88, 118, 216, 180, 265, 216, 0, 0};
 
                 g.fillPolygon(xPoints2, yPoints2, xPoints2.length);
+
+                // cloud 3
+                int[] xPoints3 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
+                int[] yPoints3 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+
+                g.fillPolygon(xPoints3, yPoints3, xPoints3.length);
             }
 
             // rock
@@ -78,7 +85,7 @@ public class anipanel extends JPanel {
             // main stuff****************
             {
                 // head
-                g.setColor(Color.orange);
+                g.setColor(orange);
                 g.fillOval(410, 10, 190, 210);
 
                 // neck
@@ -91,38 +98,17 @@ public class anipanel extends JPanel {
                 g.fillOval(386, 162, 192, 285);
             }
 
-            // legs 
-            {
-                // r leg
-                int[] xPoints5 = {386, 442, 425, 345, 372, 353};
-                int[] yPoints5 = {308, 417, 494, 494, 468, 450};
-                
-                g.setColor(Color.darkOrange);
-                g.drawPolygon(xPoints5, yPoints5, xPoints5.length);
-                g.setColor(Color.orange);
-                g.fillPolygon(xPoints5, yPoints5, xPoints5.length);
-
-                // L leg
-                int[] xPoints6 = {575, 625, 584, 607, 520, 520};
-                int[] yPoints6 = {386, 411, 458, 482, 482, 396};
-
-                g.setColor(Color.darkOrange);
-                g.drawPolygon(xPoints6, yPoints6, xPoints6.length);
-                g.setColor(Color.orange);
-                g.fillPolygon(xPoints6, yPoints6, xPoints6.length);
-            }
-            
-            // chest
-            g.setColor(new Color(242, 225, 133));
-            g.fillOval(421, 210, 157, 237);
-
             // tail
             {
-                // tail
-                g.setColor(Color.orange);
-
+                // main tail
                 int[] xPoints7 = {316, 326, 320, 326, 353, 379, 370, 316, 279, 276, 300};
-                int[] yPoints7 = {202, 206, 240, 388, 325, 343, 425, 407, 353, 280, 225};
+                int[] yPoints7 = {202, 206, 240, 288, 325, 343, 425, 407, 353, 280, 225};
+
+                g.setColor(darkOrange);
+                Graphics2D g2 = (Graphics2D) g;
+                g2.setStroke(new BasicStroke(5));
+                g.drawPolygon(xPoints7, yPoints7, xPoints7.length);
+                g.setColor(orange);
                 g.fillPolygon(xPoints7, yPoints7, xPoints7.length);
 
                 // tail flame outer
@@ -133,87 +119,116 @@ public class anipanel extends JPanel {
                 g.fillPolygon(xPoints8, yPoints8, xPoints8.length);
 
                 // tail flame inner
-                g.setColor(new Color(222, 77, 48));
+                g.setColor(new Color(244, 211, 70));
 
-                int[] xPoints9 = {326, 359, 364, 359, 326, 316, 289, 284, 300};
-                int[] yPoints9 = {44, 100, 144, 183, 206, 202, 183, 140, 100};
+                int[] xPoints9 = {326, 341, 328, 329, 330, 344, 344, 326, 316, 304, 300};
+                int[] yPoints9 = {77, 116, 140, 169, 170, 177, 191, 206, 202, 191, 162};
                 g.fillPolygon(xPoints9, yPoints9, xPoints9.length);
             }
+
+            // legs 
+            {
+                // r leg
+                int[] xPoints5 = {386, 442, 425, 345, 372, 353};
+                int[] yPoints5 = {308, 417, 494, 494, 468, 450};
+                
+                g.setColor(darkOrange);
+                Graphics2D g2 = (Graphics2D) g;
+                g2.setStroke(new BasicStroke(5));
+                g.drawPolygon(xPoints5, yPoints5, xPoints5.length);
+                g.setColor(orange);
+                g.fillPolygon(xPoints5, yPoints5, xPoints5.length);
+
+                // L leg
+                int[] xPoints6 = {575, 597, 584, 607, 520, 520};
+                int[] yPoints6 = {321, 409, 458, 482, 482, 396};
+
+                g.setColor(darkOrange);
+                g.drawPolygon(xPoints6, yPoints6, xPoints6.length);
+                g.setColor(orange);
+                g.fillPolygon(xPoints6, yPoints6, xPoints6.length);
+            }
+            
+            // chest
+            g.setColor(new Color(242, 225, 133));
+            g.fillOval(421, 210, 157, 237);
+
+            // old tail
 
             // arms
             {
                 // L arm
-                g.setColor(Color.orange);
+                g.setColor(orange);
 
-                int[] xPoints10 = {543, 566, 585, 563, 556, 316, 540, 538, 525, 538};
-                int[] yPoints10 = {230, 231, 304, 357, 349, 202, 357, 343, 338, 322};
+                int[] xPoints10 = {543, 566, 585, 563, 556, 540, 540, 538, 525, 538};
+                int[] yPoints10 = {230, 231, 304, 357, 349, 357, 357, 343, 338, 322};
 
-                g.setColor(Color.darkOrange);
+                g.setColor(darkOrange);
                 g.drawPolygon(xPoints10, yPoints10, xPoints10.length);
-                g.setColor(Color.orange);
+                g.setColor(orange);
                 g.fillPolygon(xPoints10, yPoints10, xPoints10.length);
 
                 // r arm
                 int[] xPoints11 = {403, 452, 480, 490, 480, 480, 465, 457, 394};
                 int[] yPoints11 = {229, 236, 324, 337, 341, 357, 350, 359, 277};
 
-                g.setColor(Color.darkOrange);
+                g.setColor(darkOrange);
                 g.drawPolygon(xPoints11, yPoints11, xPoints11.length);
-                g.setColor(Color.orange);
+                g.setColor(orange);
                 g.fillPolygon(xPoints11, yPoints11, xPoints11.length);
             }
 
             // face
             {
                 // r nostril
-                g.setColor(Color.darkOrange);
+                g.setColor(darkOrange);
 
                 int[] xPoints12 = {524, 524};
                 int[] yPoints12 = {174, 180};
                 g.drawPolyline(xPoints12, yPoints12, xPoints12.length);
 
                 // L nostril
-                int[] xPoints12 = {541, 541};
-                int[] yPoints12 = {174, 179};
-                g.drawPolyline(xPoints12, yPoints12, xPoints12.length);
+                int[] xPoints13 = {541, 541};
+                int[] yPoints13 = {174, 179};
+                g.drawPolyline(xPoints13, yPoints13, xPoints13.length);
 
                 // mouth
-                int[] xPoints12 = {443, 451, 516, 532, 539, 548, 584, 590};
-                int[] yPoints12 = {174, 180, 184, 193, 192, 184, 177, 171};
-                g.drawPolyline(xPoints12, yPoints12, xPoints12.length);
+                int[] xPoints14 = {443, 451, 516, 532, 539, 548, 584, 590};
+                int[] yPoints14 = {174, 180, 184, 193, 192, 184, 177, 171};
+                g.drawPolyline(xPoints14, yPoints14, xPoints14.length);
 
                 // eyebrow 2
-                int[] xPoints12 = {569, 561};
-                int[] yPoints12 = {62, 72};
-                g.drawPolyline(xPoints12, yPoints12, xPoints12.length);
+                int[] xPoints15 = {569, 561};
+                int[] yPoints15 = {62, 72};
+                g.drawPolyline(xPoints15, yPoints15, xPoints15.length);
 
                 // eyebrow 1
-                int[] xPoints12 = {476, 484};
-                int[] yPoints12 = {60, 70}; // 6 7 lol
-                g.drawPolyline(xPoints12, yPoints12, xPoints12.length);
+                int[] xPoints16 = {476, 484};
+                int[] yPoints16 = {60, 70}; // 6 7 lol
+                g.drawPolyline(xPoints16, yPoints16, xPoints16.length);
                 
                 // eyes
                 {
                     // smol color
-                    g.setColor(Color.turqoise));
-                    g.drawOval(565, 77, 26, 74);
+                    g.setColor(turquoise);
+                    g.fillOval(565, 77, 26, 74);
 
                     // big color
-                    g.drawOval(440, 80, 42, 74);
+                    g.fillOval(440, 80, 42, 74);
 
                     // big black
                     g.setColor(Color.BLACK);
-                    g.drawOval(451, 85, 23, 48);
+                    g.fillOval(451, 85, 23, 48);
 
                     // smol black
-                    g.drawOval(565, 85, 20, 47);
+                    g.fillOval(565, 85, 20, 47);
 
                     // big white
                     g.setColor(Color.WHITE);
-                    g.drawOval(461, 86, 14, 32);
+                    g.fillOval(461, 86, 14, 32);
 
                     // smol white
-                    g.drawOval(565, 86, 13, 30);
+                    g.fillOval(565, 86, 13, 30);
                 }
             }
         }

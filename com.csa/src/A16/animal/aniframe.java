@@ -1,4 +1,4 @@
-package A16;
+package A16.animal;
 
 import javax.swing.*;
 import java.awt.*;

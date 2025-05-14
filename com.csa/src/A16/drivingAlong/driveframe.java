@@ -1,4 +1,4 @@
-package A16;
+package A16.drivingAlong;
 
 import javax.swing.*;
 import java.awt.*;
