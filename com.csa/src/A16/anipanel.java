@@ -73,8 +73,77 @@ public class anipanel extends JPanel {
             // main stuff****************
             {
                 // head
+                g.setColor(new Color(234, 124, 47));
+                g.fillOval(410, 10, 190, 210);
 
-                //
+                // neck
+                int[] xPoints4 = {413, 600, 602, 554, 414};
+                int[] yPoints4 = {135, 119, 177, 212, 224};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+                // body
+                g.fillOval(386, 162, 192, 285);
+
+                // legs 
+                {
+                    // r leg
+                    int[] xPoints5 = {386, 00, 00, 00, 00};
+                    int[] yPoints5 = {308, 00, 00, 00, 00};
+
+                    g.fillPolygon(xPoints5, yPoints5, xPoints5.length);
+
+                    // L leg
+
+                }
+                
+                // chest
+
+                // tail
+                {
+                    // tail
+
+                    // tail flame outer
+
+                    // tail flame inner
+
+                }
+
+                // arms
+                {
+                    // L arm
+
+                    // r arm
+
+                }
+
+                // face
+                {
+                    // r nos
+
+                    // L nos
+
+                    // mouth
+
+                    // eyebrow 2
+
+                    // eyebrow 1
+
+                    // eyes
+                    {
+                        // smol color
+
+                        // big color
+
+                        // big black
+
+                        // smol black
+
+                        // big white
+
+                        // smol white
+                    }
+                }
             }
             //
 
