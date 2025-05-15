@@ -47,16 +47,16 @@ public class anipanel extends JPanel {
                 g.fillPolygon(xPoints1, yPoints1, xPoints1.length);
 
                 // cloud 2
-                int[] xPoints2 = {223, 540, 547, 440, 795, 548, 828, 828, 1000, 1000, 780};
-                int[] yPoints2 = {0,   0,   21, 88, 118, 216, 180, 265, 216, 0, 0};
+                int[] xPoints2 = {223, 540, 547, 440, 795, 433, 300};
+                int[] yPoints2 = {0,   0,   21,  99,  118, 128, 146};
 
                 g.fillPolygon(xPoints2, yPoints2, xPoints2.length);
 
                 // cloud 3
-                int[] xPoints3 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
-                int[] yPoints3 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+                int[] xPoints3b = {0,  100, 0};
+                int[] yPoints3b = {64, 152, 185};
 
-                g.fillPolygon(xPoints3, yPoints3, xPoints3.length);
+                g.fillPolygon(xPoints3b, yPoints3b, xPoints3b.length);
             }
 
             // rock
