@@ -33,65 +33,99 @@ public class drivepanel extends JPanel {
             // sky + clouds
             {
                 // sky = baby blue ******************************
-                g.setColor(new Color(102, 146, 198)); // or 133 for blue idk
+                g.setColor(new Color(220, 233, 246)); // or 133 for blue idk
                 g.fillRect(0, 0, getWidth(), getHeight());
 
                 // clouds = greyish pink ******************************
 
                 // cloud color
-                g.setColor(new Color(236, 216, 216)); // or 133 for blue idk
+                g.setColor(new Color(255, 255, 255)); // or 133 for blue idk
 
                 // cloud 1
-                int[] xPoints1 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
-                int[] yPoints1 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+                int[] xPoints1 = {35, 102, 173, 173, 239, 192};
+                int[] yPoints1 = {85, 51,  44,  72,  85,  93};
 
                 g.fillPolygon(xPoints1, yPoints1, xPoints1.length);
 
                 // cloud 2
-                int[] xPoints2 = {780, 653, 670, 795, 795, 548, 828, 828, 1000, 1000, 780};
-                int[] yPoints2 = {0, 77, 118, 88, 118, 216, 180, 265, 216, 0, 0};
+                int[] xPoints2 = {358, 369, 411, 471, 455, 568, 538};
+                int[] yPoints2 = {76,  110, 56,  28,  110, 58,  104};
 
                 g.fillPolygon(xPoints2, yPoints2, xPoints2.length);
+
+                // cloud 3
+                int[] xPoints3b = {640, 714, 744, 773, 839, 788, 732};
+                int[] yPoints3b = {78,  58,  66,  49,  71,  110, 87};
+
+                g.fillPolygon(xPoints3b, yPoints3b, xPoints3b.length);
             }
 
-            // rock
-            g.setColor(new Color(150, 120, 140)); // or 133 for blue idk
+            // sun
+            g.setColor(new Color(255, 253, 187)); // or 133 for blue idk
 
             int[] xPoints3 = {245, 814, 1000, 1000, 0, 0, 66};
             int[] yPoints3 = {479, 479, 611, 800, 800, 680, 551};
 
-            g.fillPolygon(xPoints3, yPoints3, xPoints3.length);
+            g.fillOval(810, 128, 100, 100);
 
+
+            // mtn
+            {
+                // surface ground = beige
+                g.setColor(new Color(114, 117, 123)); // or 133 for blue idk
+
+                int[] xPoints4 = {0,   215, 103, 39,  48,  170, 304, 344, 360, 432, 518, 662, 693, 835, 917, 1018, 1203, 0,    0};
+                int[] yPoints4 = {100, 102, 181, 198, 205, 268, 231, 247, 231, 259, 198, 299, 260, 231, 164, 171,  833,  1367, 1008};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+            }
 
             // ground
             {
                 // surface ground = beige
-                g.setColor(new Color(204, 176, 92)); // or 133 for blue idk
-                g.fillRect(0, 600, getWidth(), getHeight());
-
-                // below ground = dark brown
-                g.setColor(new Color(132, 58, 22));
-                g.fillRect(0, 620, getWidth(), getHeight());
+                g.setColor(new Color(219, 199, 183)); // or 133 for blue idk
+                g.fillRect(0, 450, getWidth(), getHeight());
             }
-        }
 
-        // charmander!!!
-        {
-            // main stuff****************
+            // road
             {
-                // head
-                g.setColor(Color.orange);
-                g.fillOval(410, 10, 190, 210);
+                // dark grey
+                g.setColor(new Color(68, 68, 68)); // or 133 for blue idk
 
-                // neck
-                int[] xPoints4 = {413, 600, 602, 554, 414};
-                int[] yPoints4 = {135, 119, 177, 212, 224};
+                int[] xPoints4 = {0,   0,   1135, 1346};
+                int[] yPoints4 = {610, 767, 456,  413};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
-
-                // body
-                g.fillOval(386, 162, 192, 285);
             }
+
+
+        }
+
+        // cyber!!!
+        {
+
+            // windshield
+            {
+                // dark grey
+                g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
+
+                int[] xPoints4 = {273,   391,   289,  137};
+                int[] yPoints4 = {392,   389,   450,  450};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+            }
+            // frunk
+            {
+                // dark grey
+                g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
+
+                int[] xPoints4 = {273,   391,   289,  137};
+                int[] yPoints4 = {392,   389,   450,  450};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+            }
+
+
 
             // legs 
             {
