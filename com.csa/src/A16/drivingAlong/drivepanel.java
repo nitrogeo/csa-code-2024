@@ -101,11 +101,14 @@ public class drivepanel extends JPanel {
             // grass
             {
                  // dark green
-                g.setColor(new Color(148, 138, 95)); // or 133 for blue idk
+                
 
-                int[] xPoints4 = {-451, -81, 1165, 1423};
-                int[] yPoints4 = {630,  767, 485,  434};
+                int[] xPoints4 = {  0, 23,  31,  73,  135, 170, 263, 361, 522, 682, 824, 840, 868, 886, 928, 953, 1034, 1051, -74};
+                int[] yPoints4 = {463, 465, 484, 468, 473, 455, 461, 476, 461, 473, 473, 460, 464, 447, 467, 438, 418,  833,  833};
 
+                g.setColor(new Color(95, 82, 46));
+                g.drawPolygon(xPoints4, yPoints4, xPoints4.length);
+                g.setColor(new Color(148, 138, 95));
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
 
@@ -131,8 +134,8 @@ public class drivepanel extends JPanel {
                 // dark grey
                 g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
 
-                int[] xPoints4 = {298, 391,   289,  137};
-                int[] yPoints4 = {449, 389,   450,  450};
+                int[] xPoints4 = {298, 450,   289,  137};
+                int[] yPoints4 = {449, 450,   450,  450};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
