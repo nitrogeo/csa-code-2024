@@ -54,37 +54,48 @@ public class drivepanel extends JPanel {
                 g.fillPolygon(xPoints2, yPoints2, xPoints2.length);
 
                 // cloud 3
-                int[] xPoints3b = {640, 714, 744, 773, 839, 788, 732};
-                int[] yPoints3b = {78,  58,  66,  49,  71,  110, 87};
+                int[] xPoints3 = {640, 714, 744, 773, 839, 788, 732};
+                int[] yPoints3 = {78,  58,  66,  49,  71,  110, 87};
 
-                g.fillPolygon(xPoints3b, yPoints3b, xPoints3b.length);
+                g.fillPolygon(xPoints3, yPoints3, xPoints3.length);
             }
 
             // sun
             g.setColor(new Color(255, 253, 187)); // or 133 for blue idk
-
-            int[] xPoints3 = {245, 814, 1000, 1000, 0, 0, 66};
-            int[] yPoints3 = {479, 479, 611, 800, 800, 680, 551};
-
             g.fillOval(810, 128, 100, 100);
-
 
             // mtn
             {
                 // surface ground = beige
                 g.setColor(new Color(114, 117, 123)); // or 133 for blue idk
 
-                int[] xPoints4 = {0,   215, 103, 39,  48,  170, 304, 344, 360, 432, 518, 662, 693, 835, 917, 1018, 1203, 0,    0};
-                int[] yPoints4 = {100, 102, 181, 198, 205, 268, 231, 247, 231, 259, 198, 299, 260, 231, 164, 171,  833,  1367, 1008};
+                int[] xPoints4 = {-237, 59,  116, 150, 213, 636, 800, 909, 1145, 1155, 1219, 662, 1289, 1407, 1420, -289};
+                int[] yPoints4 = {599,  539, 534, 536, 534, 495, 469, 466, 435,  495,  536,  299, 530,  533,  819,  844};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
 
-            // ground
+            // ground????????? --- run in intellij to fix
             {
                 // surface ground = beige
-                g.setColor(new Color(219, 199, 183)); // or 133 for blue idk
-                g.fillRect(0, 450, getWidth(), getHeight());
+                // g.setColor(new Color(219, 199, 183)); // or 133 for blue idk
+                // g.fillRect(0, 450, getWidth(), getHeight());
+            
+                // surface ground = beige OG
+                g.setColor(new Color(114, 117, 123)); // or 133 for blue idk
+
+                int[] xPoints4 = {0,   215, 103, 39,  48,  170, 304, 344, 360, 432, 518, 662, 693, 835, 917, 1018, 1203, 0,    0};
+                int[] yPoints4 = {100, 102, 181, 198, 205, 268, 231, 247, 231, 259, 198, 299, 260, 231, 164, 171,  833,  1367, 1008};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+                // surface ground = beige V2 IDKDDKDKDKKDKD
+                g.setColor(new Color(114, 117, 123));
+
+                int[] xPoints4 = {-237, 59,  116, 150, 213, 636, 800, 909, 1145, 1155, 1219, 662, 1289, 1407, 1420, -289};
+                int[] yPoints4 = {599,  539, 534, 536, 534, 495, 469, 466, 435,  495,  536,  299, 530,  533,  819,  844};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
 
             // road
@@ -92,8 +103,8 @@ public class drivepanel extends JPanel {
                 // dark grey
                 g.setColor(new Color(68, 68, 68)); // or 133 for blue idk
 
-                int[] xPoints4 = {0,   0,   1135, 1346};
-                int[] yPoints4 = {610, 767, 456,  413};
+                int[] xPoints4 = {-451, -81, 1165, 1423};
+                int[] yPoints4 = {630,  767, 485,  434};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
@@ -109,8 +120,8 @@ public class drivepanel extends JPanel {
                 // dark grey
                 g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
 
-                int[] xPoints4 = {273,   391,   289,  137};
-                int[] yPoints4 = {392,   389,   450,  450};
+                int[] xPoints4 = {298, 391,   289,  137};
+                int[] yPoints4 = {449, 389,   450,  450};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
