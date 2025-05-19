@@ -54,7 +54,7 @@ public class drivepanel extends JPanel {
                 g.fillPolygon(xPoints2, yPoints2, xPoints2.length);
 
                 // cloud 3
-                int[] xPoints3 = {640, 714, 744, 773, 839, 788, 732};
+                int[] xPoints3 = {640, 714, 744, 777, 839, 777, 732};
                 int[] yPoints3 = {78,  58,  66,  49,  71,  110, 87};
 
                 g.fillPolygon(xPoints3, yPoints3, xPoints3.length);
@@ -69,8 +69,8 @@ public class drivepanel extends JPanel {
                 // main bkg
                 g.setColor(new Color(114, 117, 123)); // or 133 for blue idk
 
-                int[] xPoints4 = {-42, 48,  170, 304, 344, 360, 432, 518, 662, 693, 835, 917, 1203, -242};
-                int[] yPoints4 = {186, 205, 268, 231, 247, 231, 259, 198, 299, 259, 231, 164, 833,  847};
+                int[] xPoints4 = {-42, 48,  170, 304, 344, 360, 432, 518, 662, 693, 777, 835, 917, 1203, -242};
+                int[] yPoints4 = {186, 205, 268, 231, 247, 231, 259, 198, 299, 259, 235, 231, 164, 833,  847};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
@@ -299,6 +299,17 @@ public class drivepanel extends JPanel {
 
                     // side
                     {
+                        // side triangle metal ~OR~ top side metal frame
+                        {
+                            // silver
+                            g.setColor(new Color(211, 222, 234));
+
+                            int[] xPoints4 = {553, 750, 414};
+                            int[] yPoints4 = {389, 440, 471};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        }
+
                         // under-side lol
                         g.setColor(new Color(19, 22, 28));
                         
@@ -327,6 +338,148 @@ public class drivepanel extends JPanel {
 
                         
                         // back under bottom
+                        g.setColor(new Color(41, 46, 54));
+                        
+                        int[] xPoints4 = {728, 750, 746, 726, 724};
+                        int[] yPoints4 = {510, 502, 516, 532, 537};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                        // tire rims
+                        {
+                            // front tire rim 
+                            g.setColor(new Color(41, 46, 54));
+                            
+                            int[] xPoints4 = {436, 492, 514, 494, 447, 427, 41};
+                            int[] yPoints4 = {478, 473, 531, 482, 486, 523, 524};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                            
+                            
+                            // back tire rim
+                            {
+                                // back tire rim front
+                                g.setColor(new Color(22, 26, 33));
+                            
+                                int[] xPoints4 = {666, 677, 674, 659};
+                                int[] yPoints4 = {514, 514, 534, 533};
+
+                                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                                
+
+                                // back tire rim back
+                                g.setColor(new Color(60, 67, 74));
+                        
+                                int[] xPoints4 = {716, 728, 717};
+                                int[] yPoints4 = {465, 501, 473};
+
+                                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+                                // back tire rim top
+                                g.setColor(new Color(60, 65, 75));
+                        
+                                int[] xPoints4 = {682, 716, 717, 691};
+                                int[] yPoints4 = {467, 465, 473, 475};
+
+                                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+                                // back tire rim forward
+                                g.setColor(new Color(39, 44, 52));
+                        
+                                int[] xPoints4 = {682, 691, 676, 666};
+                                int[] yPoints4 = {467, 475, 514, 514};
+
+                                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                            }
+                        }
+
+                        // side doors top metal
+                        {
+                            // back passenger door top
+                            g.setColor(new Color(211, 222, 233));
+                        
+                            int[] xPoints4 = {593, 651, 654, 594};
+                            int[] yPoints4 = {444, 439, 448, 454};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+
+                            // driver door top
+                            g.setColor(new Color(181, 194, 209));
+                        
+                            int[] xPoints4 = {515, 593, 594, 515};
+                            int[] yPoints4 = {452, 444, 454, 461};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+
+                            
+                        }
+
+                        // side bottom metal
+                        {
+                            // front tire metal
+                            g.setColor(new Color(96, 108, 121));
+                        
+                            int[] xPoints4 = {414, 515, 514, 492, 436, 413, 414, 414};
+                            int[] yPoints4 = {471, 461, 531, 473, 478, 524, 480, 471};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+                        
+                            // driver door
+                            g.setColor(new Color(77, 88, 99));
+                        
+                            int[] xPoints4 = {515, 594, 592, 514};
+                            int[] yPoints4 = {461, 454, 522, 531};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+                        
+                            // driver door bottom
+                            g.setColor(new Color(45, 50, 58));
+
+                            int[] xPoints4 = {514, 592, 587, 512};
+                            int[] yPoints4 = {531, 522, 541, 549};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+
+                            // back passenger door
+                            g.setColor(new Color(90, 100, 113));
+
+                            int[] xPoints4 = {594, 654, 651, 592};
+                            int[] yPoints4 = {454, 448, 515, 522};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+
+                            // back passenger door bottom
+                            g.setColor(new Color(46, 52, 60));
+                        
+                            int[] xPoints4 = {592, 651, 645, 587};
+                            int[] yPoints4 = {522, 515, 535, 541};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+                        
+                            // back tire metal
+                            g.setColor(new Color(128, 139, 152));
+                        
+                            int[] xPoints4 = {654, 750, 746, 728, 728, 682, 667, 651};
+                            int[] yPoints4 = {448, 440, 497, 501, 465, 467, 514, 551};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+                        
+                            // back tire metal bottom
+                            g.setColor(new Color(49, 54, 62));
+                        
+                            int[] xPoints4 = {651, 667, 659, 645};
+                            int[] yPoints4 = {515, 514, 533, 535};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        }
                     }
 
                     // wheels/tires
@@ -405,17 +558,8 @@ public class drivepanel extends JPanel {
                         }
                     }
                 }
-                // side triangle metal
-                {
-                    // silver
-                    g.setColor(new Color(211, 222, 234));
-
-                    int[] xPoints4 = {553, 750, 414};
-                    int[] yPoints4 = {389, 440, 471};
-
-                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
-                }
-                // side 
+                
+                
             }
 
 
