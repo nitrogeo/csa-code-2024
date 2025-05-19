@@ -82,7 +82,7 @@ public class drivepanel extends JPanel {
                 // g.fillRect(0, 450, getWidth(), getHeight());
             
                 // surface ground = beige OG
-                g.setColor(new Color(114, 117, 123)); // or 133 for blue idk
+                g.setColor(new Color(114, 117, 123));
 
                 int[] xPoints4 = {0,   215, 103, 39,  48,  170, 304, 344, 360, 432, 518, 662, 693, 835, 917, 1018, 1203, 0,    0};
                 int[] yPoints4 = {100, 102, 181, 198, 205, 268, 231, 247, 231, 259, 198, 299, 260, 231, 164, 171,  833,  1367, 1008};
@@ -115,7 +115,7 @@ public class drivepanel extends JPanel {
             // road
             {
                 // dark grey
-                g.setColor(new Color(68, 68, 68)); // or 133 for blue idk
+                g.setColor(new Color(68, 68, 68));
 
                 int[] xPoints4 = {-451, -81, 1165, 1423};
                 int[] yPoints4 = {630,  767, 485,  434};
@@ -128,37 +128,313 @@ public class drivepanel extends JPanel {
 
         // cyber!!!
         {
-
-            // windshield
+            // FRONT
             {
-                // dark grey
-                g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
+                // windshield
+                {
+                    // dark grey
+                    g.setColor(new Color(39, 46, 53)); 
 
-                int[] xPoints4 = {298, 450, 553, 434};
-                int[] yPoints4 = {449, 450, 389, 392};
+                    int[] xPoints4 = {298, 450, 553, 434};
+                    int[] yPoints4 = {449, 450, 389, 392};
 
-                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                }
+                // frunk hood
+                {
+                    // silver
+                    g.setColor(new Color(39, 46, 53)); 
+
+                    int[] xPoints4 = {298, 450, 414, 381, 260, 253};
+                    int[] yPoints4 = {449, 450, 471, 478, 476, 468};
+
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                }
+                // headlight bar
+                {
+                    // white
+                    g.setColor(new Color(39, 46, 53));
+
+                    int[] xPoints4 = {253, 260, 362, 414, 414, 362, 259, 253};
+                    int[] yPoints4 = {468, 476, 478, 471, 480, 483, 481, 476};
+
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                }
+                // front bumper
+                {        
+                    // main front       
+                    // silver
+                    g.setColor(new Color(145, 159, 170));
+
+                    int[] xPoints4 = {259, 362, 366, 259};
+                    int[] yPoints4 = {481, 483, 524, 518};
+
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                
+                    // far side front
+                    // lighter silver
+                    g.setColor(new Color(213, 222, 231));
+
+                    int[] xPoints4 = {253, 259, 259, 253};
+                    int[] yPoints4 = {476, 481, 518, 515};
+
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+                    // near side front
+                    // darker silver
+                    g.setColor(new Color(85, 95, 106));
+
+                    int[] xPoints4 = {362, 414, 413, 366};
+                    int[] yPoints4 = {483, 480, 524, 524};
+
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                
+
+
+                    // front bumper bottom
+                    {
+                        // front bumper bottom under
+                        // very dark grey
+                        g.setColor(new Color(19, 22, 27));
+                        
+                        int[] xPoints4 = {257, 371, 408, 392, 277, 266};
+                        int[] yPoints4 = {551, 561, 561, 574, 565, 559};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+
+                        // front bumper bottom under left
+                        g.setColor(new Color(41, 45, 52));
+                        
+                        int[] xPoints4 = {252, 257, 266, 277, 274, 254};
+                        int[] yPoints4 = {549, 551, 559, 565, 568, 565};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+
+                        // front bumper grill
+                        g.setColor(new Color(23, 26, 31));
+                        
+                        int[] xPoints4 = {253, 365, 371, 257};
+                        int[] yPoints4 = {534, 543, 561, 551};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                    
+
+                        // front bumper left bottom
+                        g.setColor(new Color(23, 26, 31));
+                        
+                        int[] xPoints4 = {249, 253, 253, 257, 252, 249};
+                        int[] yPoints4 = {521, 524, 534, 551, 549, 531};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                    
+                        // front bumper bottom main
+                        g.setColor(new Color(34, 38, 45));
+                        
+                        int[] xPoints4 = {249, 256, 260, 277, 366, 424, 416, 399, 392, 408, 371, 365, 253, 253};
+                        int[] yPoints4 = {521, 521, 523, 525, 529, 531, 580, 580, 574, 561, 561, 543, 534, 524};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                    
+                        // front bumper shelf
+                        g.setColor(new Color(27, 31, 38));
+                        
+                        int[] xPoints4 = {256, 260, 278, 366, 413, 427, 424, 366, 278, 260, 256};
+                        int[] yPoints4 = {516, 518, 519, 524, 524, 523, 531, 529, 525, 523, 521};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    }
+
+
+                    // side window
+                    {
+                        // side window mid bar
+                        g.setColor(new Color(57, 63, 74));
+
+                        int[] xPoints4 = {572, 580, 593, 580};
+                        int[] yPoints4 = {398, 400, 444, 445};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+
+                        // side window back bar
+                        g.setColor(new Color(52, 59, 65));
+                        
+                        int[] xPoints4 = {632, 640, 651, 644};
+                        int[] yPoints4 = {412, 414, 439, 439};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+
+                        // side window front
+                        g.setColor(new Color(70, 79, 91));
+                        
+                        int[] xPoints4 = {517, 519, 453};
+                        int[] yPoints4 = {534, 451, 458};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                    
+                        // side window mid
+                        g.setColor(new Color(83, 92, 105));
+                        
+                        int[] xPoints4 = {557, 572, 581, 519, 517};
+                        int[] yPoints4 = {394, 398, 445, 451, 419};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                    
+                        // back window
+                        g.setColor(new Color(70, 78, 91));
+                        
+                        int[] xPoints4 = {581, 632, 644, 539};
+                        int[] yPoints4 = {400, 412, 439, 444};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    }
+
+                    // side
+                    {
+                        // under-side lol
+                        g.setColor(new Color(19, 22, 28));
+                        
+                        int[] xPoints4 = {512, 659, 674, 522, 511};
+                        int[] yPoints4 = {549, 533, 534, 551, 553};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                    
+                        // under bottom
+                        g.setColor(new Color(20, 23, 29));
+                        
+                        int[] xPoints4 = {511, 522, 674, 671, 655, 652, 508};
+                        int[] yPoints4 = {553, 551, 534, 556, 555, 550, 565};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                       
+                        // back under top
+                        g.setColor(new Color(50, 53, 60));
+                        
+                        int[] xPoints4 = {728, 737, 737, 750, 728};
+                        int[] yPoints4 = {501, 499, 502, 502, 510};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+
+                        
+                        // back under bottom
+                    }
+
+                    // wheels/tires
+                    {
+                        // front tire
+                        {
+                        // front wheel hubcap
+                        g.setColor(new Color(55, 61, 67));
+                        g.fillOval(442, 514, 56, 81);
+
+                        // front wheel front
+                        g.setColor(new Color(36, 40, 47));
+                        g.fillOval(431, 499, 73, 109);
+
+                        // front wheel 3d
+                        g.setColor(new Color(17, 20, 23));
+                        
+                        int[] xPoints4 = {444, 466, 466, 444};
+                        int[] yPoints4 = {499, 499, 608, 608};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                    
+                        // front wheel back
+                        g.setColor(new Color(17, 20, 23));
+                        g.fillOval(406, 499, 77, 109);
+
+                        // front wheel bkg
+                        g.setColor(new Color(0, 0, 0));
+                        
+                        int[] xPoints4 = {447, 494, 514, 512, 511, 508, 495, 427};
+                        int[] yPoints4 = {486, 482, 531, 549, 553, 565, 565, 523};
+
+                        g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        }
+
+                        // back tire
+                        {
+                            // back wheel hubcap
+                            g.setColor(new Color(55, 61, 67));
+                            g.fillOval(690, 500, 32, 61);
+
+                            // back wheel front
+                            g.setColor(new Color(36, 40, 47));
+                            g.fillOval(681, 487, 43, 85);
+
+                            // back wheel 3d
+                            g.setColor(new Color(17, 20, 23));
+                            
+                            int[] xPoints4 = {681, 702, 702, 681};
+                            int[] yPoints4 = {487, 487, 572, 572};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        
+                            // back wheel back
+                            g.setColor(new Color(17, 20, 23));
+                            g.fillOval(659, 487, 43, 85);
+
+                            // back wheel bkg
+                            g.setColor(new Color(0, 0, 0));
+                            
+                            int[] xPoints4 = {691, 717, 728, 728, 724, 676};
+                            int[] yPoints4 = {475, 473, 501, 510, 527, 514};
+
+                            g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                        }
+
+                        // opp wheels
+                        {
+                            // opp back wheel
+                            g.setColor(new Color(15, 17, 21));
+                            g.fillOval(508, 475, 92, 88);
+
+                            // opp front wheel
+                            g.setColor(new Color(15, 18, 212);
+                            g.fillOval(259, 506, 92, 88);
+                        }
+                    }
+                }
+                // side triangle metal
+                {
+                    // silver
+                    g.setColor(new Color(211, 222, 234));
+
+                    int[] xPoints4 = {553, 750, 414};
+                    int[] yPoints4 = {389, 440, 471};
+
+                    g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+                }
+                // side 
             }
-            // frunk hood
-            {
-                // silver
-                g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
 
-                int[] xPoints4 = {298, 450, 414, 381, 260, 253};
-                int[] yPoints4 = {449, 450, 471, 478, 476, 468};
 
-                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
-            }
-            // headlight bar
-            {
-                // silver
-                g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
 
-                int[] xPoints4 = {253, 260, 362, 414, 414, 253};
-                int[] yPoints4 = {468, 476, 478, 471, 476, 468};
 
-                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
-            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
