@@ -134,18 +134,28 @@ public class drivepanel extends JPanel {
                 // dark grey
                 g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
 
-                int[] xPoints4 = {298, 450,   289,  137};
-                int[] yPoints4 = {449, 450,   450,  450};
+                int[] xPoints4 = {298, 450, 553, 434};
+                int[] yPoints4 = {449, 450, 389, 392};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
-            // frunk
+            // frunk hood
             {
-                // dark grey
+                // silver
                 g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
 
-                int[] xPoints4 = {273,   391,   289,  137};
-                int[] yPoints4 = {392,   389,   450,  450};
+                int[] xPoints4 = {298, 450, 414, 381, 260, 253};
+                int[] yPoints4 = {449, 450, 471, 478, 476, 468};
+
+                g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
+            }
+            // headlight bar
+            {
+                // silver
+                g.setColor(new Color(39, 46, 53)); // or 133 for blue idk
+
+                int[] xPoints4 = {253, 260, 362, 414, 414, 253};
+                int[] yPoints4 = {468, 476, 478, 471, 476, 468};
 
                 g.fillPolygon(xPoints4, yPoints4, xPoints4.length);
             }
